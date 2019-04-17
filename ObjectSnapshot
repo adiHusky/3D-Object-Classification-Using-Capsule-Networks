@@ -1,3 +1,4 @@
+#select the object before running the code
 selection = cmds.ls(selection=True)
 
 def screenShot(i):
