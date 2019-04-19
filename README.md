@@ -1,6 +1,6 @@
 # 3D-Object-Classification-Using-Capsule-Networks
 
-When we got started with the Capsule Neural Networks project.
+When we got started with the Capsule Neural Networks(CNN) project.
 We got introduced to Maya software to come up with python scripting for modelling a 3D object.
 I was not sure if we had to import a 3D model or create one using python in Maya.
 So to get started first I went through the videos that professor has shared which was quite helpful.
