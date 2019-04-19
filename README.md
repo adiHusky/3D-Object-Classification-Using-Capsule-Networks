@@ -98,6 +98,6 @@ I worked on 12 3D image models.
 <br> 11.) Wineglass (Household Items)
 <br> 12.) Taj Mahal (Monuments)
 
-<br> The below drive has the shots of 12 3D models that I captured using Maya software.
+<br> The below google drive has the shots of 12 3D models that I captured using Maya software.
  
 [https://drive.google.com/drive/u/1/folders/1FpUACGEFzOjraD5kWR0_3Elz0reb157E]()
