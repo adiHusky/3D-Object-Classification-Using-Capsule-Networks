@@ -29,22 +29,24 @@ class CNN:
         initializer_dict = {"ZEROS": tf.keras.initializers.Zeros,
                             "UNIFORM": tf.keras.initializers.uniform,
                             "RAND_NORM": tf.keras.initializers.random_normal,
-                            "RAND_UNIF": tf.keras.initializers.random_uniform}
+                            "RAND_UNIF": tf.keras.initializers.random_uniform,
+                            "XAVIER": tf.contrib.layers.xavier_initializer()}
 
         for i in range(conv_layers):
             model.add(tf.keras.layers.Conv2D(no_of_filters[i], (filter_size[i], filter_size[i]), input_shape=input_shape,
                                              activation=activations_dict[layer_activation]))
-            model.add(tf.keras.layers.MaxPooling2D(pool_size=(pool_size[i], pool_size[i])))
-            model.add(tf.keras.layers.Dropout(0.2))
 
+            if pool_size[i] != 0:
+                model.add(tf.keras.layers.MaxPooling2D(pool_size=(pool_size[i], pool_size[i])))
+
+        model.add(tf.keras.layers.Dropout(0.2))
         model.add(tf.keras.layers.Flatten())  # this converts our 3D feature maps to 1D feature vectors
 
-        hidden_units = 64
+        hidden_units = [128, 50]
 
         for i in range(dense_layers):
-            model.add(tf.keras.layers.Dense(hidden_units, kernel_initializer=initializer_dict[kernel_initializer]))
-            model.add(tf.keras.layers.BatchNormalization(axis=1))
-            model.add(tf.keras.layers.Activation(activations_dict[final_activation]))
+            model.add(tf.keras.layers.Dense(hidden_units[i], activation=activations_dict[final_activation]))
+            # model.add(tf.keras.layers.Activation(activations_dict[final_activation]))
 
         model.add(tf.keras.layers.Dense(final_dense_neurons))
         model.add(tf.keras.layers.Activation(activations_dict[final_activation]))
