@@ -43,51 +43,10 @@ Thus resulting a need to create a new environment with lights.
  
  
  
- ## Finalized Script to rotate and take pictures and my contribution towards it.
- 
-``` python
-import maya.cmds
-cmds.setAttr('defaultRenderGlobals.ren', 'mayaHardware2', type = 'string')
-cmds.setAttr('defaultRenderGlobals.imageFormat', 32) ## 32 indicates the image is being stored as .png file
+##### Finalized Script to rotate and take pictures and my contribution towards it.
 
-cx = 0
-i = 0
-s = cmds.ls(selection = True)
-camName = "camera1"
-camPos = 0
-obj = s[0]
-deg = 45
-cy = 0
-cz = 0
-def screenShot(i):
-    mel.eval('renderWindowRender redoPreviousRender renderView')
-    editor = 'renderView'
-    cmds.renderWindowEditor(editor, e = True, refresh = True, writeImage = ('Path\\Telescope\\Telescope' + str(i)))
+[Finalized_Script](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/master/Maya3D-Images-Dataset/Preetham_Alladu/Final_Script.py)
 
-
-while(cx<= 360):
-    for a in s:
-        x = a +"."+"rotate" +"X"
-        cmds.setAttr(x,cx)
-    cy=0
-    while(cy<=360):
-        for a in s:
-            x = a +"."+"rotate" +"Y"
-            cmds.setAttr(x,cy)
-        cz=0
-        while(cz<=360):
-            for a in s:
-                x = a +"."+"rotate" +"Z"
-                cmds.setAttr(x,cz)
-            l = "_X_"+str(cx) + "_Y_"+str(cy) + "_Z_"+str(cz)
-            camPos = cmds.xform(camName, q=True, ws=True, rp=True)
-            if( camPos[1] > 1.0):
-                screenShot(l)
-
-            cz = cz + deg
-        cy=cy+deg
-    cx=cx+deg
-```
 
 
 
