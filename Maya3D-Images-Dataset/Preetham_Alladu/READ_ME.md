@@ -13,5 +13,6 @@
 ## Week 2 :-
   In Week 2, I had to come up with a script which rotate an object and takes pictues and stores them in a folder
   
-  []
+#### The initial images look like below
+  ![Octocat](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/master/Maya3D-Images-Dataset/Preetham_Alladu/2z705q.gif)
   
