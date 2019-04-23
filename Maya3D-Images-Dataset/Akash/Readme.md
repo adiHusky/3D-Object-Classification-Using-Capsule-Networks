@@ -106,6 +106,8 @@ while (cx <=360):
         cy=cy+v  
     cx=cx+v
 ```
+<img src="https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/akash/Maya3D-Images-Dataset/Akash/Image%20with%20shadow.png" width="960" height="540" /> 
+
 
 # Week4 
 
