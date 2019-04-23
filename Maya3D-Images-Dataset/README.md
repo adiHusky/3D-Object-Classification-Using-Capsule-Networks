@@ -18,7 +18,9 @@ f- Going through documentation of Maya
 https://knowledge.autodesk.com/support/maya/getting-started/caas/simplecontent/content/maya-documentation.html
 <br>
 Understanding various methods like getAttr, setAttr
+<br>
 ![alt text](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/Capture_getAttr.JPG)
+<br>
 http://help.autodesk.com/cloudhelp/2017/ENU/Maya-Tech-Docs/Commands/getAttr.html
 <br>
 
