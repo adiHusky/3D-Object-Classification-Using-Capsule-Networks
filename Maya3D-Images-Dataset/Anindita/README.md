@@ -136,6 +136,10 @@ Then I along with my team mates came up with the initial database schema (shown 
 
 ![Branching](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Initial%20DB_ERDiagram.png)
 
+The final database that we came up with is:
+
+![Octocat](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/develop-db/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/final%20db.PNG)
+
 Next I got involved with the Cloud team to understand its scalability and implementation.
 And got started with how to connect a database in GCP.
 Initially we did a dry run to create a database in Google Cloud Platform by running queries to check if building a database was possible in GCP and how.
@@ -249,7 +253,8 @@ And lastly for hosting a website I came across few videos that helped me to come
 Later, I tried to get the properties of images converted to a Blob and store it into MySQL TABLE in an attempt to do the same for images stored in the GCP cloud storage for displaying its properties in the website. 
 Although it was discarded later as our plans got changed.
 Below is an attempted python code script that I created by establishing connection with MYSQL server that reads images from the local and convert it to Blob type for storing it. 
-But the below script had some issues and in the meanwhile we came up with a more optimized script to get the expected output. 
+But the below script had some issues and in the meanwhile we came up with a more optimized script to get the expected output and converted to Blob.
+Now we are still working to get the blob images converted to the database.
 
 ```python
 import mysql.connector
