@@ -39,6 +39,7 @@ In the above environments the following problems were noticed:
 * noise
 * gradients 
 * shadows.
+
 We narrowed it to using an environment where a white plane is used behind the object and directional lights are used to generate the shadow of the object.
 ![final environment](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/kaushik/Maya3D-Images-Dataset/kaushik/environment.PNG)
 * The finalized environment looks like this where we put a white image in the background, a plane and lights for shadows.
