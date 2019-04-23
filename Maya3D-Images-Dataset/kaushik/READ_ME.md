@@ -39,7 +39,16 @@ In the above environments the following problems were noticed:
 3.shadows.
 We narrowed it to using an environment where a white plane is used behind the object and directional lights are used to generate the shadow of the object.
 ![final environment](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/kaushik/Maya3D-Images-Dataset/kaushik/environment.PNG)
+-The finalized environment looks like this where we put a white image in the background, a plane and lights for shadows.
+-This environment contains circle where light, camera is appended to it.
+-So as the circle rotates around the object the camera takes pictures of the object at that position.
+-The objects created using this environment looks like this:
+![cat](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/kaushik/Maya3D-Images-Dataset/kaushik/cat.png)
+I need to incorporate many changes in my images as my images didn’t align with the project requirement.
+![initail object](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/kaushik/Maya3D-Images-Dataset/kaushik/initial%20object.jpg)
 
+
+ 
 
 
 
