@@ -173,6 +173,12 @@ The below image is the finalised Database
 
 ## Images without Shadows
 
+These are some of the images without Shadows and White Background
+
+<br>
+
+![alt image]()
+
 
 
 
