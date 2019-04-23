@@ -65,7 +65,9 @@ Finally after contributions from everyone, the script finalized for capturing th
 ![alt text](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/final_script_image.JPG)
 
 <br>
+
 ## Setting Up the Right Environment
+
 <br>
 1-I figured out and explored the implementations of shaders and textures on various objects. There are different kind of shaders in Maya which can be assigned to objects by using Assign New Material or existing Material. There are some inbuilt materials included in Maya like Lambert, Blinn, Layered Shader and so on
 <br>
@@ -73,7 +75,7 @@ All these materials have some of the common attributes which give either a gloss
 <br>
 Some of the attributes I tried are
 <br>
-#### Color, Incandescence, Transparency and Transluscence Depth
+Color, Incandescence, Transparency and Transluscence Depth
 <br>
 2- Some of the objects have had their predefined textures which I had to import directly and assigned to respective objects.
 <br>
@@ -129,6 +131,13 @@ These are some of the Images obtained using the finalized environment
 ![alt image](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/Electronics_Storage_Pendrive_X0_Y135_Z225_Yes_Black_White.png)
 
 <br>
+
+## Image Sequence Generation
+
+<br>
+1- I was assigned a task for generating image sequences of various objects using the finalized environment and code. Initially I developed images for 40 objects and also assisted Nikunj Doshi, Kaushik and Smit in solving environment issues pertaining to image sequence generation
+
+
 
 
 
