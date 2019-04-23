@@ -1,9 +1,9 @@
 # 3D-Object-Classification-Using-Capsule-Networks
 
 When we got started with the Capsule Neural Networks (CNN) project.
-We got introduced to Maya software to come up with python scripting for modelling a 3D object.
+We got introduced to Maya software to model a 3D image using with python scripting.
 We were not sure if we had to import a 3D model or create one using python in Maya.
-So to get started first we went through the videos that Professor Nik Brown shared which was quite helpful.
+So to get started first we went through the videos Professor Nik Brown shared with us which was very helpful to begin with.
 I started with creating objects like cubes, circles, etc.
 And then I got inquisitive to learn about MEL scripting which is used in Maya.
 I just did some basic touchbase and wanted to understand if scripting in MEL or Python was convenient for modelling an object.
@@ -56,17 +56,14 @@ for ($i in $abc)
     setAttr ($i+ ".colorB") 3;
 }
 ```
-With this I got an understanding on the basics of MEL how it functions.
+With this I got an understanding on the basics of MEL on how it functions.
 After which as Python was the priority using which we had to come up with the scripting part on getting snaps of a 3D model in every angle. I came across the website www.Turbosquid.com and downloaded a 3D object model and imported it in Maya.
 
 The first model I tried capturing an angle using python script in Maya was of a TV.
 
 ![tv]()
 
-Initial script I tried was rotating an image to a 90 degree angle.
-
-![tv2]()
-
+Initial script I tried was rotating an image to a 90 degree angle using the below script.
 ```python
 import maya.cmds as cmds
 
@@ -84,6 +81,7 @@ for i in range(1,5):
                  y=y+90
                  z=z+90
  ```
+![tv2]()
  
 But the above script did not work as the set_attribute function was not set nor the rotate function was used.
 This script just helped the 3D model to rotate once.
@@ -109,12 +107,13 @@ I worked on 12 3D image models after understanding the final script.
  
 [https://drive.google.com/drive/u/1/folders/1FpUACGEFzOjraD5kWR0_3Elz0reb157E]()
 
-Next, to get started we had to come up with a conceptual schema to create the database.
+Next, to get started with the databse work we had to plan on the conceptual schema.
 I along with the database team tried to understand what are the attributes that can be added for the captured images with respect to the category and came up with a schema.
 
-Next we had to import the properties of the images to store its properties into a csv that we can import into a database.
-As a python beginner, I came up with a script on how to read an image using python and get its properties.
-I referred few youtube videos for it.
+Now to store the data of an image we had to import the properties.
+Manually checking for every image was not possible so we decided on creating a script that will read an image and give us the properties.
+As a python beginner, I came up with a script on how to read an image using python and got its properties.
+Below is the script:
 
 ```python
 import numpy as np
@@ -126,22 +125,23 @@ print('Image shape is \n', img.size)
 print('Image datatype is \n', img.dtype)
 
 ```
-Later one final script got created that gives the properties of images while it iterates through various folders and its images and gets the data exported to a CSV file.
+But our main motive was to import the properties of thousands of images to store its properties into a csv that we can use it for our database.
+Later one final script got created that gets the properties of images while it iterates through various folders and its images and gets the property data exported to a CSV file.
 
 ![Branching]()
 ![Octocat]()
 
-And then I along with my team mates came up with the initial database schema and the .dbo file that is stored in the link []() that got modified later for the website integration.
-First we started with how to connect a database in GCP.
-Initially we did a dry run to create a database in Google Cloud Platform by running queries later to check if building a schema was possible in GCP and how.
+Then I along with my team mates came up with the initial database schema and the .dbo file is stored in the link []() that got modified later for the website integration.
+
+Next I got involved with the Cloud team to understand its scalability and implementation.
+And got started with how to connect a database in GCP.
+Initially we did a dry run to create a database in Google Cloud Platform by running queries to check if building a schema was possible in GCP and how.
 
 1.) Query to Create a Database:
-
 ```
 CREATE DATABASE Images;
 ```
 2.) Query to Insert data into a Database
-
 ```
 USE Images;
 CREATE TABLE entries (ImageName VARCHAR(255), Properties VARCHAR(255),
@@ -149,7 +149,7 @@ CREATE TABLE entries (ImageName VARCHAR(255), Properties VARCHAR(255),
     INSERT INTO entries (ImageName, Properties) values ("Dog", "12.3MB");
     INSERT INTO entries (ImageName, Properties) values ("Cat", "16.8MB");  
 ```
-So we can see from the above two examples that it is completely the same as we do in MySQL
+So we can see from the above two examples that it is completely the same as we do in MySQL for creating a databse in GCP.
 
 Then later it was decided that we will be importing the same database used by the website and hence we moved on with the cloud integration part and worked on creating cloud instances for integrating a sql database and storage bucket.
 I moved on with learning on Setting up / (Linking) own domain to google cloud Storage and hosting it for free on GCP.
@@ -165,7 +165,7 @@ The steps that I researched through various videos combines to the ones stated b
 - Cloud & Domain linked (For eg: from GoDaddy) or if other Domain site then go to manage DNS (server names given by google)
 
 ```
-Similarly next to import MySQL to cloud SQL Instance, I researched and concluded with the below steps:
+Similarly to import MySQL to cloud SQL Instance, I researched and concluded with the below steps:
 
 ```
 - Under GCP> Click on SQL
@@ -243,13 +243,63 @@ And lastly for hosting a website I came across few videos that helped me to come
 55.) wget
 
 ```
+Later, I tried to get the properties of images converted to a Blob and store it into MySQL TABLE in an attempt to do the same for images stored in the GCP cloud storage for displaying its properties in the website. 
+Although it was discarded later as our plans got changed.
+Below is an attempted python code script that I created by establishing connection with MYSQL server that reads images from the local and convert it to Blob type for storing it. 
+But the below script had some issues and in the meanwhile we came up with a more optimized script to get the expected output. 
 
+```python
+import mysql.connector
+from mysql.connector import Error
+from mysql.connector import errorcode
+def convertToBinaryData(filename):
+    #Convert digital data to binary format
+    with open(filename, 'rb') as file:
+        binaryData = file.read()
+    return binaryData
+def insertBLOB(photo):
+    print("Inserting BLOB into image_properties table")
+    try:
+        connection = mysql.connector.connect(host='127.0.0.1:3306',
+                             database='images',
+                             user='root',
+                             password='Anin@123')
+        cursor = connection.cursor(prepared=True)
+        #sql_insert_blob_query = ""INSERT INTO TABLE 'image_properties'
+                          #('image_id', 'image_name', 'image_link', 'image') VALUES (%s,%s,%s,%s)""
+        imagePicture = convertToBinaryData(image)
+        # Convert data into tuple format
+        insert_blob = (image_id, image_name, image_link, image)
+        result  = cursor.execute(sql_insert_blob_query, insert_blob)
+        connection.commit()
+        print ("Image and file inserted successfully as a BLOB into python_employee table", result)
+    except mysql.connector.Error as error :
+        connection.rollback()
+        print ("Failed inserting BLOB data into MySQL table {}".format(error))
+    finally:
+        #closing database connection
+        if(connection.is_connected()):
+            cursor.close()
+            connection.close()
+            print("MySQL connection is closed")
+insertBLOB("...\Images\capture.png")
+insertBLOB("...\capture1.png")
+```
+The above written snippet is a brief excerpt of the work I have done so far towards the project Capsule Neural Networks project.
 
+Things I learnt:
 
+1.) Basics of Maya on exporting/importing and running python scripts on objects
+2.) Learnt how to read an image property using python script
+3.) Learnt about MEL (basics)
+4.) How an object can be viewed from every angle using python script and MEL library
+5.) How a SQL connection can be established using python
+6.) Learnt about Google Cloud Platform on setting up instances for storage bucket and SQL database
+7.) Learnt to create a Database in GCP
 
+#CONCLUSION 
 
-
-
+The exposure I gained from this project has helped me understand that viewing a 3D model can be implemented in the real time from every angle and also information on the viewed image's properties can be demonstrated for a user to know.
 
 
 
