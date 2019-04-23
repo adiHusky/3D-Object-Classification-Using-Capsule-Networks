@@ -31,6 +31,16 @@ http://help.autodesk.com/cloudhelp/2017/ENU/Maya-Tech-Docs/Commands/getAttr.html
 ![alt text](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/Capture_image_script_1.JPG)
 <br>
 The above script has two user defined functions, one is for storing images and the second one is for capsturing images in different angles
+These are images of Dog object captured around YX axis
+<br>
+![alt text]()
+<br>
+![alt text]()
+<br>
+![alt text]()
+<br>
+<br>
+<br>
 <br>
 I have also used cmds.scale function, in which we can change the distance of the camera from the object in X, Y and Z axis respectively.
 <br>
