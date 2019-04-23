@@ -41,6 +41,10 @@ for axis in axes:
 
 In week 2, We started with added a camera and rotated the camera 360 around the object. Meanwhile, We started searching for objects in the categories that we wanted to collect images for.
 My initial category was Weapons.
+
+Here we decided that rendering the object is necessary as by using the saveimage function, there is a lot of noise that also gets captured. We used the renderer Maya Hardware 2.0 as it was the best suited for our objects in capturing shadow and creating images of our choosing.
+
+<img src = "https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/akash/Maya3D-Images-Dataset/Akash/Screen%20Shot%202019-04-23%20at%204.36.22%20AM.png"  width="300" height="700"  />
 <img src="https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/akash/Maya3D-Images-Dataset/Akash/Camera%20Rotation.png" width="960" height="540" /> 
 
 Collected over 30 objetcs in the assigned category to work with in maya.
