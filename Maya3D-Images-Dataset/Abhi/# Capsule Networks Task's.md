@@ -23,9 +23,9 @@ print 'result'+ str (result )
 
 transformName = cmds.instance(transformName, name =transformName ) 
 
-![GitHub Logo](/images/logo.png)
-```
 
+```
+<img src="https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/abhi/Maya3D-Images-Dataset/Abhi/image1.png" />
 
 ## Week 2
 
@@ -50,6 +50,7 @@ for i in range(0,50):
     cmds.refresh(cv=True, fe = "jpg", fn = imageSnapshot)
 ```
 
+<img src="https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/abhi/Maya3D-Images-Dataset/Abhi/image1.png" />
 
 
 After learning we were given tasks to save the images of objects so for that i wrote the python scripting using 
@@ -91,7 +92,9 @@ screenShot(name, l)
 rotateImage(name , 90)
 
 ```
+<img src="https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/abhi/Maya3D-Images-Dataset/Abhi/image2.png" />
 
+<img src="https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/abhi/Maya3D-Images-Dataset/Abhi/image3.png" />
 
 ## Week 3
 
@@ -145,12 +148,26 @@ while(cx<= 360):
     cx=cx+deg
 
 ```
+
+Here is an example of images Generated after the final scripts 
+
+<img src="https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/abhi/Maya3D-Images-Dataset/Abhi/image4.png" />
+
+<img src="https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/abhi/Maya3D-Images-Dataset/Abhi/image5.png" />
+
+<img src="https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/abhi/Maya3D-Images-Dataset/Abhi/image6.png" />
+
+
+
 ## Week 4
 
-Database Schema used to 
+For the week 4 we created the database schema below is the Entity RelationShip Model 
 
-```bash
-pip install foobar
-```
+<img src="https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/akash/Maya3D-Images-Dataset/Akash/final%20db.PNG" />
+
+
+## Under Working
+
+I am working on website which is currently hosted on local server
 
 
