@@ -1,6 +1,6 @@
-#Describing What my work in this project is:-
+# Describing What my work in this project is:-
 
-##Tasks:-
+## Tasks:-
 
 Learn Maya to take images of objects
 Learn to rotate, render, scale, combine and translate objects
@@ -9,7 +9,7 @@ Write a script to take pictures of objects with shadows using shader
 Create a dataset of images extracted from images to feed it to a database
 Finalise the attributes of the database
 
-##Week1
+## Week1
 
 In week 1, we learned to rotate objects in maya. I began with rotating the the objects in X,Y and Z plane. Here we had applied textures to the images.
  
