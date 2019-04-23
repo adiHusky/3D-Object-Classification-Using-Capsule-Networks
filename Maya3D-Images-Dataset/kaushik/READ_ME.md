@@ -49,8 +49,8 @@ We narrowed it to using an environment where a white plane is used behind the ob
 I need to incorporate many changes in my images as my images didn’t align with the project requirement.
 ![initail object](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/kaushik/Maya3D-Images-Dataset/kaushik/initial%20object.jpg)
 
-Initially objects were like this, I need to work on my objects to create a smooth object.
-So, I incorporated these changes to all my objects and finally achieved smooth objects.
+* Initially objects were like this, I need to work on my objects to create a smooth object.
+* So, I incorporated these changes to all my objects and finally achieved smooth objects.
 ![smooth object](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/kaushik/Maya3D-Images-Dataset/kaushik/smooth%20object.png)
 The script used in this environment is a finalized script by the project team members.
 The notable mentions in the final script is the naming convention as this plays a major role in the database.
@@ -73,11 +73,13 @@ The environment looks like this. The only change we made here changing the white
 it is not possible to get shadows using this environment
 The image rendered using above environment will look like this:
 ![black background image](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/kaushik/Maya3D-Images-Dataset/kaushik/shire%20horse_X120_Y240_Z240_No.png)
--I implemented these changes to 30 images approximately.
--Created images of all the objects without shadows too.
--By doing all the above-mentioned tasks I made sure that every image is in par and created a consistent dataset that can be used by capsule neural networks team.
-the script used for generating image sequence[GITHUB PAGES](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/kaushik/Maya3D-Images-Dataset/kaushik/script.py)
-the database created using the dataset is :
+* I implemented these changes to 30 images approximately.
+* Created images of all the objects without shadows too.
+* By doing all the above-mentioned tasks I made sure that every image is in par and created a consistent dataset that can be used by capsule neural networks team.
+* the script used for generating image sequence:
+[GITHUB PAGES](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/kaushik/Maya3D-Images-Dataset/kaushik/script.py)
+
+*the database created using the dataset is :
 ![db_schema](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/kaushik/Maya3D-Images-Dataset/kaushik/DB_Schema.png)
 
 
