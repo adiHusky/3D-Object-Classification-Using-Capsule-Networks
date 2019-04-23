@@ -49,7 +49,7 @@ Here we decided that rendering the object is necessary as by using the saveimage
 
 Collected over 30 objetcs in the assigned category to work with in maya.
 
-[Drive](https://drive.google.com/drive/u/2/folders/1sTMKZnjJm9GApuGnRVebdJTLefnl4hMh)
+[Link for dataset used for testing](https://drive.google.com/drive/u/2/folders/1sTMKZnjJm9GApuGnRVebdJTLefnl4hMh)
 
 
 
@@ -123,7 +123,7 @@ Meanwhile, we were coming up with changes in the database as the dataset expande
 <img src="https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/akash/Maya3D-Images-Dataset/Akash/DB_Schema.png" width="700" height="700" /> 
 
 
-[Finalized Dataset](https://drive.google.com/drive/u/2/folders/1c7wjh__WL8cVYCPE3ebdM8oSq1riKts6)
+[Link for finalized dataset](https://drive.google.com/drive/u/2/folders/1c7wjh__WL8cVYCPE3ebdM8oSq1riKts6)
 
 ### My contribution towards the final script
 
