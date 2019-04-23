@@ -36,7 +36,8 @@ for axis in axes:
         cmds.renderWindowEditor( editor, e=True,refresh = True, writeImage=('/Users/tinyteddybear/Documents/Sword/Sword'+axis+str(c)))
         c=c+10
 ```
-Week2 
+
+# Week2 
 
 In week 2, We started with added a camera and rotated the camera 360 around the object. Meanwhile, We started searching for objects in the categories that we wanted to collect images for.
 My initial category was Weapons.
@@ -48,7 +49,7 @@ Collected over 30 objetcs in the assigned category to work with in maya.
 
 
 
-Week3
+# Week3
 
 We tried several techniques to bring the images in a white backgorund, we went over 4 instances of background. We attempted to achieve the same with using the following methods:
 1. Placing the object in front of a white plane
@@ -60,4 +61,59 @@ We tried several techniques to bring the images in a white backgorund, we went o
 After we were done with the white background, our task was to create image sequences with shadows.
 
 <img src="https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/akash/Maya3D-Images-Dataset/Akash/Screen%20Shot%202019-04-23%20at%201.14.40%20AM.png" width="960" height="540" /> 
+
+
+Finally, We came up with the finalized script and used that to create image sequences of the objects.
+
+``` python
+import maya.cmds as cmds 
+import maya.mel
+s = cmds.ls(selection = True)
+camName=cmds.listCameras()
+cName=camName[0]
+
+cx=0
+cy=0
+cz=0
+v=45
+while (cx <=360):
+    for a in s:
+        x = a +"."+"rotate" +"X"
+        cmds.setAttr(x,cx)
+
+    cy=0
+    while(cy<=360):
+        for a in s:
+            x = a +"."+"rotate" +"Y"
+            cmds.setAttr(x,cy)
+
+        cz=0
+        while(cz<=360):
+            for a in s:
+                x = a +"."+"rotate" +"Z"
+                cmds.setAttr(x,cz)
+            cp=cmds.xform(cName,q=True,ws=True, rp=True)
+            if(cp[1]>0):
+                
+                mel.eval('renderWindowRender redoPreviousRender renderView')
+                editor =  'renderView'
+                cmds.renderWindowEditor( editor, e=True,refresh = True, writeImage=('/Users/tinyteddybear/Documents/Scar-H/Weapon_Scar-L_'+str(cx)+'_'+str(cy)+'_'+str(cz)))
+            cz=cz+v
+        cy=cy+v  
+    cx=cx+v
+```
+
+# Week4 
+
+In week 4, we were given a task to finalize the datset for the database. 
+
+We have created objects with shadows and without shadows.
+Objects have attributes like shader colour and background colour.
+
+We have created different scenes in maya to collect image sequences for the objects.
+
+Meanwhile, we were coming up with changes in the database as the dataset expanded.
+
+
+
 
