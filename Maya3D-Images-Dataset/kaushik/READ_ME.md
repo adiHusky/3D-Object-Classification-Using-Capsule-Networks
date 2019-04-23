@@ -3,18 +3,18 @@
 ## Objective: 
 The objective of the Project is to Create a Database of images of 3-D object’s and create a website, so it can be used by capsule neural networks team and Data base can be made available to public.
 To achieve this the project is divided into Tasks where each Task contributes to final goal.
-1.Create images of 3-D objects using Maya.
-2.Create a Database schema
-3.cloud integration.
-4.website creation.
+1. Create images of 3-D objects using Maya.
+2. Create a Database schema
+3. cloud integration.
+4. website creation.
 We are assigned the task to generate images using Maya. The workflow of the project is now described in a weekly manner.
 
 ### Week 1: 
 In week 1 we are assigned with a task to explore Maya and get familiar with python and Mel scripting.
- Results from Week 1:
-1.watched videos to get familiar with Maya.
+Results from Week 1:
+1. watched videos to get familiar with Maya.
 2. explored Maya and learned how to input commands using python scripting.
-3.created basic objects like sphere’s and cubes using Python script.
+3. created basic objects like sphere’s and cubes using Python script.
 As I got familiar with Maya I was assigned the task to generate images of objects at various angles .
 ### week 2:
 I explored various options to write a script where I can generate images of objects.
@@ -36,9 +36,9 @@ Multiple environments are used in this stage.
 * 2.box environment.
 * 3.cube environment.
 In the above environments the following problems were noticed:
-* 1.noise
-* 2.gradients 
-* 3.shadows.
+* noise
+* gradients 
+* shadows.
 We narrowed it to using an environment where a white plane is used behind the object and directional lights are used to generate the shadow of the object.
 ![final environment](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/kaushik/Maya3D-Images-Dataset/kaushik/environment.PNG)
 * The finalized environment looks like this where we put a white image in the background, a plane and lights for shadows.
