@@ -41,7 +41,14 @@ These are images of Dog object captured around YX axis
 ![alt text](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/image10_30_YXSnapshot.jpg)
 <br>
 <br>
+The below images shows, how the camera is rotating around dog for capturing the images in different angles
 <br>
+
+<br>
+<br>
+
+<br>
+
 <br>
 I have also used cmds.scale function, in which we can change the distance of the camera from the object in X, Y and Z axis respectively.
 <br>
