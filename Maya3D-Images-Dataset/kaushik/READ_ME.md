@@ -54,8 +54,9 @@ I need to incorporate many changes in my images as my images didn’t align with
 * So, I incorporated these changes to all my objects and finally achieved smooth objects.
 ![smooth object](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/kaushik/Maya3D-Images-Dataset/kaushik/smooth%20object.png)
 The script used in this environment is a finalized script by the project team members.
-The notable mentions in the final script is the naming convention as this plays a major role in the database.
-Category_sub category_object name_X(angle)_y(angle)_Z(angle)_Yes_shader_Background.
+
+* The notable mentions in the final script is the naming convention as this plays a major role in the database.
+* Category_sub category_object name_X(angle)_y(angle)_Z(angle)_Yes_shader_Background.
 
 This naming convention explains the category of the object (ex: animal)
 * The sub category of the object. (ex: dog)
