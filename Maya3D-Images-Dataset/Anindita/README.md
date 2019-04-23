@@ -91,7 +91,7 @@ I worked on 12 3D image models after understanding the final script.
 <br> Below is the list of the 3D items I tried capturing in every angles using Maya:
 <br>
 <br> 1.) [Car Tyre](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Automobile%20Items/CarTyre) (Automobile Items)
-For eg:
+<br>For eg:
 ![Branching](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Car_Tyre.PNG)
 <br> 2.) [WineBottle](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Drinks/Wine) (Drinks)
 <br> 3.) [Antenna TV](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Electronics/Antenna%20TV) (Electronics)
@@ -104,7 +104,7 @@ For eg:
 <br> 10.) [Scissors](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Household%20Items/Scissors) (Household Items)
 <br> 11.) [Wineglass](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Household%20Items/Wineglass) (Household Items)
 <br> 12.) [Taj Mahal](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Monuments/Taj%20Mahal) (Monuments)
-For eg:
+<br>For eg:
 ![Branching](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Taj_Mahal.PNG)
 
 <br> The below google drive also has the shots of 12 3D models that I captured using Maya software.
@@ -303,6 +303,3 @@ The above written snippet is a brief excerpt of the work I have done so far towa
 # CONCLUSION 
 
 The exposure I gained from this project has helped me understand that viewing a 3D model can be implemented in the real time from every angle and also information on the viewed image's properties can be demonstrated for a user to know.
-
-
-
