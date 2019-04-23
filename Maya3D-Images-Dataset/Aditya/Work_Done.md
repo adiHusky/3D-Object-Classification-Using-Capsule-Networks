@@ -126,7 +126,7 @@ These are some of the Images obtained using the finalized environment
 <br>
 <br>
 
-![alt image]()
+![alt image](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/Electronics_Storage_Pendrive_X0_Y135_Z225_Yes_Black_White.png)
 
 <br>
 
