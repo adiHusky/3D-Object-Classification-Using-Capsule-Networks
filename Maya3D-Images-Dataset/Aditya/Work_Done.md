@@ -1,6 +1,6 @@
 # 3D Image dataset generation using Maya
 
-
+##Exploring Maya and Creating Python Script
 1- I was assigned task to Study Maya and get used to its various functionalities, scripting and other parameters
 
 2- I went through all the videos of Maya which covered the following points
@@ -61,7 +61,27 @@ The below images shows, how the camera is rotating around dog for capturing the 
 Finally after contributions from everyone, the script finalized for capturing the images is given below
 
 <br>
+![alt text](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/final_script_image.JPG)
+<br>
+##Setting Up the Right Environment
+<br>
+1-I figured out and explored the implementations of shaders and textures on various objects. There are different kind of shaders in Maya which can be assigned to objects by using Assign New Material or existing Material. There are some inbuilt materials included in Maya like Lambert, Blinn, Layered Shader and so on
+<br>
+All these materials have some of the common attributes which give either a glossy or plain, either a colorfull or grayscale look to the objects.
+<br>
+Some of the attributes I tried are
+<br>
+####Color, Incandescence, Transparency and Transluscence Depth
+<br>
+2- Some of the objects have had their predefined textures which I had to import directly and assigned to respective objects.
+<br>
+3-Background of objects also played a important role in defining attributes. I tried to set up environment by inserting curved planes in the background of objects so as to avoid any noise in the form of lines.
+<br>
 ![alt text]()
+
+
+
+
 
 
 
