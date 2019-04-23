@@ -50,8 +50,6 @@ for i in range(0,50):
     cmds.refresh(cv=True, fe = "jpg", fn = imageSnapshot)
 ```
 
-<img src="https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/abhi/Maya3D-Images-Dataset/Abhi/image1.png" />
-
 
 After learning we were given tasks to save the images of objects so for that i wrote the python scripting using 
 which i was rotating the obects and then saving the images.
