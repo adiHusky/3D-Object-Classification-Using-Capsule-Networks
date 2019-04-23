@@ -5,13 +5,13 @@ from processing import *
 from augmentation import *
 
 # 10 classes in our case for 10 leaves
-categories = ['acer_campestre', 'acer_palmatum', 'acer_saccharum']  # 'castanea_dentata', 'eucommia_ulmoides',
+categories = ['car', 'cups', 'deo', 'stapler', 'telephone']  # 'castanea_dentata', 'eucommia_ulmoides',
 # 'ginkgo_biloba', 'gleditsia_triacanthos', 'liquidambar_styraciflua', 'salix_babylonica',
 # 'ulmus_americana']
 
 ## DEBUG code: trying to run on ASL sign language for testing purpose
 # alphabets = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J']
-Img_Size = [100, 100]  # [width, height]
+Img_Size = [128, 128]  # [width, height]
 
 
 def main():
@@ -25,7 +25,7 @@ def main():
     current_dir = os.path.dirname(os.path.abspath(__file__))
     print(current_dir)
 
-    os.chdir("../data/dataset/images")
+    os.chdir("data/dataset/images")
     # os.chdir("../../Research/ASL-Sign-Language-Classification/data")
     parent_path = os.getcwd()
     print(parent_path)
@@ -40,13 +40,13 @@ def main():
     test_data_dir = data_path + "/test_data"
 
     os.chdir("../../../..")
-    plot_path = os.getcwd() + "/plots/PART G-changing_initialization"
+    plot_path = os.getcwd() + "/plots"
     # train_data_dir = data_path + "/asl_alphabet_train"
     # test_data_dir = data_path + "/asl_alphabet_test"
     print(train_data_dir, test_data_dir, plot_path)
 
     # create an object of dataImport and use it to create training and testing data along with their associated labels
-    colormap = "BGR2GRAY"
+    colormap = "ORIGINAL"
     train_matrix, train_labels = di.create_training_data(categories, train_data_dir, colormap)
     test_matrix, test_labels = di.create_testing_data(categories, test_data_dir, colormap)
 
@@ -62,8 +62,8 @@ def main():
     print('data shape:', type(train_data.shape))
 
     # reshaping the images in order to make it ready for convolution
-    input_shape, train_data, __, _ = aug.data_reshape(train_data, train_labels, colormap, 1)
-    ___, test_data, classes, nClasses = aug.data_reshape(test_data, test_labels, colormap, 1)
+    input_shape, train_data, __, _ = aug.data_reshape(train_data, train_labels, colormap, 3)
+    ___, test_data, classes, nClasses = aug.data_reshape(test_data, test_labels, colormap, 3)
     print(input_shape)
 
     print(test_data, classes, nClasses)
@@ -82,12 +82,12 @@ def main():
     layer_activation = "RELU"
     final_activation = "SOFTMAX"
     kernel_initializer = "RAND_UNIF"
-    filters_list = [64, 256, 128]
-    filter_size_list = [3, 5, 3]
-    pooling_list = [3, 5, 3]
+    filters_list = [30, 15]
+    filter_size_list = [5, 3]
+    pooling_list = [2, 2]
     model = cnn.create_model(input_shape, final_activation=final_activation, layer_activation=layer_activation,
-                             conv_layers=3, dense_layers=1, no_of_filters=filters_list, filter_size=filter_size_list,
-                             pool_size=pooling_list, final_dense_neurons=3, kernel_initializer=kernel_initializer)
+                             conv_layers=2, dense_layers=2, no_of_filters=filters_list, filter_size=filter_size_list,
+                             pool_size=pooling_list, final_dense_neurons=5, kernel_initializer=kernel_initializer)
 
     # compile model with setting these hyper parameters
     alpha = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
@@ -95,13 +95,13 @@ def main():
                               metrics=['accuracy', 'mse'], alpha=alpha[3])
 
     # fit model and generate history
-    epochs_list = [3, 5, 7, 10, 15]
+    epochs_list = [10]
     accuracy_list = list()
     metric = Metrics(plot_path)  # setting the metrics object
 
     for i in range(len(epochs_list)):
         validation_data = (test_data, test_labels)
-        history = cnn.fit_model(model=model, train_data=train_data, train_labels=train_labels, batch_size=10,
+        history = cnn.fit_model(model=model, train_data=train_data, train_labels=train_labels, batch_size=32,
                                 epochs=epochs_list[i], verbose=1, validation_data=validation_data)
         print("History", history)
 
