@@ -138,6 +138,14 @@ These are some of the Images obtained using the finalized environment
 1- I was assigned a task for generating image sequences of various objects using the finalized environment and code. Initially I developed images for 40 objects and also assisted Nikunj Doshi, Kaushik and Smit in solving environment issues pertaining to image sequence generation
 
 
+## Maya Automation, Effort for Pipelining.
+
+
+<br>
+
+In  order to pipeline the process of creating environment and selection of objects, I worked with Akash collabaratively in order to make a script 
+
+
 
 
 
