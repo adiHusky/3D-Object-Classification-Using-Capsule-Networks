@@ -19,7 +19,7 @@
   In week 2, I had to come up with a script which rotate an object and takes pictues and stores them in a folder
   
 ##### The initial images look like below
-  ![Octocat](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/master/Maya3D-Images-Dataset/Preetham_Alladu/2z705q.gif)
+  ![Octocat](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/preetham/Maya3D-Images-Dataset/Preetham_Alladu/pivot_chair_rotate.gif)
   
 > In the above gif , the object is being rotated around its pivot and I was to rotate a camera around the object to make it look more natural.
   
@@ -29,12 +29,12 @@ Thus resulting a need to create a new environment with lights.
 
 ## Week 3 :-
  In week 3, my job was to create a environment with shadows and no gradients, I came up with an environment shown below
- ![Octocat](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/master/Maya3D-Images-Dataset/Preetham_Alladu/BeFunky-collage.jpg)
+ ![Octocat](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/preetham/Maya3D-Images-Dataset/Preetham_Alladu/box_environment_chair.jpg)
  
  But the problem was that it had gradients which causes noise, thus resulting in a new environment
  
  #### Plain environmet and static shadows
- ![Branching](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/master/Maya3D-Images-Dataset/Preetham_Alladu/2z72zl.gif)
+ ![Branching](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/preetham/Maya3D-Images-Dataset/Preetham_Alladu/sphere_evnironment_chair.gif)
  
  
  ## Week 4 :-
@@ -43,51 +43,10 @@ Thus resulting a need to create a new environment with lights.
  
  
  
- ## Finalized Script to rotate and take pictures and my contribution towards it.
- 
-``` python
-import maya.cmds
-cmds.setAttr('defaultRenderGlobals.ren', 'mayaHardware2', type = 'string')
-cmds.setAttr('defaultRenderGlobals.imageFormat', 32) ## 32 indicates the image is being stored as .png file
+##### Finalized Script to rotate and take pictures and my contribution towards it.
 
-cx = 0
-i = 0
-s = cmds.ls(selection = True)
-camName = "camera1"
-camPos = 0
-obj = s[0]
-deg = 45
-cy = 0
-cz = 0
-def screenShot(i):
-    mel.eval('renderWindowRender redoPreviousRender renderView')
-    editor = 'renderView'
-    cmds.renderWindowEditor(editor, e = True, refresh = True, writeImage = ('Path\\Telescope\\Telescope' + str(i)))
+[Finalized_Script](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/master/Maya3D-Images-Dataset/Preetham_Alladu/Final_Script.py)
 
-
-while(cx<= 360):
-    for a in s:
-        x = a +"."+"rotate" +"X"
-        cmds.setAttr(x,cx)
-    cy=0
-    while(cy<=360):
-        for a in s:
-            x = a +"."+"rotate" +"Y"
-            cmds.setAttr(x,cy)
-        cz=0
-        while(cz<=360):
-            for a in s:
-                x = a +"."+"rotate" +"Z"
-                cmds.setAttr(x,cz)
-            l = "_X_"+str(cx) + "_Y_"+str(cy) + "_Z_"+str(cz)
-            camPos = cmds.xform(camName, q=True, ws=True, rp=True)
-            if( camPos[1] > 1.0):
-                screenShot(l)
-
-            cz = cz + deg
-        cy=cy+deg
-    cx=cx+deg
-```
 
 
 
