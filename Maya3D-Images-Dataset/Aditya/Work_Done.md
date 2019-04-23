@@ -1,6 +1,6 @@
 # 3D Image dataset generation using Maya
 
-####Exploring Maya and Creating Python Script
+#### Exploring Maya and Creating Python Script
 1- I was assigned task to Study Maya and get used to its various functionalities, scripting and other parameters
 
 2- I went through all the videos of Maya which covered the following points
@@ -84,11 +84,18 @@ In the above image, you can see that the plane has been folded from one side so 
 4-Creating such a background was a complicated task. So we finalized a better way of creating a plane background in the form of a white image and turning out the color of plane same as that of background. This method was implemented by Akash and finalized as environment.
 <br>
 5-I also contributed in setting up various other parameters of the environment like
+<br>
 a-Setting color level of Lambert material
+<br>
 b-Finalizing Lambert as material
+<br>
 c-Setting up intensity of directional Light
+<br>
 d-Trying out various lights like point light, ambient light etc
-e-Setting
+<br>
+e-Setting up the shadow resolution, Shadow Color, Width Focus and Fog Shadow Intensity
+<br>
+I tried out various versions of environment using different parameters and then finalized the best one
 
 
 
