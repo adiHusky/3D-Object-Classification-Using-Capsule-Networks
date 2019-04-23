@@ -121,12 +121,12 @@ These are some of the Images obtained using the finalized environment
 
 <br>
 
-![alt image]
+![alt image](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/Electronics_Accessories_Headphone_X0_Y0_Z135_Yes_Black_White.png)
 
 <br>
 <br>
 
-![alt image]
+![alt image]()
 
 <br>
 
