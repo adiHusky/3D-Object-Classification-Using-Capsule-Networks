@@ -36,6 +36,7 @@ Multiple environments are used in this stage.
 * 1.sphere environment 
 * 2.box environment.
 * 3.cube environment.
+
 In the above environments the following problems were noticed:
 * noise
 * gradients 
