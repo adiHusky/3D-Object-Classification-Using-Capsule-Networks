@@ -61,7 +61,7 @@ After which as Python was the priority using which we had to come up with the sc
 
 The first model I tried capturing an angle using python script in Maya was of a TV.
 
-![tv]()
+![Branching](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/TV%20Image_TV_MA.PNG)
 
 Initial script I tried was rotating an image to a 90 degree angle using the below script.
 ```python
@@ -81,7 +81,7 @@ for i in range(1,5):
                  y=y+90
                  z=z+90
  ```
-![tv2]()
+![Branching](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/TV_Image_Rotate_MA.PNG)
  
 But the above script did not work as the set_attribute function was not set nor the rotate function was used.
 This script just helped the 3D model to rotate once.
@@ -90,24 +90,28 @@ Later we finalized on a python script along with some environt changes in Maya t
 I worked on 12 3D image models after understanding the final script.
 <br> Below is the list of the 3D items I tried capturing in every angles using Maya:
 <br>
-<br> 1.) Car Tyre (Automobile Items)
-<br> 2.) Wine (Drinks)
-<br> 3.) Antenna TV (Electronics)
-<br> 4.) Light Bulb (Electronics)
-<br> 5.) Capsicum (Food)
-<br> 6.) Chicken (Food)
-<br> 7.) Cupcake (Food)
-<br> 8.) Coffee Mug (Household Items)
-<br> 9.) Lantern (Household Items)
-<br> 10.) Scissors (Household Items)
-<br> 11.) Wineglass (Household Items)
-<br> 12.) Taj Mahal (Monuments)
+<br> 1.) [Car Tyre](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Automobile%20Items/CarTyre) (Automobile Items)
+For eg:
+![Branching](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Car_Tyre.PNG)
+<br> 2.) [WineBottle](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Drinks/Wine) (Drinks)
+<br> 3.) [Antenna TV](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Electronics/Antenna%20TV) (Electronics)
+<br> 4.) [Light Bulb](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Electronics/LightBulb) (Electronics)
+<br> 5.) [Capsicum](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Food/Capsicum) (Food)
+<br> 6.) [Chicken](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Food/Chicken) (Food)
+<br> 7.) [Cupcake](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Food/Cupcake) (Food)
+<br> 8.) [Coffee Mug](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Household%20Items/CoffeeMug) (Household Items)
+<br> 9.) [Lantern](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Household%20Items/Lantern) (Household Items)
+<br> 10.) [Scissors](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Household%20Items/Scissors) (Household Items)
+<br> 11.) [Wineglass](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Household%20Items/Wineglass) (Household Items)
+<br> 12.) [Taj Mahal](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Monuments/Taj%20Mahal) (Monuments)
+For eg:
+![Branching](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Taj_Mahal.PNG)
 
-<br> The below google drive has the shots of 12 3D models that I captured using Maya software.
+<br> The below google drive also has the shots of 12 3D models that I captured using Maya software.
  
 [https://drive.google.com/drive/u/1/folders/1FpUACGEFzOjraD5kWR0_3Elz0reb157E]()
 
-Next, to get started with the databse work we had to plan on the conceptual schema.
+Next, to get started with the database work we had to plan on the conceptual schema.
 I along with the database team tried to understand what are the attributes that can be added for the captured images with respect to the category and came up with a schema.
 
 Now to store the data of an image we had to import the properties.
@@ -128,14 +132,13 @@ print('Image datatype is \n', img.dtype)
 But our main motive was to import the properties of thousands of images to store its properties into a csv that we can use it for our database.
 Later one final script got created that gets the properties of images while it iterates through various folders and its images and gets the property data exported to a CSV file.
 
-![Branching]()
-![Octocat]()
+Then I along with my team mates came up with the initial database schema (shown in the below ER diagram) and created a database in MySQL Workbench where we created the Images.dbo file that is stored in the link [Database File](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Dump20190415.sql) and which got modified later for the website integration.
 
-Then I along with my team mates came up with the initial database schema and the .dbo file is stored in the link []() that got modified later for the website integration.
+![Branching](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Initial%20DB_ERDiagram.png)
 
 Next I got involved with the Cloud team to understand its scalability and implementation.
 And got started with how to connect a database in GCP.
-Initially we did a dry run to create a database in Google Cloud Platform by running queries to check if building a schema was possible in GCP and how.
+Initially we did a dry run to create a database in Google Cloud Platform by running queries to check if building a database was possible in GCP and how.
 
 1.) Query to Create a Database:
 ```
