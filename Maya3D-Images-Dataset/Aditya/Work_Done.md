@@ -61,7 +61,9 @@ The below images shows, how the camera is rotating around dog for capturing the 
 Finally after contributions from everyone, the script finalized for capturing the images is given below
 
 <br>
+
 ![alt text](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/final_script_image.JPG)
+
 <br>
 ## Setting Up the Right Environment
 <br>
