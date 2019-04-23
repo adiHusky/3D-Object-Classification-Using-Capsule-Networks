@@ -1,6 +1,6 @@
 # 3D Image dataset generation using Maya
 
-##Exploring Maya and Creating Python Script
+####Exploring Maya and Creating Python Script
 1- I was assigned task to Study Maya and get used to its various functionalities, scripting and other parameters
 
 2- I went through all the videos of Maya which covered the following points
