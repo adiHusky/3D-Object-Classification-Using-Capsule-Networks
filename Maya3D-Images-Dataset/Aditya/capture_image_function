@@ -1,0 +1,104 @@
+selection = cmds.ls(selection=True)
+
+def imageStorage(axis,step):
+  ws = cmds.workspace(q = True, fullName = True)
+  wsp = ws + "/" + "images"
+  cmds.sysFile(wsp, makeDir=True)
+  imageSnapshot = wsp + "/"+"image"+str(step)+"_"+str(axis)+"Snapshot.jpg"
+  cmds.refresh(cv=True, fe = "jpg", fn = imageSnapshot)
+	
+def captureImages(axis,step,camDistance):
+  cmds.scale(camDistance,camDistance,camDistance)
+  cmds.saveImage(currentView=True) 
+  for selected in selection:
+   if(axis=='Y'):
+    angle=0
+    while(angle<360):
+      cmds.setAttr(selected + ".rotateY",angle)
+      angle=angle+step
+      imageStorage(axis='Y',step="0_"+str(angle))
+   if(axis=='X'):
+    angle=0
+    while(angle<360):
+     cmds.setAttr(selected + ".rotateX",angle)
+     angle = angle+step
+     imageStorage(axis='X',step=str(angle)+"_0")      
+   if(axis=='YX'):
+    angleY=0
+    while(angleY<360):
+     cmds.setAttr(selected + ".rotateY",angleY)
+     angleY=angleY+step
+     angleX=0
+     while(angleX<360):
+       cmds.setAttr(selected + ".rotateX",angleX)
+       angleX=angleX+step
+       imageStorage(axis='YX',step=str(angleX)+"_"+str(angleY))          
+captureImages(axis='YX',step=10,camDistance=140)
+#function where we need to pass axis, step angle and camera Distance from Object
+#done for X, Y and YX axis
+#Image stored in form of IMAGE_ANGLEX_ANGLEY_AXIS
+#Problems: Need to add renderer logic, need to automate process of object pivot selection and adding the camera along the circle
+
+//
+import maya.cmds as cmds
+import maya.mel
+s = cmds.ls(selection = True)
+camName=cmds.listCameras()
+cName=camName[0]
+
+cx=0
+cy=0
+cz=0
+v=45
+im=0
+while (cx <=360):
+   for a in s:
+       x = a +"."+"rotate" +"X"
+       cmds.setAttr(x,cx)
+
+   cy=0
+   while(cy<=360):
+       for a in s:
+           x = a +"."+"rotate" +"Y"
+           cmds.setAttr(x,cy)
+
+       cz=0
+       while(cz<=360):
+           for a in s:
+               x = a +"."+"rotate" +"Z"
+               cmds.setAttr(x,cz)
+           cp=cmds.xform(cName,q=True,ws=True, rp=True)
+           if(cp[1]>0):
+
+               mel.eval('renderWindowRender redoPreviousRender renderView')
+               editor =  'renderView'
+               cmds.renderWindowEditor( editor, e=True,refresh = True, writeImage=('C:\\Users\\Aditya\\Documents\\maya\\projects\\IPhone'+str(cx)+'_X'+str(cy)+'_Y'+str(cz)+'_Z'))
+           im=im+1
+           cz=cz+v
+       cy=cy+v
+   cx=cx+v
+   
+   
+   
+   
+import maya.cmds as cmds
+import maya.mel
+cmds.select(all=True,visible=True)
+cmds.select('nurbsCircle1', d=True)
+cmds.select('nurbsPlane1', d=True)
+cmds.xform(cp=True)
+cmds.xform(a=True)
+cmds.xform()
+
+
+
+
+setParent AttributeEditor|MainAttributeEditorLayout|formLayout99|AEmenuBarLayout|AErootLayout|AEStackLayout|AErootLayoutPane|AEbaseFormLayout|AEcontrolFormLayout|AttrEdtransformFormLayout|scrollLayout6|columnLayout62|frameLayout76|columnLayout66|frameLayout112|columnLayout127|columnLayout130;AEreplaceBbox("Headphones1:Headphones:Mesh.boundingBoxMin","Headphones1:Headphones:Mesh.boundingBoxMax");
+scale -r -p 0cm 0cm 0cm 1 1 1.06677 ;
+
+
+
+
+
+
+

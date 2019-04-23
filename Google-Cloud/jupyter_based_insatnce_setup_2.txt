@@ -1,0 +1,1126 @@
+:D1:C8:46:C5:7F:4B:4F:5B:07:7E:7F:AE:DE:37:F6:E7:0A:D7
+Welcome to Ubuntu 16.04.6 LTS (GNU/Linux 4.15.0-1029-gcp x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+
+0 packages can be updated.
+0 updates are security updates.
+
+New release '18.04.2 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+Last login: Sat Apr 20 05:29:52 2019 from 173.194.102.8
+doshi_nik@cnn-instance-jupy:~$ wget http://repo.continuum.io/archive/Anaconda3-4.0.0-Linux-x86_64.sh
+--2019-04-20 05:35:35--  http://repo.continuum.io/archive/Anaconda3-4.0.0-Linux-x86_64.sh
+Resolving repo.continuum.io (repo.continuum.io)... 104.18.200.79, 104.18.201.79, 2606:4700::6812:c94f, ...
+Connecting to repo.continuum.io (repo.continuum.io)|104.18.200.79|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://repo.continuum.io/archive/Anaconda3-4.0.0-Linux-x86_64.sh [following]
+--2019-04-20 05:35:35--  https://repo.continuum.io/archive/Anaconda3-4.0.0-Linux-x86_64.sh
+Connecting to repo.continuum.io (repo.continuum.io)|104.18.200.79|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 417798602 (398M) [application/x-sh]
+Saving to: ‘Anaconda3-4.0.0-Linux-x86_64.sh’
+Anaconda3-4.0.0-Linux-x86_64.sh                  100%[==========================================================================================================>] 398.44M   133MB/s    in 3.0s    
+2019-04-20 05:35:38 (133 MB/s) - ‘Anaconda3-4.0.0-Linux-x86_64.sh’ saved [417798602/417798602]
+doshi_nik@cnn-instance-jupy:~$ bash Anaconda3-4.0.0-Linux-x86_64.sh
+Welcome to Anaconda3 4.0.0 (by Continuum Analytics, Inc.)
+In order to continue the installation process, please review the license
+agreement.
+Please, press ENTER to continue
+>>> 
+================
+Anaconda License
+================
+Copyright 2016, Continuum Analytics, Inc.
+
+All rights reserved under the 3-clause BSD License:
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+* Redistributions of source code must retain the above copyright notice,
+this list of conditions and the following disclaimer.
+* Redistributions in binary form must reproduce the above copyright notice,
+this list of conditions and the following disclaimer in the documentation
+and/or other materials provided with the distribution.
+* Neither the name of Continuum Analytics, Inc. nor the names of its
+contributors may be used to endorse or promote products derived from this
+software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ARE DISCLAIMED. IN NO EVENT SHALL CONTINUUM ANALYTICS, INC. BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGE.
+
+
+Notice of Third Party Software Licenses
+=======================================
+
+Anaconda contains open source software packages from third parties. These
+are available on an "as is" basis and subject to their individual license
+agreements. These licenses are available in Anaconda or at
+http://docs.continuum.io/anaconda/pkg-docs . Any binary packages of these
+third party tools you obtain via Anaconda are subject to their individual
+licenses as well as the Anaconda license. Continuum reserves the right to
+change which third party tools are provided in Anaconda.
+
+In particular, Anaconda contains re-distributable, run-time, shared-library
+files from the Intel (TM) Math Kernel Library ("MKL binaries").  You are
+
+Cryptography Notice
+===================
+This distribution includes cryptographic software. The country in which you
+currently reside may have restrictions on the import, possession, use,
+and/or re-export to another country, of encryption software. BEFORE using
+any encryption software, please check your country's laws, regulations and
+policies concerning the import, possession, or use, and re-export of
+encryption software, to see if this is permitted. See the Wassenaar
+Arrangement <http://www.wassenaar.org/> for more information.
+Continuum Analytics has self-classified this software as Export Commodity
+Control Number (ECCN) 5D002.C.1, which includes information security
+software using or performing cryptographic functions with asymmetric
+algorithms. The form and manner of this distribution makes it eligible for
+export under the License Exception ENC Technology Software Unrestricted
+(TSU) exception (see the BIS Export Administration Regulations, Section
+740.13) for both object code and source code.
+The following packages are included in this distribution that relate to
+cryptography:
+openssl
+The OpenSSL Project is a collaborative effort to develop a robust,
+commercial-grade, full-featured, and Open Source toolkit implementing the
+Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols as
+well as a full-strength general purpose cryptography library.
+pycrypto
+A collection of both secure hash functions (such as SHA256 and RIPEMD160),
+and various encryption algorithms (AES, DES, RSA, ElGamal, etc.).
+pyopenssl
+A thin Python wrapper around (a subset of) the OpenSSL library.
+kerberos (krb5, non-Windows platforms)
+A network authentication protocol designed to provide strong authentication
+for client/server applications by using secret-key cryptography.
+cryptography
+A Python library which exposes cryptographic recipes and primitives.
+Do you approve the license terms? [yes|no]
+>>> no
+The license agreement wasn't approved, aborting installation.
+
+
+The license agreement wasn't approved, aborting installation.
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ source ~/.bashrc
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ sudo apt-get update
+Get:1 http://archive.canonical.com/ubuntu xenial InRelease [11.5 kB]
+Get:2 http://security.ubuntu.com/ubuntu xenial-security InRelease [109 kB]               
+Get:3 http://archive.canonical.com/ubuntu xenial/partner amd64 Packages [3,132 B]                                                     
+Get:4 http://archive.canonical.com/ubuntu xenial/partner Translation-en [1,616 B]                     
+Hit:5 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial InRelease                    
+Get:6 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]
+Get:7 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages [638 kB]         
+Get:8 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]
+Get:9 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial/universe amd64 Packages [7,532 kB]
+Get:10 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages [433 kB]   
+Get:11 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en [175 kB] 
+Get:12 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages [5,604 B]     
+Get:13 http://security.ubuntu.com/ubuntu xenial-security/multiverse Translation-en [2,676 B]
+Get:14 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial/universe Translation-en [4,354 kB]
+Get:15 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial/multiverse amd64 Packages [144 kB]
+Get:16 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial/multiverse Translation-en [106 kB]
+Get:17 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [938 kB]
+Get:18 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en [376 kB]
+Get:19 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages [745 kB]
+Get:20 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en [310 kB]
+Get:21 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages [16.7 kB]
+Get:22 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/multiverse Translation-en [8,440 B]
+Get:23 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-backports/main amd64 Packages [7,280 B]
+Get:24 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-backports/main Translation-en [4,456 B]
+Get:25 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 Packages [7,804 B]
+Get:26 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-backports/universe Translation-en [4,184 B]
+Fetched 16.1 MB in 3s (4,614 kB/s)              
+Reading package lists... Done
+doshi_nik@cnn-instance-jupy:~$ 
+
+Reading package lists... Done
+doshi_nik@cnn-instance-jupy:~$ Connected, host fingerprint: ssh-rsa 0 6B:F0:54:0D:85:77:AB:1E:FD:25:B7:28:72:F2:D1:C8:46:C5:7F:4B:4F:5B:07:7E:7F:AE:DE:37:F6:E7:0A:D7
+Welcome to Ubuntu 16.04.6 LTS (GNU/Linux 4.15.0-1029-gcp x86_64)
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+  Get cloud support with Ubuntu Advantage Cloud Guest:
+    http://www.ubuntu.com/business/services/cloud
+10 packages can be updated.
+0 updates are security updates.
+New release '18.04.2 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+Last login: Sat Apr 20 05:34:33 2019 from 74.125.42.99
+doshi_nik@cnn-instance-jupy:~$ 
+
+
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+Calculating upgrade... Done
+The following packages will be upgraded:
+  console-setup console-setup-linux distro-info-data keyboard-configuration liblxc1 lxc-common snapd ubuntu-core-launcher ubuntu-minimal ubuntu-standard
+10 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Need to get 15.9 MB of archives.
+After this operation, 29.0 MB disk space will be freed.
+Get:1 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 ubuntu-core-launcher amd64 2.38 [1,560 B]
+Get:2 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 snapd amd64 2.38 [13.9 MB]
+Get:3 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 console-setup-linux all 1.108ubuntu15.5 [984 kB]
+Get:4 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 console-setup all 1.108ubuntu15.5 [117 kB]
+Get:5 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 keyboard-configuration all 1.108ubuntu15.5 [658 kB]
+Get:6 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 distro-info-data all 0.28ubuntu0.11 [4,648 B]
+Get:7 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 ubuntu-minimal amd64 1.361.3 [2,696 B]
+Get:8 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 ubuntu-standard amd64 1.361.3 [2,744 B]
+Get:9 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 liblxc1 amd64 2.0.11-0ubuntu1~16.04.3 [249 kB]
+Get:10 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 lxc-common amd64 2.0.11-0ubuntu1~16.04.3 [43.6 kB]
+Fetched 15.9 MB in 0s (39.2 MB/s)       
+Preconfiguring packages ...
+(Reading database ... 71092 files and directories currently installed.)
+Preparing to unpack .../ubuntu-core-launcher_2.38_amd64.deb ...
+Unpacking ubuntu-core-launcher (2.38) over (2.37.4ubuntu0.1) ...
+Preparing to unpack .../archives/snapd_2.38_amd64.deb ...
+Unpacking snapd (2.38) over (2.37.4ubuntu0.1) ...
+Preparing to unpack .../console-setup-linux_1.108ubuntu15.5_all.deb ...
+Unpacking console-setup-linux (1.108ubuntu15.5) over (1.108ubuntu15.4) ...
+Preparing to unpack .../console-setup_1.108ubuntu15.5_all.deb ...
+Obsolete conffile /etc/init.d/keyboard-setup has been modified by you, renaming to .dpkg-bak
+Unpacking console-setup (1.108ubuntu15.5) over (1.108ubuntu15.4) ...
+Preparing to unpack .../keyboard-configuration_1.108ubuntu15.5_all.deb ...
+Unpacking keyboard-configuration (1.108ubuntu15.5) over (1.108ubuntu15.4) ...
+Preparing to unpack .../distro-info-data_0.28ubuntu0.11_all.deb ...
+Unpacking distro-info-data (0.28ubuntu0.11) over (0.28ubuntu0.10) ...
+Preparing to unpack .../ubuntu-minimal_1.361.3_amd64.deb ...
+Unpacking ubuntu-minimal (1.361.3) over (1.361.2) ...
+Preparing to unpack .../ubuntu-standard_1.361.3_amd64.deb ...
+Unpacking ubuntu-standard (1.361.3) over (1.361.2) ...
+Preparing to unpack .../liblxc1_2.0.11-0ubuntu1~16.04.3_amd64.deb ...
+Unpacking liblxc1 (2.0.11-0ubuntu1~16.04.3) over (2.0.8-0ubuntu1~16.04.2) ...
+Preparing to unpack .../lxc-common_2.0.11-0ubuntu1~16.04.3_amd64.deb ...
+Unpacking lxc-common (2.0.11-0ubuntu1~16.04.3) over (2.0.8-0ubuntu1~16.04.2) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for man-db (2.7.5-1) ...ers for systemd (229-4ubuntu21.21) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Setting up snapd (2.38) ...
+Installing new version of config file /etc/apparmor.d/usr.lib.snapd.snap-confine.real ...
+md5sum: /etc/apparmor.d/usr.lib.snapd.snap-confine: No such file or directory
+snapd.failure.service is a disabled or a static unit, not starting it.
+snapd.snap-repair.service is a disabled or a static unit, not starting it.
+Setting up ubuntu-core-launcher (2.38) ...
+Setting up keyboard-configuration (1.108ubuntu15.5) ...
+update-rc.d: warning: start and stop actions are no longer supported; falling back to defaults
+update-initramfs: deferring update (trigger activated)
+Setting up console-setup-linux (1.108ubuntu15.5) ...
+Installing new version of config file /etc/console-setup/compose.ISO-8859-1.inc ...
+Installing new version of config file /etc/console-setup/compose.ISO-8859-13.inc ...
+Installing new version of config file /etc/console-setup/compose.ISO-8859-14.inc ...
+Installing new version of config file /etc/console-setup/compose.ISO-8859-15.inc ...
+Installing new version of config file /etc/console-setup/compose.ISO-8859-2.inc ...
+Installing new version of config file /etc/console-setup/compose.ISO-8859-3.inc ...
+Installing new version of config file /etc/console-setup/compose.ISO-8859-4.inc ...
+Installing new version of config file /etc/console-setup/compose.ISO-8859-7.inc ...
+Installing new version of config file /etc/console-setup/compose.ISO-8859-9.inc ...
+Setting up console-setup (1.108ubuntu15.5) ...
+update-initramfs: deferring update (trigger activated)
+Setting up distro-info-data (0.28ubuntu0.11) ...
+Setting up ubuntu-minimal (1.361.3) ...
+Setting up ubuntu-standard (1.361.3) ...
+Setting up liblxc1 (2.0.11-0ubuntu1~16.04.3) ...
+Setting up lxc-common (2.0.11-0ubuntu1~16.04.3) ...
+Installing new version of config file /etc/apparmor.d/abstractions/lxc/container-base ...
+Installing new version of config file /etc/apparmor.d/abstractions/lxc/start-container ...
+Processing triggers for initramfs-tools (0.122ubuntu8.14) ...
+update-initramfs: Generating /boot/initrd.img-4.15.0-1029-gcp
+W: mdadm: /etc/mdadm/mdadm.conf defines no arrays.
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+doshi_nik@cnn-instance-jupy:~$ 
+
+
+doshi_nik@cnn-instance-jupy:~$ sudo apt-get --assume-yes install software-properties-common
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+software-properties-common is already the newest version (0.96.20.8).
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+doshi_nik@cnn-instance-jupy:~$
+
+
+doshi_nik@cnn-instance-jupy:~$ sudo apt-get install python-setuptools python-dev build-essential
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  binutils cpp cpp-5 dpkg-dev fakeroot g++ g++-5 gcc gcc-5 libalgorithm-diff-perl libalgorithm-diff-xs-perl libalgorithm-merge-perl libasan2 libatomic1 libc-dev-bin libc6-dev libcc1-0
+  libcilkrts5 libdpkg-perl libexpat1-dev libfakeroot libfile-fcntllock-perl libgcc-5-dev libgomp1 libisl15 libitm1 liblsan0 libmpc3 libmpx0 libpython-dev libpython2.7 libpython2.7-dev
+  libquadmath0 libstdc++-5-dev libtsan0 libubsan0 linux-libc-dev make manpages-dev python2.7-dev
+Suggested packages:
+  binutils-doc cpp-doc gcc-5-locales debian-keyring g++-multilib g++-5-multilib gcc-5-doc libstdc++6-5-dbg gcc-multilib autoconf automake libtool flex bison gdb gcc-doc gcc-5-multilib
+  libgcc1-dbg libgomp1-dbg libitm1-dbg libatomic1-dbg libasan2-dbg liblsan0-dbg libtsan0-dbg libubsan0-dbg libcilkrts5-dbg libmpx0-dbg libquadmath0-dbg glibc-doc libstdc++-5-doc make-doc
+  python-setuptools-doc
+The following NEW packages will be installed:
+  binutils build-essential cpp cpp-5 dpkg-dev fakeroot g++ g++-5 gcc gcc-5 libalgorithm-diff-perl libalgorithm-diff-xs-perl libalgorithm-merge-perl libasan2 libatomic1 libc-dev-bin libc6-dev
+  libcc1-0 libcilkrts5 libdpkg-perl libexpat1-dev libfakeroot libfile-fcntllock-perl libgcc-5-dev libgomp1 libisl15 libitm1 liblsan0 libmpc3 libmpx0 libpython-dev libpython2.7 libpython2.7-dev
+  libquadmath0 libstdc++-5-dev libtsan0 libubsan0 linux-libc-dev make manpages-dev python-dev python-setuptools python2.7-dev
+0 upgraded, 43 newly installed, 0 to remove and 0 not upgraded.
+Need to get 67.6 MB of archives.
+After this operation, 190 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial/main amd64 libmpc3 amd64 1.0.3-1 [39.7 kB]
+Get:2 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 binutils amd64 2.26.1-1ubuntu1~16.04.8 [2,312 kB]
+Get:3 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libc-dev-bin amd64 2.23-0ubuntu11 [68.5 kB]
+Get:4 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 linux-libc-dev amd64 4.4.0-145.171 [874 kB]
+Get:5 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libc6-dev amd64 2.23-0ubuntu11 [2,086 kB]
+Get:6 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial/main amd64 libisl15 amd64 0.16.1-1 [524 kB]
+Get:7 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 cpp-5 amd64 5.4.0-6ubuntu1~16.04.11 [7,660 kB]
+Get:8 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial/main amd64 cpp amd64 4:5.3.1-1ubuntu1 [27.7 kB]
+Get:9 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libcc1-0 amd64 5.4.0-6ubuntu1~16.04.11 [38.8 kB]
+Get:10 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgomp1 amd64 5.4.0-6ubuntu1~16.04.11 [55.0 kB]
+Get:11 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libitm1 amd64 5.4.0-6ubuntu1~16.04.11 [27.4 kB]
+Get:12 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libatomic1 amd64 5.4.0-6ubuntu1~16.04.11 [8,896 B]
+Get:13 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libasan2 amd64 5.4.0-6ubuntu1~16.04.11 [264 kB]
+Get:14 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 liblsan0 amd64 5.4.0-6ubuntu1~16.04.11 [105 kB]
+
+Get:4 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 linux-libc-dev amd64 4.4.0-145.171 [874 kB]
+Get:5 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libc6-dev amd64 2.23-0ubuntu11 [2,086 kB]
+Get:6 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial/main amd64 libisl15 amd64 0.16.1-1 [524 kB]
+Get:7 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 cpp-5 amd64 5.4.0-6ubuntu1~16.04.11 [7,660 kB]
+Get:8 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial/main amd64 cpp amd64 4:5.3.1-1ubuntu1 [27.7 kB]
+Get:9 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libcc1-0 amd64 5.4.0-6ubuntu1~16.04.11 [38.8 kB]
+Get:10 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgomp1 amd64 5.4.0-6ubuntu1~16.04.11 [55.0 kB]
+Get:11 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libitm1 amd64 5.4.0-6ubuntu1~16.04.11 [27.4 kB]
+Get:12 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libatomic1 amd64 5.4.0-6ubuntu1~16.04.11 [8,896 B]
+Get:13 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libasan2 amd64 5.4.0-6ubuntu1~16.04.11 [264 kB]
+Get:14 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 liblsan0 amd64 5.4.0-6ubuntu1~16.04.11 [105 kB]
+Get:15 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libtsan0 amd64 5.4.0-6ubuntu1~16.04.11 [244 kB]
+Get:16 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libubsan0 amd64 5.4.0-6ubuntu1~16.04.11 [95.4 kB]
+Get:17 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libcilkrts5 amd64 5.4.0-6ubuntu1~16.04.11 [40.1 kB]
+Get:18 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libmpx0 amd64 5.4.0-6ubuntu1~16.04.11 [9,748 B]
+Get:19 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libquadmath0 amd64 5.4.0-6ubuntu1~16.04.11 [131 kB]
+Get:20 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libgcc-5-dev amd64 5.4.0-6ubuntu1~16.04.11 [2,229 kB]
+Get:21 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 gcc-5 amd64 5.4.0-6ubuntu1~16.04.11 [8,417 kB]
+Get:22 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial/main amd64 gcc amd64 4:5.3.1-1ubuntu1 [5,244 B]
+Get:23 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libstdc++-5-dev amd64 5.4.0-6ubuntu1~16.04.11 [1,426 kB]
+Get:24 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 g++-5 amd64 5.4.0-6ubuntu1~16.04.11 [8,310 kB]
+Get:25 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial/main amd64 g++ amd64 4:5.3.1-1ubuntu1 [1,504 B]
+Get:26 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial/main amd64 make amd64 4.1-6 [151 kB]
+Get:27 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libdpkg-perl all 1.18.4ubuntu1.5 [195 kB]
+Get:28 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 dpkg-dev all 1.18.4ubuntu1.5 [584 kB]
+Get:29 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial/main amd64 build-essential amd64 12.1ubuntu2 [4,758 B]
+Get:30 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial/main amd64 libfakeroot amd64 1.20.2-1ubuntu1 [25.5 kB]
+Get:31 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial/main amd64 fakeroot amd64 1.20.2-1ubuntu1 [61.8 kB]
+Get:32 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial/main amd64 libalgorithm-diff-perl all 1.19.03-1 [47.6 kB]
+Get:33 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial/main amd64 libalgorithm-diff-xs-perl amd64 0.04-4build1 [11.0 kB]
+Get:34 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial/main amd64 libalgorithm-merge-perl all 0.08-3 [12.0 kB]
+Get:35 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libexpat1-dev amd64 2.1.0-7ubuntu0.16.04.3 [115 kB]
+Get:36 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial/main amd64 libfile-fcntllock-perl amd64 0.22-3 [32.0 kB]
+Get:37 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libpython2.7 amd64 2.7.12-1ubuntu0~16.04.4 [1,071 kB]
+Get:38 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libpython2.7-dev amd64 2.7.12-1ubuntu0~16.04.4 [27.8 MB]
+Get:39 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libpython-dev amd64 2.7.12-1~16.04 [7,840 B]
+Get:40 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial/main amd64 manpages-dev all 4.04-2 [2,048 kB]
+Get:41 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 python2.7-dev amd64 2.7.12-1ubuntu0~16.04.4 [276 kB]
+Get:42 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 python-dev amd64 2.7.12-1~16.04 [1,186 B]
+Get:43 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial/main amd64 python-setuptools all 20.7.0-1 [169 kB]
+Fetched 67.6 MB in 2s (24.8 MB/s)            
+Extracting templates from packages: 100%
+Selecting previously unselected package libmpc3:amd64.
+(Reading database ... 71092 files and directories currently installed.)
+Preparing to unpack .../libmpc3_1.0.3-1_amd64.deb ...
+Unpacking libmpc3:amd64 (1.0.3-1) ...
+Selecting previously unselected package binutils.
+Preparing to unpack .../binutils_2.26.1-1ubuntu1~16.04.8_amd64.deb ...
+Unpacking binutils (2.26.1-1ubuntu1~16.04.8) ...
+
+Fetched 67.6 MB in 2s (24.8 MB/s)            
+Extracting templates from packages: 100%
+Selecting previously unselected package libmpc3:amd64.
+(Reading database ... 71092 files and directories currently installed.)
+Preparing to unpack .../libmpc3_1.0.3-1_amd64.deb ...
+Unpacking libmpc3:amd64 (1.0.3-1) ...
+Selecting previously unselected package binutils.
+Preparing to unpack .../binutils_2.26.1-1ubuntu1~16.04.8_amd64.deb ...
+Unpacking binutils (2.26.1-1ubuntu1~16.04.8) ...
+Selecting previously unselected package libc-dev-bin.
+Preparing to unpack .../libc-dev-bin_2.23-0ubuntu11_amd64.deb ...
+Unpacking libc-dev-bin (2.23-0ubuntu11) ...
+Selecting previously unselected package linux-libc-dev:amd64.
+Preparing to unpack .../linux-libc-dev_4.4.0-145.171_amd64.deb ...
+Unpacking linux-libc-dev:amd64 (4.4.0-145.171) ...
+Selecting previously unselected package libc6-dev:amd64.
+Preparing to unpack .../libc6-dev_2.23-0ubuntu11_amd64.deb ...
+Unpacking libc6-dev:amd64 (2.23-0ubuntu11) ...
+Selecting previously unselected package libisl15:amd64.
+Preparing to unpack .../libisl15_0.16.1-1_amd64.deb ...
+Unpacking libisl15:amd64 (0.16.1-1) ...
+Selecting previously unselected package cpp-5.
+Preparing to unpack .../cpp-5_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking cpp-5 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package cpp.
+Preparing to unpack .../cpp_4%3a5.3.1-1ubuntu1_amd64.deb ...
+Unpacking cpp (4:5.3.1-1ubuntu1) ...
+Selecting previously unselected package libcc1-0:amd64.
+Preparing to unpack .../libcc1-0_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libcc1-0:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package libgomp1:amd64.
+Preparing to unpack .../libgomp1_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libgomp1:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package libitm1:amd64.
+Preparing to unpack .../libitm1_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libitm1:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package libatomic1:amd64.
+Preparing to unpack .../libatomic1_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libatomic1:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package libasan2:amd64.
+Preparing to unpack .../libasan2_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libasan2:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package liblsan0:amd64.
+Preparing to unpack .../liblsan0_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking liblsan0:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package libtsan0:amd64.
+Preparing to unpack .../libtsan0_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libtsan0:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package libubsan0:amd64.
+Preparing to unpack .../libubsan0_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libubsan0:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package libcilkrts5:amd64.
+Preparing to unpack .../libcilkrts5_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libcilkrts5:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package libmpx0:amd64.
+Preparing to unpack .../libmpx0_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libmpx0:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package libquadmath0:amd64.
+Preparing to unpack .../libquadmath0_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libquadmath0:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package libgcc-5-dev:amd64.
+Preparing to unpack .../libgcc-5-dev_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libgcc-5-dev:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package gcc-5.
+Preparing to unpack .../gcc-5_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking gcc-5 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package gcc.
+Preparing to unpack .../gcc_4%3a5.3.1-1ubuntu1_amd64.deb ...
+Unpacking gcc (4:5.3.1-1ubuntu1) ...
+Selecting previously unselected package libstdc++-5-dev:amd64.
+Preparing to unpack .../libstdc++-5-dev_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking libstdc++-5-dev:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package g++-5.
+Preparing to unpack .../g++-5_5.4.0-6ubuntu1~16.04.11_amd64.deb ...
+Unpacking g++-5 (5.4.0-6ubuntu1~16.04.11) ...
+Selecting previously unselected package g++.
+Preparing to unpack .../g++_4%3a5.3.1-1ubuntu1_amd64.deb ...
+Unpacking g++ (4:5.3.1-1ubuntu1) ...
+Selecting previously unselected package make.
+Preparing to unpack .../archives/make_4.1-6_amd64.deb ...
+Unpacking make (4.1-6) ...
+Selecting previously unselected package libdpkg-perl.
+Preparing to unpack .../libdpkg-perl_1.18.4ubuntu1.5_all.deb ...
+Unpacking libdpkg-perl (1.18.4ubuntu1.5) ...
+Selecting previously unselected package dpkg-dev.
+Preparing to unpack .../dpkg-dev_1.18.4ubuntu1.5_all.deb ...
+Unpacking dpkg-dev (1.18.4ubuntu1.5) ...
+Selecting previously unselected package build-essential.
+Preparing to unpack .../build-essential_12.1ubuntu2_amd64.deb ...
+Unpacking build-essential (12.1ubuntu2) ...
+Selecting previously unselected package libfakeroot:amd64.
+Preparing to unpack .../libfakeroot_1.20.2-1ubuntu1_amd64.deb ...
+Unpacking libfakeroot:amd64 (1.20.2-1ubuntu1) ...
+Selecting previously unselected package fakeroot.
+Preparing to unpack .../fakeroot_1.20.2-1ubuntu1_amd64.deb ...
+Unpacking fakeroot (1.20.2-1ubuntu1) ...
+Selecting previously unselected package libalgorithm-diff-perl.
+Preparing to unpack .../libalgorithm-diff-perl_1.19.03-1_all.deb ...
+Unpacking libalgorithm-diff-perl (1.19.03-1) ...
+Selecting previously unselected package libalgorithm-diff-xs-perl.
+Preparing to unpack .../libalgorithm-diff-xs-perl_0.04-4build1_amd64.deb ...
+Unpacking libalgorithm-diff-xs-perl (0.04-4build1) ...
+Selecting previously unselected package libalgorithm-merge-perl.
+Preparing to unpack .../libalgorithm-merge-perl_0.08-3_all.deb ...
+Unpacking libalgorithm-merge-perl (0.08-3) ...
+Selecting previously unselected package libexpat1-dev:amd64.
+Preparing to unpack .../libexpat1-dev_2.1.0-7ubuntu0.16.04.3_amd64.deb ...
+Unpacking libexpat1-dev:amd64 (2.1.0-7ubuntu0.16.04.3) ...
+Selecting previously unselected package libfile-fcntllock-perl.
+Preparing to unpack .../libfile-fcntllock-perl_0.22-3_amd64.deb ...
+Unpacking libfile-fcntllock-perl (0.22-3) ...
+Selecting previously unselected package libpython2.7:amd64.
+Preparing to unpack .../libpython2.7_2.7.12-1ubuntu0~16.04.4_amd64.deb ...
+Unpacking libpython2.7:amd64 (2.7.12-1ubuntu0~16.04.4) ...
+Selecting previously unselected package libpython2.7-dev:amd64.
+Preparing to unpack .../libpython2.7-dev_2.7.12-1ubuntu0~16.04.4_amd64.deb ...
+Unpacking libpython2.7-dev:amd64 (2.7.12-1ubuntu0~16.04.4) ...
+Selecting previously unselected package libpython-dev:amd64.
+Preparing to unpack .../libpython-dev_2.7.12-1~16.04_amd64.deb ...
+Unpacking libpython-dev:amd64 (2.7.12-1~16.04) ...
+Selecting previously unselected package manpages-dev.
+Preparing to unpack .../manpages-dev_4.04-2_all.deb ...
+Unpacking manpages-dev (4.04-2) ...
+Selecting previously unselected package python2.7-dev.
+Preparing to unpack .../python2.7-dev_2.7.12-1ubuntu0~16.04.4_amd64.deb ...
+Unpacking python2.7-dev (2.7.12-1ubuntu0~16.04.4) ...
+Selecting previously unselected package python-dev.
+Preparing to unpack .../python-dev_2.7.12-1~16.04_amd64.deb ...
+Unpacking python-dev (2.7.12-1~16.04) ...
+Selecting previously unselected package python-setuptools.
+Preparing to unpack .../python-setuptools_20.7.0-1_all.deb ...
+Unpacking python-setuptools (20.7.0-1) ...
+Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up libmpc3:amd64 (1.0.3-1) ...
+Setting up binutils (2.26.1-1ubuntu1~16.04.8) ...
+Setting up libc-dev-bin (2.23-0ubuntu11) ...
+Setting up linux-libc-dev:amd64 (4.4.0-145.171) ...
+Setting up libc6-dev:amd64 (2.23-0ubuntu11) ...
+Setting up libisl15:amd64 (0.16.1-1) ...
+Setting up cpp-5 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up cpp (4:5.3.1-1ubuntu1) ...
+Setting up libcc1-0:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libgomp1:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libitm1:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libatomic1:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libasan2:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up liblsan0:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libtsan0:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libubsan0:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libcilkrts5:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libmpx0:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libquadmath0:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up libgcc-5-dev:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up gcc-5 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up gcc (4:5.3.1-1ubuntu1) ...
+Setting up libstdc++-5-dev:amd64 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up g++-5 (5.4.0-6ubuntu1~16.04.11) ...
+Setting up g++ (4:5.3.1-1ubuntu1) ...
+update-alternatives: using /usr/bin/g++ to provide /usr/bin/c++ (c++) in auto mode
+Setting up make (4.1-6) ...
+Setting up libdpkg-perl (1.18.4ubuntu1.5) ...
+Setting up dpkg-dev (1.18.4ubuntu1.5) ...
+Setting up build-essential (12.1ubuntu2) ...
+Setting up libfakeroot:amd64 (1.20.2-1ubuntu1) ...
+Setting up fakeroot (1.20.2-1ubuntu1) ...
+update-alternatives: using /usr/bin/fakeroot-sysv to provide /usr/bin/fakeroot (fakeroot) in auto mode
+Setting up libalgorithm-diff-perl (1.19.03-1) ...
+Setting up libalgorithm-diff-xs-perl (0.04-4build1) ...
+Setting up libalgorithm-merge-perl (0.08-3) ...
+Setting up libexpat1-dev:amd64 (2.1.0-7ubuntu0.16.04.3) ...
+
+
+
+
+doshi_nik@cnn-instance-jupy:~$ sudo easy_install pip
+Searching for pip
+Reading https://pypi.python.org/simple/pip/
+Best match: pip 19.0.3
+Downloading https://files.pythonhosted.org/packages/36/fa/51ca4d57392e2f69397cd6e5af23da2a8d37884a605f9e3f2d3bfdc48397/pip-19.0.3.tar.gz#sha256=6e6f197a1abfb45118dbb878b5c859a0edbdd33fd250100bc015
+b67fded4b9f2
+Processing pip-19.0.3.tar.gz
+Writing /tmp/easy_install-OmBlKe/pip-19.0.3/setup.cfg
+Running pip-19.0.3/setup.py -q bdist_egg --dist-dir /tmp/easy_install-OmBlKe/pip-19.0.3/egg-dist-tmp-izY9bO
+/usr/lib/python2.7/distutils/dist.py:267: UserWarning: Unknown distribution option: 'python_requires'
+  warnings.warn(msg)
+warning: no files found matching 'docs/docutils.conf'
+warning: no previously-included files found matching '.coveragerc'
+warning: no previously-included files found matching '.mailmap'
+warning: no previously-included files found matching '.appveyor.yml'
+warning: no previously-included files found matching '.travis.yml'
+warning: no previously-included files found matching 'tox.ini'
+warning: no files found matching 'Makefile' under directory 'docs'
+warning: no files found matching '*.bat' under directory 'docs'
+warning: no previously-included files found matching 'src/pip/_vendor/six'
+warning: no previously-included files found matching 'src/pip/_vendor/six/moves'
+warning: no previously-included files matching '*.pyi' found under directory 'src/pip/_vendor'
+no previously-included directories found matching '.github'
+no previously-included directories found matching '.azure-pipelines'
+no previously-included directories found matching 'docs/build'
+no previously-included directories found matching 'news'
+no previously-included directories found matching 'tasks'
+no previously-included directories found matching 'tests'
+no previously-included directories found matching 'tools'
+creating /usr/local/lib/python2.7/dist-packages/pip-19.0.3-py2.7.egg
+Extracting pip-19.0.3-py2.7.egg to /usr/local/lib/python2.7/dist-packages
+Adding pip 19.0.3 to easy-install.pth file
+Installing pip script to /usr/local/bin
+Installing pip2.7 script to /usr/local/bin
+Installing pip2 script to /usr/local/bin
+Installed /usr/local/lib/python2.7/dist-packages/pip-19.0.3-py2.7.egg
+Processing dependencies for pip
+Finished processing dependencies for pip
+doshi_nik@cnn-instance-jupy:~$ 
+
+doshi_nik@cnn-instance-jupy:~$ sudo pip install jupyter 
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support
+ for Python 2.7.
+The directory '/home/doshi_nik/.cache/pip/http' or its parent directory is not owned by the current user and the cache has been disabled. Please check the permissions and owner of that directory. 
+If executing pip with sudo, you may want sudo's -H flag.
+The directory '/home/doshi_nik/.cache/pip' or its parent directory is not owned by the current user and caching wheels has been disabled. check the permissions and owner of that directory. If exec
+uting pip with sudo, you may want sudo's -H flag.
+Collecting jupyter
+  Downloading https://files.pythonhosted.org/packages/83/df/0f5dd132200728a86190397e1ea87cd76244e42d39ec5e88efd25b2abd7e/jupyter-1.0.0-py2.py3-none-any.whl
+Collecting nbconvert (from jupyter)
+  Downloading https://files.pythonhosted.org/packages/b8/39/1e67fea74dc9577cc49f9863fe3ec824e525d1304ab6027d95a94cd586f5/nbconvert-5.4.1-py2.py3-none-any.whl (407kB)
+    100% |████████████████████████████████| 409kB 32.3MB/s 
+Collecting ipywidgets (from jupyter)
+  Downloading https://files.pythonhosted.org/packages/30/9a/a008c7b1183fac9e52066d80a379b3c64eab535bd9d86cdc29a0b766fd82/ipywidgets-7.4.2-py2.py3-none-any.whl (111kB)
+    100% |████████████████████████████████| 112kB 37.2MB/s 
+Collecting notebook (from jupyter)
+  Downloading https://files.pythonhosted.org/packages/f6/36/89ebfffc9dd8c8dbd81c1ffb53e3d4233ee666414c143959477cb07cc5f5/notebook-5.7.8-py2.py3-none-any.whl (9.0MB)
+    100% |████████████████████████████████| 9.0MB 3.5MB/s 
+Collecting qtconsole (from jupyter)
+  Downloading https://files.pythonhosted.org/packages/e0/7a/8aefbc0ed078dec7951ac9a06dcd1869243ecd7bcbce26fa47bf5e469a8f/qtconsole-4.4.3-py2.py3-none-any.whl (113kB)
+    100% |████████████████████████████████| 122kB 43.6MB/s 
+Collecting jupyter-console (from jupyter)
+  Downloading https://files.pythonhosted.org/packages/77/82/6469cd7fccf7958cbe5dce2e623f1e3c5e27f1bb1ad36d90519bc2d5d370/jupyter_console-5.2.0-py2.py3-none-any.whl
+Collecting ipykernel (from jupyter)
+  Downloading https://files.pythonhosted.org/packages/00/47/764e4fa1b1b89598426b8d79b1c4fbe8042432621b0f8e1991aeb3c24806/ipykernel-4.10.0-py2-none-any.whl (110kB)
+    100% |████████████████████████████████| 112kB 40.2MB/s 
+Collecting pandocfilters>=1.4.1 (from nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/4c/ea/236e2584af67bb6df960832731a6e5325fd4441de001767da328c33368ce/pandocfilters-1.4.2.tar.gz Downloading https://files.pythonhosted.org/packages/1d/e7/fd8b501e7a6dfe492a433deb7b9d833d39ca74916fa8bc63dd1a4947a671/Jinja2-2.10.1-py2.py3-none-any.whl (124kB)
+    100% |████████████████████████████████| 133kB 41.6MB/s 
+Collecting defusedxml (from nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/06/74/9b387472866358ebc08732de3da6dc48e44b0aacd2ddaa5cb85ab7e986a2/defusedxml-0.6.0-py2.py3-none-any.whl
+Collecting testpath (from nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/be/a4/162f9ebb6489421fe46dcca2ae420369edfee4b563c668d93cb4605d12ba/testpath-0.4.2-py2.py3-none-any.whl (163kB)
+    100% |████████████████████████████████| 163kB 39.8MB/s 
+Collecting nbformat>=4.4 (from nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/da/27/9a654d2b6cc1eaa517d1c5a4405166c7f6d72f04f6e7eea41855fe808a46/nbformat-4.4.0-py2.py3-none-any.whl (155kB)
+    100% |████████████████████████████████| 163kB 42.9MB/s 
+Collecting pygments (from nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/13/e5/6d710c9cf96c31ac82657bcfb441df328b22df8564d58d0c4cd62612674c/Pygments-2.3.1-py2.py3-none-any.whl (849kB)
+    100% |████████████████████████████████| 849kB 25.9MB/s 
+Collecting traitlets>=4.2 (from nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/93/d6/abcb22de61d78e2fc3959c964628a5771e47e7cc60d53e9342e21ed6cc9a/traitlets-4.3.2-py2.py3-none-any.whl (74kB)
+    100% |████████████████████████████████| 81kB 36.1MB/s 
+Collecting bleach (from nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/ab/05/27e1466475e816d3001efb6e0a85a819be17411420494a1e602c36f8299d/bleach-3.1.0-py2.py3-none-any.whl (157kB)
+    100% |████████████████████████████████| 163kB 44.3MB/s 
+Collecting mistune>=0.8.1 (from nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/09/ec/4b43dae793655b7d8a25f76119624350b4d65eb663459eb9603d7f1f0345/mistune-0.8.4-py2.py3-none-any.whl
+Collecting jupyter-core (from nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/1d/44/065d2d7bae7bebc06f1dd70d23c36da8c50c0f08b4236716743d706762a8/jupyter_core-4.4.0-py2.py3-none-any.whl (126kB)
+    100% |████████████████████████████████| 133kB 43.5MB/s 
+Collecting ipython<6.0.0,>=4.0.0; python_version < "3.3" (from ipywidgets->jupyter)
+  Downloading https://files.pythonhosted.org/packages/b0/88/d996ab8be22cea1eaa18baee3678a11265e18cf09974728d683c51102148/ipython-5.8.0-py2-none-any.whl (760kB)
+    100% |████████████████████████████████| 768kB 36.4MB/s 
+Collecting widgetsnbextension~=3.4.0 (from ipywidgets->jupyter)
+  Downloading https://files.pythonhosted.org/packages/8a/81/35789a3952afb48238289171728072d26d6e76649ddc8b3588657a2d78c1/widgetsnbextension-3.4.2-py2.py3-none-any.whl (2.2MB)
+    100% |████████████████████████████████| 2.2MB 15.6MB/s 
+Collecting tornado<7,>=4.1 (from notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/e6/78/6e7b5af12c12bdf38ca9bfe863fcaf53dc10430a312d0324e76c1e5ca426/tornado-5.1.1.tar.gz (516kB)
+    100% |████████████████████████████████| 522kB 40.8MB/s 
+Collecting ipython-genutils (from notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/fa/bc/9bd3b5c2b4774d5f33b2d544f1460be9df7df2fe42f352135381c347c69a/ipython_genutils-0.2.0-py2.py3-none-any.whl
+Collecting jupyter-client>=5.2.0 (from notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/3b/c3/3043fe9ffd140d03c9d091a056794ccdc427c56ec19b8eea74f9ea0a498f/jupyter_client-5.2.4-py2.py3-none-any.whl (89kB)
+    100% |████████████████████████████████| 92kB 33.4MB/s 
+Collecting Send2Trash (from notebook->jupyter)
+Collecting pyzmq>=17 (from notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/91/f5/c9bef3768d6f8d71aae8f44f1ddbee90162dad909560fa6c13e4872e28c9/pyzmq-18.0.1-cp27-cp27mu-manylinux1_x86_64.whl (1.0MB)
+    100% |████████████████████████████████| 1.0MB 24.5MB/s 
+Collecting terminado>=0.8.1 (from notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/a7/56/80ea7fa66565fa75ae21ce0c16bc90067530e5d15e48854afcc86585a391/terminado-0.8.2-py2.py3-none-any.whl
+Collecting prometheus-client (from notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/4c/bd/b42db3ec90ffc6be805aad09c1cea4bb13a620d0cd4b21aaa44d13541d71/prometheus_client-0.6.0.tar.gz
+Collecting ipaddress; python_version == "2.7" (from notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/fc/d0/7fc3a811e011d4b388be48a0e381db8d990042df54aa4ef4599a31d39853/ipaddress-1.0.22-py2.py3-none-any.whl
+Collecting prompt-toolkit<2.0.0,>=1.0.0 (from jupyter-console->jupyter)
+  Downloading https://files.pythonhosted.org/packages/4e/4e/e5545e8bebf89790455b31112a0f886580c7b3624a05abec416efa5c3a08/prompt_toolkit-1.0.16-py2-none-any.whl (244kB)
+    100% |████████████████████████████████| 245kB 38.5MB/s 
+Collecting configparser>=3.5; python_version == "2.7" (from entrypoints>=0.2.2->nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/ba/05/6c96328e92e625fc31445d24d75a2c92ef9ba34fc5b037fe69693c362a0d/configparser-3.7.4-py2.py3-none-any.whl
+Collecting MarkupSafe>=0.23 (from jinja2->nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/fb/40/f3adb7cf24a8012813c5edb20329eb22d5d8e2a0ecf73d21d6b85865da11/MarkupSafe-1.1.1-cp27-cp27mu-manylinux1_x86_64.whl
+Collecting jsonschema!=2.5.0,>=2.4 (from nbformat>=4.4->nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/aa/69/df679dfbdd051568b53c38ec8152a3ab6bc533434fc7ed11ab034bf5e82f/jsonschema-3.0.1-py2.py3-none-any.whl (54kB)
+    100% |████████████████████████████████| 61kB 31.2MB/s 
+Collecting decorator (from traitlets>=4.2->nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/5f/88/0075e461560a1e750a0dcbf77f1d9de775028c37a19a346a6c565a257399/decorator-4.4.0-py2.py3-none-any.whl
+Requirement already satisfied: six in /usr/lib/python2.7/dist-packages (from traitlets>=4.2->nbconvert->jupyter) (1.10.0)
+Collecting enum34; python_version == "2.7" (from traitlets>=4.2->nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/c5/db/e56e6b4bbac7c4a06de1c50de6fe1ef3810018ae11732a50f15f62c7d050/enum34-1.1.6-py2-none-any.whl
+Collecting webencodings (from bleach->nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/f4/24/2a3e3df732393fed8b3ebf2ec078f05546de641fe1b667ee316ec1dcf3b7/webencodings-0.5.1-py2.py3-none-any.whl
+Collecting pexpect; sys_platform != "win32" (from ipython<6.0.0,>=4.0.0; python_version < "3.3"->ipywidgets->jupyter)
+  Downloading https://files.pythonhosted.org/packages/0e/3e/377007e3f36ec42f1b84ec322ee12141a9e10d808312e5738f52f80a232c/pexpect-4.7.0-py2.py3-none-any.whl (58kB)
+    100% |████████████████████████████████| 61kB 32.9MB/s 
+Collecting backports.shutil-get-terminal-size; python_version == "2.7" (from ipython<6.0.0,>=4.0.0; python_version < "3.3"->ipywidgets->jupyter)
+  Downloading https://files.pythonhosted.org/packages/7d/cd/1750d6c35fe86d35f8562091737907f234b78fdffab42b29c72b1dd861f4/backports.shutil_get_terminal_size-1.0.0-py2.py3-none-any.whl
+Requirement already satisfied: setuptools>=18.5 in /usr/lib/python2.7/dist-packages (from ipython<6.0.0,>=4.0.0; python_version < "3.3"->ipywidgets->jupyter) (20.7.0)
+Collecting pathlib2; python_version == "2.7" or python_version == "3.3" (from ipython<6.0.0,>=4.0.0; python_version < "3.3"->ipywidgets->jupyter)
+  Downloading https://files.pythonhosted.org/packages/2a/46/c696dcf1c7aad917b39b875acdc5451975e3a9b4890dca8329983201c97a/pathlib2-2.3.3-py2.py3-none-any.whl
+Collecting simplegeneric>0.8 (from ipython<6.0.0,>=4.0.0; python_version < "3.3"->ipywidgets->jupyter)
+  Downloading https://files.pythonhosted.org/packages/3d/57/4d9c9e3ae9a255cd4e1106bb57e24056d3d0709fc01b2e3e345898e49d5b/simplegeneric-0.8.1.zip
+Collecting pickleshare (from ipython<6.0.0,>=4.0.0; python_version < "3.3"->ipywidgets->jupyter)
+  Downloading https://files.pythonhosted.org/packages/9a/41/220f49aaea88bc6fa6cba8d05ecf24676326156c23b991e80b3f2fc24c77/pickleshare-0.7.5-py2.py3-none-any.whl
+Collecting futures (from tornado<7,>=4.1->notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/2d/99/b2c4e9d5a30f6471e410a146232b4118e697fa3ffc06d6a65efde84debd0/futures-3.2.0-py2-none-any.whl
+Collecting singledispatch (from tornado<7,>=4.1->notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/c5/10/369f50bcd4621b263927b0a1519987a04383d4a98fb10438042ad410cf88/singledispatch-3.4.0.3-py2.py3-none-any.whl
+Collecting backports_abc>=0.4 (from tornado<7,>=4.1->notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/7d/56/6f3ac1b816d0cd8994e83d0c4e55bc64567532f7dc543378bd87f81cebc7/backports_abc-0.5-py2.py3-none-any.whl
+Collecting python-dateutil>=2.1 (from jupyter-client>=5.2.0->notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/41/17/c62faccbfbd163c7f57f3844689e3a78bae1f403648a6afb1d0866d87fbb/python_dateutil-2.8.0-py2.py3-none-any.whl (226kB)
+   100% |████████████████████████████████| 235kB 5.2MB/s 
+Collecting ptyprocess; os_name != "nt" (from terminado>=0.8.1->notebook->jupyter)
+  Downloading https://files.pythonhosted.org/packages/d1/29/605c2cc68a9992d18dada28206eeada56ea4bd07a239669da41674648b6f/ptyprocess-0.6.0-py2.py3-none-any.whl
+Collecting wcwidth (from prompt-toolkit<2.0.0,>=1.0.0->jupyter-console->jupyter)
+  Downloading https://files.pythonhosted.org/packages/7e/9f/526a6947247599b084ee5232e4f9190a38f398d7300d866af3ab571a5bfe/wcwidth-0.1.7-py2.py3-none-any.whl
+Collecting attrs>=17.4.0 (from jsonschema!=2.5.0,>=2.4->nbformat>=4.4->nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/23/96/d828354fa2dbdf216eaa7b7de0db692f12c234f7ef888cc14980ef40d1d2/attrs-19.1.0-py2.py3-none-any.whl
+Collecting functools32; python_version < "3" (from jsonschema!=2.5.0,>=2.4->nbformat>=4.4->nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/c5/60/6ac26ad05857c601308d8fb9e87fa36d0ebf889423f47c3502ef034365db/functools32-3.2.3-2.tar.gz
+Collecting pyrsistent>=0.14.0 (from jsonschema!=2.5.0,>=2.4->nbformat>=4.4->nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/8c/46/4e93ab8a379d7efe93f20a0fb8a27bdfe88942cc954ab0210c3164e783e0/pyrsistent-0.14.11.tar.gz (104kB)
+    100% |████████████████████████████████| 112kB 38.7MB/s 
+Collecting scandir; python_version < "3.5" (from pathlib2; python_version == "2.7" or python_version == "3.3"->ipython<6.0.0,>=4.0.0; python_version < "3.3"->ipywidgets->jupyter)
+  Downloading https://files.pythonhosted.org/packages/df/f5/9c052db7bd54d0cbf1bc0bb6554362bba1012d03e5888950a4f5c5dadc4e/scandir-1.10.0.tar.gz
+jsonschema 3.0.1 has requirement six>=1.11.0, but you'll have six 1.10.0 which is incompatible.
+Installing collected packages: pandocfilters, configparser, entrypoints, MarkupSafe, jinja2, defusedxml, testpath, ipython-genutils, decorator, enum34, traitlets, jupyter-core, attrs, functools32,
+ pyrsistent, jsonschema, nbformat, pygments, webencodings, bleach, mistune, nbconvert, wcwidth, prompt-toolkit, ptyprocess, pexpect, backports.shutil-get-terminal-size, scandir, pathlib2, simplege
+neric, pickleshare, ipython, futures, singledispatch, backports-abc, tornado, pyzmq, python-dateutil, jupyter-client, Send2Trash, terminado, ipykernel, prometheus-client, ipaddress, notebook, widg
+etsnbextension, ipywidgets, qtconsole, jupyter-console, jupyter
+  Running setup.py install for pandocfilters ... done
+  Running setup.py install for functools32 ... done
+  Running setup.py install for pyrsistent ... done
+  Running setup.py install for scandir ... done
+  Running setup.py install for simplegeneric ... done
+  Running setup.py install for tornado ... done
+  Running setup.py install for Send2Trash ... done
+  Running setup.py install for prometheus-client ... done
+Successfully installed MarkupSafe-1.1.1 Send2Trash-1.5.0 attrs-19.1.0 backports-abc-0.5 backports.shutil-get-terminal-size-1.0.0 bleach-3.1.0 configparser-3.7.4 decorator-4.4.0 defusedxml-0.6.0 en
+trypoints-0.3 enum34-1.1.6 functools32-3.2.3.post2 futures-3.2.0 ipaddress-1.0.22 ipykernel-4.10.0 ipython-5.8.0 ipython-genutils-0.2.0 ipywidgets-7.4.2 jinja2-2.10.1 jsonschema-3.0.1 jupyter-1.0.
+0 jupyter-client-5.2.4 jupyter-console-5.2.0 jupyter-core-4.4.0 mistune-0.8.4 nbconvert-5.4.1 nbformat-4.4.0 notebook-5.7.8 pandocfilters-1.4.2 pathlib2-2.3.3 pexpect-4.7.0 pickleshare-0.7.5 prome
+theus-client-0.6.0 prompt-toolkit-1.0.16 ptyprocess-0.6.0 pygments-2.3.1 pyrsistent-0.14.11 python-dateutil-2.8.0 pyzmq-18.0.1 qtconsole-4.4.3 scandir-1.10.0 simplegeneric-0.8.1 singledispatch-3.4
+.0.3 terminado-0.8.2 testpath-0.4.2 tornado-5.1.1 traitlets-4.3.2 wcwidth-0.1.7 webencodings-0.5.1 widgetsnbextension-3.4.2
+doshi_nik@cnn-instance-jupy:~$ 
+
+  Downloading https://files.pythonhosted.org/packages/13/2e/ea40de0304bb1dc4eb309de90aeec39871b9b7c4bd30f1a3cdcb3496f5c0/Send2Trash-1.5.0.tar.gz
+  
+  
+Collecting entrypoints>=0.2.2 (from nbconvert->jupyter)
+  Downloading https://files.pythonhosted.org/packages/ac/c6/44694103f8c221443ee6b0041f69e2740d89a25641e62fb4f2ee568f2f9c/entrypoints-0.3-py2.py3-none-any.whl
+Collecting jinja2 (from nbconvert->jupyter)
+
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ pip install tensorflow
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support
+ for Python 2.7.
+Collecting tensorflow
+  Downloading https://files.pythonhosted.org/packages/d2/ea/ab2c8c0e81bd051cc1180b104c75a865ab0fc66c89be992c4b20bbf6d624/tensorflow-1.13.1-cp27-cp27mu-manylinux1_x86_64.whl (92.5MB)
+    100% |████████████████████████████████| 92.5MB 252kB/s 
+Collecting astor>=0.6.0 (from tensorflow)
+  Downloading https://files.pythonhosted.org/packages/35/6b/11530768cac581a12952a2aad00e1526b89d242d0b9f59534ef6e6a1752f/astor-0.7.1-py2.py3-none-any.whl
+Requirement already satisfied: enum34>=1.1.6 in /usr/local/lib/python2.7/dist-packages (from tensorflow) (1.1.6)
+Collecting protobuf>=3.6.1 (from tensorflow)
+  Downloading https://files.pythonhosted.org/packages/ea/72/5eadea03b06ca1320be2433ef2236155da17806b700efc92677ee99ae119/protobuf-3.7.1-cp27-cp27mu-manylinux1_x86_64.whl (1.2MB)
+    100% |████████████████████████████████| 1.2MB 19.1MB/s 
+Collecting keras-preprocessing>=1.0.5 (from tensorflow)
+  Downloading https://files.pythonhosted.org/packages/c0/bf/0315ef6a9fd3fc2346e85b0ff1f5f83ca17073f2c31ac719ab2e4da0d4a3/Keras_Preprocessing-1.0.9-py2.py3-none-any.whl (59kB)
+    100% |████████████████████████████████| 61kB 30.9MB/s 
+Collecting gast>=0.2.0 (from tensorflow)
+  Downloading https://files.pythonhosted.org/packages/4e/35/11749bf99b2d4e3cceb4d55ca22590b0d7c2c62b9de38ac4a4a7f4687421/gast-0.2.2.tar.gz
+Requirement already satisfied: six>=1.10.0 in /usr/lib/python2.7/dist-packages (from tensorflow) (1.10.0)
+Collecting tensorboard<1.14.0,>=1.13.0 (from tensorflow)
+  Downloading https://files.pythonhosted.org/packages/89/ac/48dd71c2bdc8d31e367f9b72f25ccb3b89bc6b9d664fee21f9a8efa5714d/tensorboard-1.13.1-py2-none-any.whl (3.2MB)
+    100% |████████████████████████████████| 3.2MB 8.7MB/s 
+Collecting wheel (from tensorflow)
+  Downloading https://files.pythonhosted.org/packages/96/ba/a4702cbb6a3a485239fbe9525443446203f00771af9ac000fa3ef2788201/wheel-0.33.1-py2.py3-none-any.whl
+Collecting absl-py>=0.1.6 (from tensorflow)
+  Downloading https://files.pythonhosted.org/packages/da/3f/9b0355080b81b15ba6a9ffcf1f5ea39e307a2778b2f2dc8694724e8abd5b/absl-py-0.7.1.tar.gz (99kB)
+    100% |████████████████████████████████| 102kB 39.6MB/s 
+Collecting backports.weakref>=1.0rc1 (from tensorflow)
+  Downloading https://files.pythonhosted.org/packages/88/ec/f598b633c3d5ffe267aaada57d961c94fdfa183c5c3ebda2b6d151943db6/backports.weakref-1.0.post1-py2.py3-none-any.whl
+Collecting termcolor>=1.1.0 (from tensorflow)
+  Downloading https://files.pythonhosted.org/packages/8a/48/a76be51647d0eb9f10e2a4511bf3ffb8cc1e6b14e9e4fab46173aa79f981/termcolor-1.1.0.tar.gz
+Collecting numpy>=1.13.3 (from tensorflow)
+  Downloading https://files.pythonhosted.org/packages/c4/33/8ec8dcdb4ede5d453047bbdbd01916dbaccdb63e98bba60989718f5f0876/numpy-1.16.2-cp27-cp27mu-manylinux1_x86_64.whl (17.0MB)
+    100% |████████████████████████████████| 17.0MB 1.7MB/s 
+Collecting tensorflow-estimator<1.14.0rc0,>=1.13.0 (from tensorflow)
+  Downloading https://files.pythonhosted.org/packages/bb/48/13f49fc3fa0fdf916aa1419013bb8f2ad09674c275b4046d5ee669a46873/tensorflow_estimator-1.13.0-py2.py3-none-any.whl (367kB)
+    100% |████████████████████████████████| 368kB 44.0MB/s 
+Collecting grpcio>=1.8.6 (from tensorflow)
+  Downloading https://files.pythonhosted.org/packages/7c/59/4da8df60a74f4af73ede9d92a75ca85c94bc2a109d5f67061496e8d496b2/grpcio-1.20.0-cp27-cp27mu-manylinux1_x86_64.whl (2.1MB)
+    100% |████████████████████████████████| 2.1MB 19.6MB/s 
+Collecting mock>=2.0.0 (from tensorflow)
+  Downloading https://files.pythonhosted.org/packages/e6/35/f187bdf23be87092bd0f1200d43d23076cee4d0dec109f195173fd3ebc79/mock-2.0.0-py2.py3-none-any.whl (56kB)
+    100% |████████████████████████████████| 61kB 32.9MB/s 
+Collecting keras-applications>=1.0.6 (from tensorflow)
+  Downloading https://files.pythonhosted.org/packages/90/85/64c82949765cfb246bbdaf5aca2d55f400f792655927a017710a78445def/Keras_Applications-1.0.7-py2.py3-none-any.whl (51kB)
+    100% |████████████████████████████████| 61kB 28.7MB/s 
+Requirement already satisfied: setuptools in /usr/lib/python2.7/dist-packages (from protobuf>=3.6.1->tensorflow) (20.7.0)
+Requirement already satisfied: futures>=3.1.1; python_version < "3" in /usr/local/lib/python2.7/dist-packages (from tensorboard<1.14.0,>=1.13.0->tensorflow) (3.2.0)
+Collecting markdown>=2.6.8 (from tensorboard<1.14.0,>=1.13.0->tensorflow)
+
+ Downloading https://files.pythonhosted.org/packages/f5/e4/d8c18f2555add57ff21bf25af36d827145896a07607486cc79a2aea641af/Markdown-3.1-py2.py3-none-any.whl (87kB)
+    100% |████████████████████████████████| 92kB 40.1MB/s 
+Collecting werkzeug>=0.11.15 (from tensorboard<1.14.0,>=1.13.0->tensorflow)
+  Downloading https://files.pythonhosted.org/packages/18/79/84f02539cc181cdbf5ff5a41b9f52cae870b6f632767e43ba6ac70132e92/Werkzeug-0.15.2-py2.py3-none-any.whl (328kB)
+    100% |████████████████████████████████| 337kB 44.8MB/s 
+Collecting pbr>=0.11 (from mock>=2.0.0->tensorflow)
+  Downloading https://files.pythonhosted.org/packages/14/09/12fe9a14237a6b7e0ba3a8d6fcf254bf4b10ec56a0185f73d651145e9222/pbr-5.1.3-py2.py3-none-any.whl (107kB)
+    100% |████████████████████████████████| 112kB 45.8MB/s 
+Collecting funcsigs>=1; python_version < "3.3" (from mock>=2.0.0->tensorflow)
+  Downloading https://files.pythonhosted.org/packages/69/cb/f5be453359271714c01b9bd06126eaf2e368f1fddfff30818754b5ac2328/funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting h5py (from keras-applications>=1.0.6->tensorflow)
+  Downloading https://files.pythonhosted.org/packages/53/08/27e4e9a369321862ffdce80ff1770553e9daec65d98befb2e14e7478b698/h5py-2.9.0-cp27-cp27mu-manylinux1_x86_64.whl (2.8MB)
+    100% |████████████████████████████████| 2.8MB 13.1MB/s 
+markdown 3.1 has requirement setuptools>=36, but you'll have setuptools 20.7.0 which is incompatible.
+Installing collected packages: astor, protobuf, numpy, keras-preprocessing, gast, markdown, grpcio, wheel, werkzeug, absl-py, tensorboard, backports.weakref, termcolor, pbr, funcsigs, mock, tensor
+flow-estimator, h5py, keras-applications, tensorflow
+Could not install packages due to an EnvironmentError: [Errno 13] Permission denied: '/usr/local/lib/python2.7/dist-packages/astor-0.7.1.dist-info'
+Consider using the `--user` option or check the permissions.
+
+doshi_nik@cnn-instance-jupy:~$ bash Anaconda3-4.0.0-Linux-x86_64.sh
+
+Python 3.5.1 :: Continuum Analytics, Inc.
+creating default environment...
+installation finished.
+Do you wish the installer to prepend the Anaconda3 install location
+to PATH in your /home/doshi_nik/.bashrc ? [yes|no]
+[no] >>> yes
+Prepending PATH=/home/doshi_nik/anaconda3/bin to PATH in /home/doshi_nik/.bashrc
+A backup will be made to: /home/doshi_nik/.bashrc-anaconda3.bak
+For this change to become active, you have to open a new terminal.
+Thank you for installing Anaconda3!
+Share your notebooks and packages on Anaconda Cloud!
+Sign up for free: https://anaconda.org
+doshi_nik@cnn-instance-jupy:~$ 
+
+doshi_nik@cnn-instance-jupy:~$ python3 --version
+Python 3.5.2
+doshi_nik@cnn-instance-jupy:~$ sudo apt-get install python-pip python-dev
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+python-dev is already the newest version (2.7.12-1~16.04).
+The following additional packages will be installed:
+  libpython-all-dev python-all python-all-dev python-pip-whl python-wheel
+The following NEW packages will be installed:
+  libpython-all-dev python-all python-all-dev python-pip python-pip-whl python-wheel
+0 upgraded, 6 newly installed, 0 to remove and 0 not upgraded.
+Need to get 1,306 kB of archives.
+After this operation, 2,084 kB of additional disk space will be used.
+Do you want to continue? [Y/n] 
+
+
+
+
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ sudo apt-get install python3-pip python3-dev
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following additional packages will be installed:
+  libpython3-dev libpython3.5-dev python3-setuptools python3-wheel python3.5-dev
+Suggested packages:
+  python-setuptools-doc
+The following NEW packages will be installed:
+  libpython3-dev libpython3.5-dev python3-dev python3-pip python3-setuptools python3-wheel python3.5-dev
+0 upgraded, 7 newly installed, 0 to remove and 0 not upgraded.
+Need to get 38.0 MB of archives.
+After this operation, 55.2 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libpython3.5-dev amd64 3.5.2-2ubuntu0~16.04.5 [37.3 MB]
+Get:2 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial/main amd64 libpython3-dev amd64 3.5.1-3 [6,926 B]
+Get:3 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 python3.5-dev amd64 3.5.2-2ubuntu0~16.04.5 [413 kB]
+Get:4 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial/main amd64 python3-dev amd64 3.5.1-3 [1,186 B]
+Get:5 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 python3-pip all 8.1.1-2ubuntu0.4 [109 kB]
+Get:6 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial/main amd64 python3-setuptools all 20.7.0-1 [88.0 kB]
+Get:7 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial/universe amd64 python3-wheel all 0.29.0-1 [48.1 kB]
+Fetched 38.0 MB in 1s (19.4 MB/s)        
+Selecting previously unselected package libpython3.5-dev:amd64.
+(Reading database ... 76631 files and directories currently installed.)
+Preparing to unpack .../libpython3.5-dev_3.5.2-2ubuntu0~16.04.5_amd64.deb ...
+Unpacking libpython3.5-dev:amd64 (3.5.2-2ubuntu0~16.04.5) ...
+Selecting previously unselected package libpython3-dev:amd64.
+Preparing to unpack .../libpython3-dev_3.5.1-3_amd64.deb ...
+Unpacking libpython3-dev:amd64 (3.5.1-3) ...
+Selecting previously unselected package python3.5-dev.
+Preparing to unpack .../python3.5-dev_3.5.2-2ubuntu0~16.04.5_amd64.deb ...
+Unpacking python3.5-dev (3.5.2-2ubuntu0~16.04.5) ...
+Selecting previously unselected package python3-dev.
+Preparing to unpack .../python3-dev_3.5.1-3_amd64.deb ...
+Unpacking python3-dev (3.5.1-3) ...
+Selecting previously unselected package python3-pip.
+Preparing to unpack .../python3-pip_8.1.1-2ubuntu0.4_all.deb ...
+Unpacking python3-pip (8.1.1-2ubuntu0.4) ...
+Selecting previously unselected package python3-setuptools.
+Preparing to unpack .../python3-setuptools_20.7.0-1_all.deb ...
+Unpacking python3-setuptools (20.7.0-1) ...
+Selecting previously unselected package python3-wheel.
+Preparing to unpack .../python3-wheel_0.29.0-1_all.deb ...
+Unpacking python3-wheel (0.29.0-1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up libpython3.5-dev:amd64 (3.5.2-2ubuntu0~16.04.5) ...
+Setting up libpython3-dev:amd64 (3.5.1-3) ...
+Setting up python3.5-dev (3.5.2-2ubuntu0~16.04.5) ...
+
+
+After this operation, 2,084 kB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+Get:1 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 libpython-all-dev amd64 2.7.12-1~16.04 [1,006 B]
+Get:2 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 python-all amd64 2.7.12-1~16.04 [996 B]
+Get:3 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/main amd64 python-all-dev amd64 2.7.12-1~16.04 [1,016 B]
+Get:4 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 python-pip-whl all 8.1.1-2ubuntu0.4 [1,110 kB]
+Get:5 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 python-pip all 8.1.1-2ubuntu0.4 [144 kB]
+Get:6 http://us-east4-c.gce.clouds.archive.ubuntu.com/ubuntu xenial/universe amd64 python-wheel all 0.29.0-1 [48.0 kB]
+Fetched 1,306 kB in 0s (1,749 kB/s)     
+Selecting previously unselected package libpython-all-dev:amd64.
+(Reading database ... 76445 files and directories currently installed.)
+Preparing to unpack .../libpython-all-dev_2.7.12-1~16.04_amd64.deb ...
+Unpacking libpython-all-dev:amd64 (2.7.12-1~16.04) ...
+Selecting previously unselected package python-all.
+Preparing to unpack .../python-all_2.7.12-1~16.04_amd64.deb ...
+Unpacking python-all (2.7.12-1~16.04) ...
+Selecting previously unselected package python-all-dev.
+Preparing to unpack .../python-all-dev_2.7.12-1~16.04_amd64.deb ...
+Unpacking python-all-dev (2.7.12-1~16.04) ...
+Selecting previously unselected package python-pip-whl.
+Preparing to unpack .../python-pip-whl_8.1.1-2ubuntu0.4_all.deb ...
+Unpacking python-pip-whl (8.1.1-2ubuntu0.4) ...
+Selecting previously unselected package python-pip.
+Preparing to unpack .../python-pip_8.1.1-2ubuntu0.4_all.deb ...
+Unpacking python-pip (8.1.1-2ubuntu0.4) ...
+Selecting previously unselected package python-wheel.
+Preparing to unpack .../python-wheel_0.29.0-1_all.deb ...
+Unpacking python-wheel (0.29.0-1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up libpython-all-dev:amd64 (2.7.12-1~16.04) ...
+Setting up python-all (2.7.12-1~16.04) ...
+Setting up python-all-dev (2.7.12-1~16.04) ...
+Setting up python-pip-whl (8.1.1-2ubuntu0.4) ...
+Setting up python-pip (8.1.1-2ubuntu0.4) ...
+Setting up python-wheel (0.29.0-1) ...
+	
+
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ pip3 install --upgrade tensorflow-gpu
+Collecting tensorflow-gpu
+  Downloading https://files.pythonhosted.org/packages/ce/e4/be6d7d17d727b0d2e10d30a87de4e56b8661075eccb8032a8aa5cc84c300/tensorflow_gpu-1.13.1-cp35-cp35m-manylinux1_x86_64.whl (345.2MB)
+    100% |████████████████████████████████| 345.2MB 4.0kB/s 
+Collecting astor>=0.6.0 (from tensorflow-gpu)
+  Downloading https://files.pythonhosted.org/packages/35/6b/11530768cac581a12952a2aad00e1526b89d242d0b9f59534ef6e6a1752f/astor-0.7.1-py2.py3-none-any.whl
+Collecting absl-py>=0.1.6 (from tensorflow-gpu)
+  Downloading https://files.pythonhosted.org/packages/da/3f/9b0355080b81b15ba6a9ffcf1f5ea39e307a2778b2f2dc8694724e8abd5b/absl-py-0.7.1.tar.gz (99kB)
+    100% |████████████████████████████████| 102kB 12.1MB/s 
+Collecting keras-applications>=1.0.6 (from tensorflow-gpu)
+  Downloading https://files.pythonhosted.org/packages/90/85/64c82949765cfb246bbdaf5aca2d55f400f792655927a017710a78445def/Keras_Applications-1.0.7-py2.py3-none-any.whl (51kB)
+    100% |████████████████████████████████| 61kB 13.7MB/s 
+Collecting gast>=0.2.0 (from tensorflow-gpu)
+  Downloading https://files.pythonhosted.org/packages/4e/35/11749bf99b2d4e3cceb4d55ca22590b0d7c2c62b9de38ac4a4a7f4687421/gast-0.2.2.tar.gz
+Collecting grpcio>=1.8.6 (from tensorflow-gpu)
+  Downloading https://files.pythonhosted.org/packages/fb/a3/d5ccc8624ed7adce45c3297ab910cdf3c457a54e61eb231246b66ef18bc1/grpcio-1.20.0-cp35-cp35m-manylinux1_x86_64.whl (2.1MB)
+    100% |████████████████████████████████| 2.1MB 689kB/s 
+Collecting tensorboard<1.14.0,>=1.13.0 (from tensorflow-gpu)
+  Downloading https://files.pythonhosted.org/packages/0f/39/bdd75b08a6fba41f098b6cb091b9e8c7a80e1b4d679a581a0ccd17b10373/tensorboard-1.13.1-py3-none-any.whl (3.2MB)
+    100% |████████████████████████████████| 3.2MB 477kB/s 
+Collecting numpy>=1.13.3 (from tensorflow-gpu)
+  Downloading https://files.pythonhosted.org/packages/e3/18/4f013c3c3051f4e0ffbaa4bf247050d6d5e527fe9cb1907f5975b172f23f/numpy-1.16.2-cp35-cp35m-manylinux1_x86_64.whl (17.2MB)
+    100% |████████████████████████████████| 17.2MB 84kB/s 
+Collecting protobuf>=3.6.1 (from tensorflow-gpu)
+  Downloading https://files.pythonhosted.org/packages/81/59/c7b0815a78fd641141f24a6ece878293eae6bf1fce40632a6ab9672346aa/protobuf-3.7.1-cp35-cp35m-manylinux1_x86_64.whl (1.2MB)
+    100% |████████████████████████████████| 1.2MB 1.2MB/s 
+Collecting six>=1.10.0 (from tensorflow-gpu)
+  Downloading https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
+Collecting tensorflow-estimator<1.14.0rc0,>=1.13.0 (from tensorflow-gpu)
+  Downloading https://files.pythonhosted.org/packages/bb/48/13f49fc3fa0fdf916aa1419013bb8f2ad09674c275b4046d5ee669a46873/tensorflow_estimator-1.13.0-py2.py3-none-any.whl (367kB)
+    100% |████████████████████████████████| 368kB 4.0MB/s 
+Collecting termcolor>=1.1.0 (from tensorflow-gpu)
+  Downloading https://files.pythonhosted.org/packages/8a/48/a76be51647d0eb9f10e2a4511bf3ffb8cc1e6b14e9e4fab46173aa79f981/termcolor-1.1.0.tar.gz
+Collecting wheel>=0.26 (from tensorflow-gpu)
+  Downloading https://files.pythonhosted.org/packages/96/ba/a4702cbb6a3a485239fbe9525443446203f00771af9ac000fa3ef2788201/wheel-0.33.1-py2.py3-none-any.whl
+Collecting keras-preprocessing>=1.0.5 (from tensorflow-gpu)
+  Downloading https://files.pythonhosted.org/packages/c0/bf/0315ef6a9fd3fc2346e85b0ff1f5f83ca17073f2c31ac719ab2e4da0d4a3/Keras_Preprocessing-1.0.9-py2.py3-none-any.whl (59kB)
+    100% |████████████████████████████████| 61kB 11.3MB/s 
+Collecting h5py (from keras-applications>=1.0.6->tensorflow-gpu)
+  Downloading https://files.pythonhosted.org/packages/4c/77/c4933e12dca0f61bcdafc207c7532e1250b8d12719459fd85132f3daa9fd/h5py-2.9.0-cp35-cp35m-manylinux1_x86_64.whl (2.8MB)
+    100% |████████████████████████████████| 2.8MB 528kB/s 
+Collecting markdown>=2.6.8 (from tensorboard<1.14.0,>=1.13.0->tensorflow-gpu)
+  Downloading https://files.pythonhosted.org/packages/f5/e4/d8c18f2555add57ff21bf25af36d827145896a07607486cc79a2aea641af/Markdown-3.1-py2.py3-none-any.whl (87kB)
+    100% |████████████████████████████████| 92kB 12.2MB/s 
+Collecting werkzeug>=0.11.15 (from tensorboard<1.14.0,>=1.13.0->tensorflow-gpu)
+  Downloading https://files.pythonhosted.org/packages/18/79/84f02539cc181cdbf5ff5a41b9f52cae870b6f632767e43ba6ac70132e92/Werkzeug-0.15.2-py2.py3-none-any.whl (328kB)
+    100% |████████████████████████████████| 337kB 4.4MB/s 
+Collecting setuptools (from protobuf>=3.6.1->tensorflow-gpu)
+
+ Downloading https://files.pythonhosted.org/packages/c8/b0/cc6b7ba28d5fb790cf0d5946df849233e32b8872b6baca10c9e002ff5b41/setuptools-41.0.0-py2.py3-none-any.whl (575kB)
+    100% |████████████████████████████████| 583kB 2.6MB/s 
+Collecting mock>=2.0.0 (from tensorflow-estimator<1.14.0rc0,>=1.13.0->tensorflow-gpu)
+  Downloading https://files.pythonhosted.org/packages/e6/35/f187bdf23be87092bd0f1200d43d23076cee4d0dec109f195173fd3ebc79/mock-2.0.0-py2.py3-none-any.whl (56kB)
+    100% |████████████████████████████████| 61kB 11.9MB/s 
+Collecting pbr>=0.11 (from mock>=2.0.0->tensorflow-estimator<1.14.0rc0,>=1.13.0->tensorflow-gpu)
+  Downloading https://files.pythonhosted.org/packages/14/09/12fe9a14237a6b7e0ba3a8d6fcf254bf4b10ec56a0185f73d651145e9222/pbr-5.1.3-py2.py3-none-any.whl (107kB)
+    100% |████████████████████████████████| 112kB 11.6MB/s 
+Building wheels for collected packages: absl-py, gast, termcolor
+  Running setup.py bdist_wheel for absl-py ... done
+  Stored in directory: /home/doshi_nik/.cache/pip/wheels/ee/98/38/46cbcc5a93cfea5492d19c38562691ddb23b940176c14f7b48
+  Running setup.py bdist_wheel for gast ... done
+  Stored in directory: /home/doshi_nik/.cache/pip/wheels/5c/2e/7e/a1d4d4fcebe6c381f378ce7743a3ced3699feb89bcfbdadadd
+  Running setup.py bdist_wheel for termcolor ... done
+  Stored in directory: /home/doshi_nik/.cache/pip/wheels/7c/06/54/bc84598ba1daf8f970247f550b175aaaee85f68b4b0c5ab2c6
+Successfully built absl-py gast termcolor
+Installing collected packages: astor, six, absl-py, numpy, h5py, keras-applications, gast, grpcio, setuptools, markdown, protobuf, werkzeug, wheel, tensorboard, pbr, mock, tensorflow-estimator, termcolor, keras-preprocessing, tensorflow-gpu
+Successfully installed absl-py astor gast grpcio h5py keras-applications keras-preprocessing markdown mock numpy pbr protobuf setuptools-20.7.0 six-1.10.0 tensorboard tensorflow-estimator tensorflow-gpu termcolor werkzeug wheel-0.29.0
+You are using pip version 8.1.1, however version 19.0.3 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.
+doshi_nik@cnn-instance-jupy:~$ pip install --upgrade pip
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.
+Requirement already up-to-date: pip in /usr/local/lib/python2.7/dist-packages/pip-19.0.3-py2.7.egg (19.0.3)
+doshi_nik@cnn-instance-jupy:~$ 
+
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ source ~/.bashrc
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ jupyter notebook --generate-config
+Writing default config to: /home/doshi_nik/.jupyter/jupyter_notebook_config.py
+doshi_nik@cnn-instance-jupy:~$ 
+
+doshi_nik@cnn-instance-jupy:~$ vi /home/doshi_nik/.jupyter/jupyter_notebook_config.py
+doshi_nik@cnn-instance-jupy:~$ 	
+
+# Configuration file for jupyter-notebook.
+#------------------------------------------------------------------------------
+# Configurable configuration
+#------------------------------------------------------------------------------
+c = get_config()
+c.NotebookApp.ip = 0.0.0.0
+c.NotebookApp.open_browser = False
+c.NotebookApp.port = 5300
+#------------------------------------------------------------------------------
+# LoggingConfigurable configuration
+#------------------------------------------------------------------------------
+# A parent class for Configurables that log.
+# 
+# Subclasses have a log trait, and the default behavior is to get the logger
+# from the currently running Application.
+#------------------------------------------------------------------------------
+# SingletonConfigurable configuration
+#------------------------------------------------------------------------------
+# A configurable that only allows one instance.
+# 
+# This class is for classes that should only have one instance of itself or
+# *any* subclass. To create and retrieve such a class use the
+# :meth:`SingletonConfigurable.instance` method.
+#------------------------------------------------------------------------------
+# Application configuration
+#------------------------------------------------------------------------------
+# This is an application.
+# The date format used by logging formatters for %(asctime)s
+# c.Application.log_datefmt = '%Y-%m-%d %H:%M:%S'
+# The Logging format template
+# c.Application.log_format = '[%(name)s]%(highlevel)s %(message)s'
+# Set the log level by value or name.
+# c.Application.log_level = 30
+#------------------------------------------------------------------------------
+# JupyterApp configuration
+
+
+
+
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ vi /home/doshi_nik/.jupyter/jupyter_notebook_config.py
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ jupyter-notebook --no-browser --port=5300
+[E 08:56:56.509 NotebookApp] Exception while loading config file /home/doshi_nik/.jupyter/jupyter_notebook_config.py
+    Traceback (most recent call last):
+      File "/home/doshi_nik/anaconda3/lib/python3.5/site-packages/traitlets/config/application.py", line 534, in _load_config_files
+        config = loader.load_config()
+      File "/home/doshi_nik/anaconda3/lib/python3.5/site-packages/traitlets/config/loader.py", line 458, in load_config
+        self._read_file_as_dict()
+      File "/home/doshi_nik/anaconda3/lib/python3.5/site-packages/traitlets/config/loader.py", line 490, in _read_file_as_dict
+        py3compat.execfile(conf_filename, namespace)
+      File "/home/doshi_nik/anaconda3/lib/python3.5/site-packages/ipython_genutils/py3compat.py", line 185, in execfile
+        exec(compiler(f.read(), fname, 'exec'), glob, loc)
+      File "/home/doshi_nik/.jupyter/jupyter_notebook_config.py", line 8
+        c.NotebookApp.ip = 0.0.0.0
+                               ^
+    SyntaxError: invalid syntax
+[I 08:56:56.520 NotebookApp] Writing notebook server cookie secret to /run/user/1002/jupyter/notebook_cookie_secret
+[I 08:56:56.606 NotebookApp] Serving notebooks from local directory: /home/doshi_nik
+[I 08:56:56.606 NotebookApp] 0 active kernels 
+[I 08:56:56.606 NotebookApp] The Jupyter Notebook is running at: http://localhost:5300/
+[I 08:56:56.606 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+^Z
+[1]+  Stopped                 jupyter-notebook --no-browser --port=5300
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ ^C
+doshi_nik@cnn-instance-jupy:~$ 
+
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ ^C
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$  vi /home/doshi_nik/.jupyter/jupyter_notebook_config.py
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ 
+doshi_nik@cnn-instance-jupy:~$ jupyter-notebook --no-browser --port=5300
+[W 09:00:30.653 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+
+
+
+doshi_nik@cnn-instance-jupy:~$ jupyter-notebook --no-browser --port=5300
+[W 09:00:30.653 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 09:00:30.653 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using authentication. This is highly insecure and not recommended.
+[I 09:00:30.654 NotebookApp] The port 5300 is already in use, trying another random port.
+[I 09:00:30.659 NotebookApp] Serving notebooks from local directory: /home/doshi_nik
+[I 09:00:30.659 NotebookApp] 0 active kernels 
+[I 09:00:30.659 NotebookApp] The Jupyter Notebook is running at: http://[all ip addresses on your system]:5301/
+[I 09:00:30.659 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+^C[I 09:10:04.270 NotebookApp] interrupted
+Serving notebooks from local directory: /home/doshi_nik
+0 active kernels 
+The Jupyter Notebook is running at: http://[all ip addresses on your system]:5301/
+Shutdown this notebook server (y/[n])? No answer for 5s: resuming operation...
+n
+^X
+^Z
+[2]+  Stopped                 jupyter-notebook --no-browser --port=5300
+doshi_nik@cnn-instance-jupy:~$ 
+
+
+#------------------------------------------------------------------------------
+:wq!                                
