@@ -44,7 +44,7 @@ My initial category was Weapons.
 
 Here we decided that rendering the object is necessary as by using the saveimage function, there is a lot of noise that also gets captured. We used the renderer Maya Hardware 2.0 as it was the best suited for our objects in capturing shadow and creating images of our choosing.
 
-<img src = "https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/akash/Maya3D-Images-Dataset/Akash/Screen%20Shot%202019-04-23%20at%204.36.22%20AM.png"  width="300" height="700"  />
+<img src = "https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/akash/Maya3D-Images-Dataset/Akash/Render%20settings.png"  width="300" height="700"  />
 <img src="https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/akash/Maya3D-Images-Dataset/Akash/Camera%20Rotation.png" width="960" height="540" /> 
 
 Collected over 30 objetcs in the assigned category to work with in maya.
@@ -64,7 +64,7 @@ We tried several techniques to bring the images in a white backgorund, we went o
 
 After we were done with the white background, our task was to create image sequences with shadows.
 
-<img src="https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/akash/Maya3D-Images-Dataset/Akash/Screen%20Shot%202019-04-23%20at%201.14.40%20AM.png" width="960" height="540" /> 
+<img src="https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/akash/Maya3D-Images-Dataset/Akash/White%20back.png" width="960" height="540" /> 
 
 
 Finally, We came up with the finalized script and used that to create image sequences of the objects.
