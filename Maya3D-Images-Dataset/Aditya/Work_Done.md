@@ -83,23 +83,52 @@ Some of the attributes I tried are
 ![alt text](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/folding_plane_capture.JPG)
 
 <br>
+
 In the above image, you can see that the plane has been folded from one side so that light falls on the object properly and there is sharp change in the background of image in terms of gradient and colors
 <br>
+
 4-Creating such a background was a complicated task. So we finalized a better way of creating a plane background in the form of a white image and turning out the color of plane same as that of background. This method was implemented by Akash and finalized as environment.
 <br>
+
 5-I also contributed in setting up various other parameters of the environment like
 <br>
+
 a-Setting color level of Lambert material
 <br>
+
 b-Finalizing Lambert as material
 <br>
+
 c-Setting up intensity of directional Light
 <br>
+
 d-Trying out various lights like point light, ambient light etc
 <br>
+
 e-Setting up the shadow resolution, Shadow Color, Width Focus and Fog Shadow Intensity
 <br>
+
+f-Changing the settings of Renderer (GPU Instancing, Sampling Count etc)
+<br>
+
+g-Use of different tools like Scale Tool, Tumble Tool, Track Tool, Move Tool etc
+<br>
+
 I tried out various versions of environment using different parameters and then finalized the best one
+<br>
+
+These are some of the Images obtained using the finalized environment
+
+<br>
+
+![alt image]
+
+<br>
+<br>
+
+![alt image]
+
+<br>
 
 
 
