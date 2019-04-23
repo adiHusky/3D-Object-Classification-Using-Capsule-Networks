@@ -78,6 +78,11 @@ Some of the attributes I tried are
 3-Background of objects also played a important role in defining attributes. I tried to set up environment by inserting curved planes in the background of objects so as to avoid any noise in the form of lines.
 <br>
 ![alt text](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/folding_plane_capture.JPG)
+<br>
+In the above image, you can see that the plane has been folded from one side so that light falls on the object properly and there is sharp change in the background of image in terms of gradient and colors
+<br>
+
+
 
 
 
