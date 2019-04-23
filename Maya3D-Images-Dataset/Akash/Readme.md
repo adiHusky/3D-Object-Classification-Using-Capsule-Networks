@@ -16,7 +16,7 @@ In week 1, we learned to rotate objects in maya. I began with rotating the the o
 <img src="https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/akash/Maya3D-Images-Dataset/Akash/SwordZ280.jpg" width="960" height="540" /> 
 <img src="https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/akash/Maya3D-Images-Dataset/Akash/SwordX310.jpg" width="960" height="540" />
 
-Script for rotating the objects
+#### Script for rotating the objects
 ``` python
 import maya.cmds as cmds 
 import maya.mel
