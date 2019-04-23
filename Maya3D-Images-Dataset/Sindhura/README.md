@@ -31,6 +31,8 @@ https://drive.google.com/drive/u/0/folders/1FbC_pVgVmi8HFHlb8RtDvbqfBIH7PS2y
 
 In database part, we came up with the conceptual database schema.
 
+![Branching](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/sindhura/Maya3D-Images-Dataset/Sindhura/Images_ERDiagram.png)
+
 Later, we tried establishing connection with MYSQL workbench using python script where i face challenge in authenticating the root password. After referring to the official MYSQL site i came up with a solution to establish the connection using the below code.
 
 ```sql
@@ -95,7 +97,9 @@ image
 
 
 
-Later there are few modifications that are added to the schema based on the website requirement. Created new physical database based on the changes and inserted the sample data to configure it with cloud.
+Later there are few more attributes are added to the schema based on the website requirement. Created new physical database based on the changes and inserted the sample data to configure it with cloud.
+
+![Branching](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/sindhura/Maya3D-Images-Dataset/Sindhura/latestdbschema.PNG)
 
 
 
