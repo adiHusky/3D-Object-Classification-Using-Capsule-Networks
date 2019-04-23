@@ -81,7 +81,7 @@ for i in range(1,5):
 But the above script did not work as the attribute was not set nor the rotate function was used.
 This script just helped the 3D model to rotate once.
  
-Later we finalized on a python script that we used to capture shots of 3D image models in every angles.
+Later we finalized on a python script along with some environt changes in Maya that we used to capture shots of 3D image models in every angles.
 I worked on 12 3D image models after understanding the final script.
 <br> Below is the list of the 3D items I tried capturing in every angles using Maya:
 <br>
@@ -101,4 +101,10 @@ I worked on 12 3D image models after understanding the final script.
 <br> The below google drive has the shots of 12 3D models that I captured using Maya software.
  
 [https://drive.google.com/drive/u/1/folders/1FpUACGEFzOjraD5kWR0_3Elz0reb157E]()
+
+Next, to get started with the database we had to come up with a schema to store the images.
+I along with the database team tried to understand what are the attributes that can be added for the captured images with respect to the category and came up with a schema.
+
+![Branching]()
+![Octocat]()
 
