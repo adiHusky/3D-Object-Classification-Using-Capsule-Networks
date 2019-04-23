@@ -287,15 +287,15 @@ insertBLOB("...\capture1.png")
 ```
 The above written snippet is a brief excerpt of the work I have done so far towards the project Capsule Neural Networks project.
 
-Things I learnt:
+<br> Things I learnt:
 
-1.) Basics of Maya on exporting/importing and running python scripts on objects
-2.) Learnt how to read an image property using python script
-3.) Learnt about MEL (basics)
-4.) How an object can be viewed from every angle using python script and MEL library
-5.) How a SQL connection can be established using python
-6.) Learnt about Google Cloud Platform on setting up instances for storage bucket and SQL database
-7.) Learnt to create a Database in GCP
+<br> 1.) Basics of Maya on exporting/importing and running python scripts on objects
+<br> 2.) Learnt how to read an image property using python script
+<br> 3.) Learnt about MEL (basics)
+<br> 4.) How an object can be viewed from every angle using python script and MEL library
+<br> 5.) How a SQL connection can be established using python
+<br> 6.) Learnt about Google Cloud Platform on setting up instances for storage bucket and SQL database
+<br> 7.) Learnt to create a Database in GCP
 
 #CONCLUSION 
 
