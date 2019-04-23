@@ -147,6 +147,10 @@ These are some of the Images obtained using the finalized environment
 
 In  order to pipeline the process of creating environment and selection of objects, I worked with Akash collabaratively in order to make a script 
 
+<br>
+
+![alt img]()
+
 
 
 
