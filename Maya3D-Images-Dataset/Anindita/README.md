@@ -109,13 +109,85 @@ I worked on 12 3D image models after understanding the final script.
  
 [https://drive.google.com/drive/u/1/folders/1FpUACGEFzOjraD5kWR0_3Elz0reb157E]()
 
-Next, to get started with the database we had to come up with a schema to store the images.
+Next, to get started we had to come up with a conceptual schema to create the database.
 I along with the database team tried to understand what are the attributes that can be added for the captured images with respect to the category and came up with a schema.
+
+Next we had to import the properties of the images to store its properties into a csv that we can import into a database.
+As a python beginner, I came up with a script on how to read an image using python and get its properties.
+I referred few youtube videos for it.
+
+```python
+import numpy as np
+import cv2
+
+img = cv2.imread('.../Desktop/Capture.png')
+print('Image shape is \n', img.shape)
+print('Image shape is \n', img.size)
+print('Image datatype is \n', img.dtype)
+
+```
+Later one final script got created that gives the properties of images while it iterates through various folders and its images and gets the data exported to a CSV file.
 
 ![Branching]()
 ![Octocat]()
 
-And the initial database .dbo file is stored in the link []() that got modified later for the website integration.
+And then I along with my team mates came up with the initial database schema and the .dbo file that is stored in the link []() that got modified later for the website integration.
+First we started with how to connect a database in GCP.
+Initially we did a dry run to create a database in Google Cloud Platform by running queries later to check if building a schema was possible in GCP and how.
+
+1.) Query to Create a Database:
+
+```
+CREATE DATABASE Images;
+```
+2.) Query to Insert data into a Database
+
+```
+USE Images;
+CREATE TABLE entries (ImageName VARCHAR(255), Properties VARCHAR(255),
+    ImageID INT NOT NULL, PRIMARY KEY(ImageID));
+    INSERT INTO entries (ImageName, Properties) values ("Dog", "12.3MB");
+    INSERT INTO entries (ImageName, Properties) values ("Cat", "16.8MB");  
+```
+So we can see from the above two examples that it is completely the same as we do in MySQL
+
+Then later it was decided that we will be importing the same database used by the website and hence we moved on with the cloud integration part and worked on creating cloud instances for integrating a sql database and storage bucket.
+I moved on with learning on Setting up / (Linking) own domain to google cloud Storage and hosting it for free on GCP.
+The steps that I researched through various videos combines to the ones stated below:
+
+```
+- Network Services > Cloud DNS > Zone
+- Go to the Domain > Manage DNS
+- Nameservers (Edit the name) -- add the servers that are already given by google
+- Go to Cloud Storage
+- Create a bucket
+- Click on edit website config > main page opens up > set it with the name
+- Cloud & Domain linked (For eg: from GoDaddy) or if other Domain site then go to manage DNS (server names given by google)
+
+```
+Similarly next to import MySQL to cloud SQL Instance, I researched and concluded with the below steps:
+
+```
+- Under GCP> Click on SQL
+- Create Instance> Choose first generation
+- Choose same region> Instance ID> Click on create
+- Go to Console or MAMP
+- Open Webstart page > Click on the DB > Export> Custom > SQL > Go> Uncheck enclose table & column names> Go
+- Copy the code & save it as DB.sql file
+- Click to the DB Instance> Import (SQL or CSV) 
+- In the meanwhile save the DB(exported one) into the storage> Select the DB
+- And the MySQL DB gets imported to SQL instance
+
+```
+And lastly for hosting a website I came across few videos that helped me to come up with the below commands:
+
+```
+
+```
+
+
+
+
 
 
 
