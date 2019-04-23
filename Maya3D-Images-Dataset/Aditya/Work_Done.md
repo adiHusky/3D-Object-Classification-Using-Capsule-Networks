@@ -162,15 +162,13 @@ In addition to normal decided dataset, I have also added some additional paramet
 <br>
 The below image is the finalised Database
 <br>
-
+![alt image](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/DB_Schema.png)
 <br>
 
 <br>
 
 
-## Future Scope
 
-Database of 
 
 
 
