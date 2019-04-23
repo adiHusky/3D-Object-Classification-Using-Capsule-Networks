@@ -182,6 +182,65 @@ Similarly next to import MySQL to cloud SQL Instance, I researched and concluded
 And lastly for hosting a website I came across few videos that helped me to come up with the below commands:
 
 ```
+1.) Go to console.cloud.google.com
+2.) Go to Compute Engine> New VM Instance> Create> Boot disk(change)> Ubuntu 18.04 LTS> Size = 30> Machine Type(US-Central 1)
+3.) Allow HTTP or HTTPs traffic> Check two options> Name (Website name) -- created the instance
+4.) Under instance = Connect (view gcloud command)
+5.) Copy the gcloud command line
+6.) Paste it in the terminal
+7.) sudo apt update && sudo apt upgrade
+8.) htop sudo fallocate -l 1g/swapfile
+9.) sudo dd if=/dev/zero of=/swapfile bs=1024 count = 1048576
+10.) sudo chmod 600/swapfile (for security concern)
+11.) sudo mkswap/swapfile
+12.) sudo swapon/swapfile
+13.) sudo nano/etc/fstab
+14.) sudo mount -a
+15.) htop (to verify the space)
+16.) sudo apt install tasksel
+17.) sudo tasksel install lamp server
+18.) sudo apt install php-curl php-gd php-mbstring php-xml php-xmlrpc
+19.) curl ipconfig.me
+20.) setup dns
+21.) sudo nano/etc/hosts
+22.) cd/etc/apache2/sites-available$ll
+23.) cp 000-default.config* ... (domain).com.conf
+24.) sudo cp 000-default.config* ... (domain).com.conf
+25.) sudo sin
+26.) clear
+27.) edit the server name <Directory /var/new>
+28.) a2 dissite 00.default.conf
+29.) a2 ensite server.com
+30.) system ctl reload apache2
+31.) run the website in the link
+32.) mysql -uroot
+33.) create database abc (for eg.)
+34.) grant ALL on abc.*To 'abc user' identified by 'Secure123' (for eg. password)
+35.) quit
+36.) mysql_secure_installation(mysql is secured)
+37.) New password
+38.) All 'Y'
+39.) cd /etc/php/7.2/apache2
+40.) nano php.ini 
+41.) max_input_time=30 (set to 30 from 60)
+42.) Set to upload_max_filesize = 20M
+43.) Set to post_max_size = 21M
+44.) id~
+45.) id/var/www/html/
+46.) /var/www/html#ll
+47.) /var/www/html#mvindex.html 
+48.) /var/www/html#tar_xvf.latest
+49.) mv.wp-config-sample.php wp-config.php
+50.) verify the database names
+51.) visit the website/wp-admin/install.php
+52.) nano/etc/apache2/mods-enabled/mpm-prefork.com
+53.)  Start server 1
+      Minimum      2
+      Maximun      5
+      MaxRes       10
+      MaxConn      1000
+54.) cd2
+55.) wget
 
 ```
 
