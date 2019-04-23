@@ -288,7 +288,7 @@ def insertBLOB(photo):
 insertBLOB("...\Images\capture.png")
 insertBLOB("...\capture1.png")
 ```
-The above written snippet is a brief excerpt of the work I have done so far towards the project Capsule Neural Networks project.
+The above written brief piece of work is an excerpt of the tasks I have done so far towards the project Capsule Neural Networks project.
 
 **Things I learnt:**
 <br> 1.) Basics of Maya on exporting/importing and running python scripts on objects
