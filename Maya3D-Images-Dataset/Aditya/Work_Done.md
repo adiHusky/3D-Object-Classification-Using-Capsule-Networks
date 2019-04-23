@@ -177,13 +177,15 @@ These are some of the images without Shadows and White Background
 
 <br>
 
-![alt image]()
+![alt image](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/Animal_Mammal_Gorilla_X0_Y0_Z0_No_Black_White.png)
 
 
 
 
 
 ## Images with Different Backgrounds
+
+![alt image]()
 
 
 
