@@ -156,16 +156,28 @@ In  order to pipeline the process of creating environment and selection of objec
 In this script I have tried some functions, which selects the object through script, then selects its pivot point and recenter it at the center of the axis. It also makes the coordinate of pivot to 0,0,0. exactWorldBoundingBox() method gives the dimensions of the bounding box of object. By using this dimension, the radius of the circle in which Camera is present can be scaled accordingly. The script is not ready and needs to be revised for its implementation.
 
 <br>
+
 ## Database Schema 
+
 <br>
 In addition to normal decided dataset, I have also added some additional parameters like, objects with shadow, objects without shadow, objects with different backgrounds and shaders. The database shcema has been modified according to the new parameters.
 <br>
 The below image is the finalised Database
 <br>
+
 ![alt image](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/DB_Schema.png)
+
 <br>
 
 <br>
+
+## Images without Shadows
+
+
+
+
+
+## Images with Different Backgrounds
 
 
 
