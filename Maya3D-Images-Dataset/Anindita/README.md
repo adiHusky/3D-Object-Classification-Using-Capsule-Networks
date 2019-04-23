@@ -300,6 +300,6 @@ The above written snippet is a brief excerpt of the work I have done so far towa
 <br> 6.) Learnt about Google Cloud Platform on setting up instances for storage bucket and SQL database
 <br> 7.) Learnt to create a Database in GCP
 
-### CONCLUSION 
+**CONCLUSION** 
 
 The exposure I gained from this project has helped me understand that viewing a 3D model can be implemented in the real time from every angle and also information on the viewed image's properties can be demonstrated for a user to know.
