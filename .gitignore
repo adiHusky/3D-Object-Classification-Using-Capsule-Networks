@@ -1,0 +1,5 @@
+.idea
+CovNets/__pycache__/
+CovNets/data/
+*.zip
+Capsules/3D_object_dataset/
