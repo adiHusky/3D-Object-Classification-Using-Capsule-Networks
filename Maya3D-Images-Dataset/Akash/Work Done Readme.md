@@ -120,7 +120,7 @@ We have created different scenes in maya to collect image sequences for the obje
 
 Meanwhile, we were coming up with changes in the database as the dataset expanded.
 
-<img src="https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/akash/Maya3D-Images-Dataset/Akash/DB_Schema.png" width="700" height="700" /> 
+<img src="https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/akash/Maya3D-Images-Dataset/Akash/final%20db.PNG" width="1000" height="700" /> 
 
 
 [Link for finalized dataset](https://drive.google.com/drive/u/2/folders/1c7wjh__WL8cVYCPE3ebdM8oSq1riKts6)
