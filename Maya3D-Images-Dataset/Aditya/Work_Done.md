@@ -77,7 +77,7 @@ Some of the attributes I tried are
 <br>
 3-Background of objects also played a important role in defining attributes. I tried to set up environment by inserting curved planes in the background of objects so as to avoid any noise in the form of lines.
 <br>
-![alt text]()
+![alt text](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/folding_plane_capture.JPG)
 
 
 
