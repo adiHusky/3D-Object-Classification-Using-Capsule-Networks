@@ -28,6 +28,7 @@ http://help.autodesk.com/cloudhelp/2017/ENU/Maya-Tech-Docs/Commands/getAttr.html
 
 3- I started working on building a script for rotating the object and capture images in different angles by rotating a camera around it. I took Akash's help for this task and below is the script which includes a function
 <br>
-![alt text]()
+![alt text](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/Capture_image_script_1.JPG)
+<br>
 
 
