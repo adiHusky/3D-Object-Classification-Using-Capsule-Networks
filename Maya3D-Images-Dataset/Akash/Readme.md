@@ -2,12 +2,12 @@
 
 ## Tasks:-
 
-Learn Maya to take images of objects
-Learn to rotate, render, scale, combine and translate objects
-Write a script to take pictures of an object from different angles
-Write a script to take pictures of objects with shadows using shader
-Create a dataset of images extracted from images to feed it to a database
-Finalise the attributes of the database
+Learn Maya to take images of objects<br>
+Learn to rotate, render, scale, combine and translate objects<br>
+Write a script to take pictures of an object from different angles<br>
+Write a script to take pictures of objects with shadows using shader<br>
+Create a dataset of images extracted from images to feed it to a database<br>
+Finalise the attributes of the database<br>
 
 ## Week1
 
@@ -52,10 +52,10 @@ Collected over 30 objetcs in the assigned category to work with in maya.
 # Week3
 
 We tried several techniques to bring the images in a white backgorund, we went over 4 instances of background. We attempted to achieve the same with using the following methods:
-1. Placing the object in front of a white plane
-2. Placing the object inside a white cuboid
-3. Placing the object inside a white shpere
-4. Placing an image view in the camera settings
+1. Placing the object in front of a white plane<br>
+2. Placing the object inside a white cuboid<br>
+3. Placing the object inside a white shpere<br>
+4. Placing an image view in the camera settings<br>
 
 
 After we were done with the white background, our task was to create image sequences with shadows.
@@ -114,6 +114,8 @@ We have created different scenes in maya to collect image sequences for the obje
 
 Meanwhile, we were coming up with changes in the database as the dataset expanded.
 
+<img src="https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/akash/Maya3D-Images-Dataset/Akash/DB_Schema.png" width="700" height="700" /> 
 
 
+[Finalized Dataset](https://drive.google.com/drive/u/2/folders/1c7wjh__WL8cVYCPE3ebdM8oSq1riKts6)
 
