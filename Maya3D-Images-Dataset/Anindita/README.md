@@ -1,15 +1,15 @@
 # 3D-Object-Classification-Using-Capsule-Networks
 
 When we got started with the Capsule Neural Networks (CNN) project.
-We got introduced to Maya software to model a 3D image using with python scripting.
+We got introduced to Maya software to model a 3D image using python scripting.
 We were not sure if we had to import a 3D model or create one using python in Maya.
-So to get started first we went through the videos Professor Nik Brown shared with us which was very helpful to begin with.
+So to get started first we went through the videos that was shared by Professor Nik Brown which was very helpful to begin with.
 I started with creating objects like cubes, circles, etc.
-And then I got inquisitive to learn about MEL scripting which is used in Maya.
+And then I learnt about MEL scripting which is used in Maya.
 I just did some basic touchbase and wanted to understand if scripting in MEL or Python was convenient for modelling an object.
-As MEL was something new I got excited and did some basic learning on it.
+As MEL was something new I did some basic learning on it to get a fair understanding.
 
-Few of the examples just to know how a variable and a method is called in MEL just to understand the difference:
+Few of the examples just to know how a variable and a method is called in MEL inorder to understand the difference:
 
 ```mel
  proc hellotellme(string $name, int $abb)
