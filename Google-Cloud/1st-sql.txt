@@ -1,0 +1,88 @@
+anaconda3  Anaconda3-4.0.0-Linux-x86_64.sh  examples  kubernetes-engine-samples  README-cloudshell.txt
+mjohail95@cloudshell:~ (civic-radio-231002)$ pwd
+/home/mjohail95
+mjohail95@cloudshell:~ (civic-radio-231002)$ gcloud sql connect cnn-sql-instance
+Whitelisting your IP for incoming connection for 5 minutes...done.
+Connecting to database with SQL user [root].Enter password:
+Welcome to the MariaDB monitor.  Commands end with ; or \g.
+Your MySQL connection id is 79
+Server version: 5.7.14-google-log (Google)
+
+Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.(n
+MySQL [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| maya_database      |
+| mysql              |
+| performance_schema |
+| sys                |
+| test_database      |
++--------------------+
+6 rows in set (0.04 sec)
+
+MySQL [(none)]> use database test_database;
+ERROR 1049 (42000): Unknown database 'database'
+MySQL [(none)]> use test_database;                                                                                                                                                    
+Database changed
+MySQL [test_database]> create table sample_table(user varchar,)                                                                                                                       
+    -> create table sample_table(user varchar(25),name varchar(25));                                                                                                                  
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')
+create table sample_table(user varchar(25),name varchar(25))' at line 1
+MySQL [test_database]> create table sample_table(id int, name varchar(255));                                                                                                          
+Query OK, 0 rows affected (0.06 sec)
+
+MySQL [test_database]> insert into sample_table values(1,'Joe');                                                                                                                      
+Query OK, 1 row affected (0.04 sec)
+
+MySQL [test_database]> select * from sample_table
+    -> select * from sample_table;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select * from sample_table' at line 2
+MySQL [test_database]> select * from sample_table;
++------+------+
+| id   | name |
++------+------+
+|    1 | Joe  |
++------+------+
+1 row in set (0.04 sec)
+
+MySQL [(none)]> show databases;
++--------------------+
+| Database           |
++--------------------+
+| information_schema |
+| maya_database      |
+| mysql              |
+| performance_schema |
+| sample_test_db     |
+| sys                |
++--------------------+
+6 rows in set (0.04 sec)
+
+MySQL [(none)]> use sample_test_db;
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Database changed
+MySQL [sample_test_db]> show tables;
++--------------------------+
+| Tables_in_sample_test_db |
++--------------------------+
+| sample_image_table       |
++--------------------------+
+1 row in set (0.03 sec)
+
+MySQL [sample_test_db]> select * from sample_image_table;
++----------+----------------+----------+--------+
+| img_name | img_resolution | img_size | img_id |
++----------+----------------+----------+--------+
+| test_img | 760x1080       | 25kb     |    100 |
++----------+----------------+----------+--------+
+1 row in set (0.04 sec)
+
+MySQL [sample_test_db]>
+
+
