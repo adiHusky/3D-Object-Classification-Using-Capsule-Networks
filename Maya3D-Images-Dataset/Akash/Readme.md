@@ -174,3 +174,21 @@ while (cx <=360):
         cy=cy+v  
     cx=cx+v
 ```
+
+### For Pipelining
+
+Worked with the following functions to scale, change the pivot of the object to its center and then find the bounding box outputs to scale the object.
+
+```python
+import maya.cmds as cmds
+
+bbox = cmds.exactWorldBoundingBox( 'd_model:Group_329')
+print 'Bounding box ranges from: %f' % bbox[0], ', %f' % bbox[1], ', %f' % bbox[2],
+print ' to %f' % bbox[3], ', %f' % bbox[4], ', %f' % bbox[5]
+```
+```python
+import maya.cmds as cmds
+
+cmds.xform( cp=True )
+cmds.matchTransform('d_model:Group_329','nurbsCircle1', pos = True)
+```
