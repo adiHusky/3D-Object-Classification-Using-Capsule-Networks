@@ -140,11 +140,11 @@ Next I got involved with the Cloud team to understand its scalability and implem
 And got started with how to connect a database in GCP.
 Initially we did a dry run to create a database in Google Cloud Platform by running queries to check if building a database was possible in GCP and how.
 
-1.) Query to Create a Database:
+**1.) Query to Create a Database:**
 ```
 CREATE DATABASE Images;
 ```
-2.) Query to Insert data into a Database
+**2.) Query to Insert data into a Database**
 ```
 USE Images;
 CREATE TABLE entries (ImageName VARCHAR(255), Properties VARCHAR(255),
