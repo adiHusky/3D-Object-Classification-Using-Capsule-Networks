@@ -5,8 +5,8 @@ We got introduced to Maya software to come up with python scripting for modellin
 I was not sure if we had to import a 3D model or create one using python in Maya.
 So to get started first I went through the videos that professor has shared which was quite helpful.
 And then I got inquisitive to learn about MEL scripting which is used in Maya.
-I just did some touchbase and wanted to understand if scripting in MEL or Python was easy for modelling an object.
-As MEL was something new I got excited and did some basic touchbase on it.
+I just did some basic touchbase and wanted to understand if scripting in MEL or Python was convenient for modelling an object.
+As MEL was something new I got excited and did some basic leaarning on it.
 
 Few of the examples just to know how a variable and a method is called in MEL just to understand the difference:
 
@@ -78,11 +78,11 @@ for i in range(1,5):
             for b in range(1,15):
                 cmds.rotate(0,0,'90deg', 'Retro_TV:Retro_TV')
  ```
- But the above script did not work as the attribute was not set nor the rotate function was used.
- This script just helped the 3D model to rotate once.
+But the above script did not work as the attribute was not set nor the rotate function was used.
+This script just helped the 3D model to rotate once.
  
 Later we finalized on a python script that we used to capture shots of 3D image models in every angles.
-I worked on 12 3D image models.
+I worked on 12 3D image models after understanding the final script.
 <br> Below is the list of the 3D items I tried capturing in every angles using Maya:
 <br>
 <br> 1.) Car Tyre (Automobile Items)
@@ -101,3 +101,4 @@ I worked on 12 3D image models.
 <br> The below google drive has the shots of 12 3D models that I captured using Maya software.
  
 [https://drive.google.com/drive/u/1/folders/1FpUACGEFzOjraD5kWR0_3Elz0reb157E]()
+
