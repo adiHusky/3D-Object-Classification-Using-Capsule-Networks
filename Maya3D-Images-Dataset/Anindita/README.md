@@ -290,8 +290,7 @@ insertBLOB("...\capture1.png")
 ```
 The above written snippet is a brief excerpt of the work I have done so far towards the project Capsule Neural Networks project.
 
-<br> **Things I learnt:**
-
+**Things I learnt:**
 <br> 1.) Basics of Maya on exporting/importing and running python scripts on objects
 <br> 2.) Learnt how to read an image property using python script
 <br> 3.) Learnt about MEL (basics)
