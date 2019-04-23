@@ -165,7 +165,7 @@ In addition to normal decided dataset, I have also added some additional paramet
 The below image is the finalised Database
 <br>
 
-![alt image](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/DB_Schema.png)
+![alt image](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/final%20db.PNG)
 
 <br>
 
