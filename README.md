@@ -36,7 +36,7 @@
 - Images after optimization looked like:
 ![](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/smit/Maya3D-Images-Dataset/Smit/Capture_3.PNG)
 ![](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/smit/Maya3D-Images-Dataset/Smit/Capture_4.PNG)
--Images generated after running the script looked like"
+- Images generated after running the script looked like:
 ![Image Generation](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/smit/Maya3D-Images-Dataset/Smit/Gorilla.PNG)
 
 ### Week 5
@@ -54,4 +54,7 @@
 ![Table_Black](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/smit/Maya3D-Images-Dataset/Smit/Sports_Tennis_TennisTable_X0_Y135_Z315_No_White_Black.png)
 - Also , I created image dataset with real colored or textured objects.
 ![Rose_Color](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/smit/Maya3D-Images-Dataset/Smit/Rose_Color_X0_Y45_Z45.png)
-![]Rose_Color1](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/smit/Maya3D-Images-Dataset/Smit/Rose_Color_X0_Y90_Z270.png)
+![Rose_Color1](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/smit/Maya3D-Images-Dataset/Smit/Rose_Color_X0_Y90_Z270.png)
+- We came up with naming convention such that by looking at it, one can know catergory, sub-category, angles, shaders and backgrounds.
+![Naming_Convention](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/smit/Maya3D-Images-Dataset/Smit/NamingConvention.PNG)
+
