@@ -81,6 +81,15 @@ Some of the attributes I tried are
 <br>
 In the above image, you can see that the plane has been folded from one side so that light falls on the object properly and there is sharp change in the background of image in terms of gradient and colors
 <br>
+4-Creating such a background was a complicated task. So we finalized a better way of creating a plane background in the form of a white image and turning out the color of plane same as that of background. This method was implemented by Akash and finalized as environment.
+<br>
+5-I also contributed in setting up various other parameters of the environment like
+a-Setting color level of Lambert material
+b-Finalizing Lambert as material
+c-Setting up intensity of directional Light
+d-Trying out various lights like point light, ambient light etc
+e-Setting
+
 
 
 
