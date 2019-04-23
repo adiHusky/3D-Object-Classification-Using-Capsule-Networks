@@ -125,3 +125,13 @@ Meanwhile, we were coming up with changes in the database as the dataset expande
 
 [Finalized Dataset](https://drive.google.com/drive/u/2/folders/1c7wjh__WL8cVYCPE3ebdM8oSq1riKts6)
 
+### My contribution towards the final script
+
+Assembled the rendered to open and take images of the objects. This was an improvement on the savimage function that was being used before as it allows us to use different renderer and improve quality of the images while removing noise from it feom the same time.
+
+```
+  mel.eval('renderWindowRender redoPreviousRender renderView')
+                editor =  'renderView'
+                cmds.renderWindowEditor( editor, e=True,refresh = True, writeImage=('/Users/tinyteddybear/Documents/Scar-H/Weapon_Scar-L_'+str(cx)+'_'+str(cy)+'_'+str(cz)))
+```
+
