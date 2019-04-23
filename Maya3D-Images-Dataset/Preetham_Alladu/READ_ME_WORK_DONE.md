@@ -19,7 +19,7 @@
   In week 2, I had to come up with a script which rotate an object and takes pictues and stores them in a folder
   
 ##### The initial images look like below
-  ![Octocat](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/master/Maya3D-Images-Dataset/Preetham_Alladu/2z705q.gif)
+  ![Octocat](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/preetham/Maya3D-Images-Dataset/Preetham_Alladu/pivot_chair_rotate.gif)
   
 > In the above gif , the object is being rotated around its pivot and I was to rotate a camera around the object to make it look more natural.
   
@@ -29,12 +29,12 @@ Thus resulting a need to create a new environment with lights.
 
 ## Week 3 :-
  In week 3, my job was to create a environment with shadows and no gradients, I came up with an environment shown below
- ![Octocat](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/master/Maya3D-Images-Dataset/Preetham_Alladu/BeFunky-collage.jpg)
+ ![Octocat](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/preetham/Maya3D-Images-Dataset/Preetham_Alladu/box_environment_chair.jpg)
  
  But the problem was that it had gradients which causes noise, thus resulting in a new environment
  
  #### Plain environmet and static shadows
- ![Branching](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/master/Maya3D-Images-Dataset/Preetham_Alladu/2z72zl.gif)
+ ![Branching](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/preetham/Maya3D-Images-Dataset/Preetham_Alladu/sphere_evnironment_chair.gif)
  
  
  ## Week 4 :-
