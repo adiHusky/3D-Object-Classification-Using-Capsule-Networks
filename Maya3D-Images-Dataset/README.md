@@ -14,9 +14,11 @@ c-Understanding Python Scripts
 d-Implementing Python scripts for creating basic 3d objects like polygons, planes and cubes
 <br>
 f- Going through documentation of Maya 
+<br>
 https://knowledge.autodesk.com/support/maya/getting-started/caas/simplecontent/content/maya-documentation.html
 <br>
-Understanding various methods like getAttr, setAttr, 
+Understanding various methods like getAttr, setAttr
+![alt text]()
 http://help.autodesk.com/cloudhelp/2017/ENU/Maya-Tech-Docs/Commands/getAttr.html
 <br>
 
