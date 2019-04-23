@@ -35,9 +35,9 @@ These are images of Dog object captured around YX axis
 <br>
 ![alt text](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/image10_10_YXSnapshot.jpg)
 <br>
-![alt text]()
+![alt text]()(https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/image10_20_YXSnapshot.jpg)
 <br>
-![alt text]()
+![alt text]()(https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/image10_30_YXSnapshot.jpg)
 <br>
 <br>
 <br>
