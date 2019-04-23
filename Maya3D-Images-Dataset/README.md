@@ -33,7 +33,7 @@ http://help.autodesk.com/cloudhelp/2017/ENU/Maya-Tech-Docs/Commands/getAttr.html
 The above script has two user defined functions, one is for storing images and the second one is for capsturing images in different angles
 These are images of Dog object captured around YX axis
 <br>
-![alt text]()
+![alt text](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/image10_10_YXSnapshot.jpg)
 <br>
 ![alt text]()
 <br>
