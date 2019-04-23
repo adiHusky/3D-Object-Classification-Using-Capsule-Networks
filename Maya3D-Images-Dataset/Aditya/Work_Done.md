@@ -190,6 +190,12 @@ These are some of the images without Shadows and White Background
 
 ![alt image](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/Electronics_Appliance_Rotary-Telephone_X0_Y225_Z315_No_White_Black.png)
 
+<br>
+
+![alt image](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/rotary_telephone_gif.gif)
+
+
+<br>
 
 
 
