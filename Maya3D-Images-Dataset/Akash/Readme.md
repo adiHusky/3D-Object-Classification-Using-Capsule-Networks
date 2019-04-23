@@ -42,5 +42,22 @@ In week 2, We started with added a camera and rotated the camera 360 around the 
 My initial category was Weapons.
 <img src="https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/akash/Maya3D-Images-Dataset/Akash/Camera%20Rotation.png" width="960" height="540" /> 
 
-Created image sequences for over 30 objects.
+Collected over 30 objetcs in the assigned category to work with in maya.
+
 [Drive](https://drive.google.com/drive/u/2/folders/1sTMKZnjJm9GApuGnRVebdJTLefnl4hMh)
+
+
+
+Week3
+
+We tried several techniques to bring the images in a white backgorund, we went over 4 instances of background. We attempted to achieve the same with using the following methods:
+1. Placing the object in front of a white plane
+2. Placing the object inside a white cuboid
+3. Placing the object inside a white shpere
+4. Placing an image view in the camera settings
+
+
+After we were done with the white background, our task was to create image sequences with shadows.
+
+<img src="https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/akash/Maya3D-Images-Dataset/Akash/Screen%20Shot%202019-04-23%20at%201.14.40%20AM.png" width="960" height="540" /> 
+
