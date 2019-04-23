@@ -47,7 +47,7 @@ Here we decided that rendering the object is necessary as by using the saveimage
 <img src = "https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/akash/Maya3D-Images-Dataset/Akash/Render%20settings.png"  width="300" height="700"  />
 <img src="https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/akash/Maya3D-Images-Dataset/Akash/Camera%20Rotation.png" width="960" height="540" /> 
 
-Collected over 30 objetcs in the assigned category to work with in maya.
+Collected over 30 objects in the assigned category to work with in maya.
 
 [Link for dataset used for testing](https://drive.google.com/drive/u/2/folders/1sTMKZnjJm9GApuGnRVebdJTLefnl4hMh)
 
@@ -127,7 +127,7 @@ Meanwhile, we were coming up with changes in the database as the dataset expande
 
 ### My contribution towards the final script
 
-Assembled the rendered to open and take images of the objects. This was an improvement on the savimage function that was being used before as it allows us to use different renderer and improve quality of the images while removing noise from it feom the same time.
+Assembled the rendered to open and take images of the objects. This was an improvement on the savimage function that was being used before as it allows us to use different renderer and improve quality of the images while removing noise from it from the same time.
 
 ```
   mel.eval('renderWindowRender redoPreviousRender renderView')
