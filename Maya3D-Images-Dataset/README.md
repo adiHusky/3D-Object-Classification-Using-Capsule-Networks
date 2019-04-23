@@ -1,6 +1,6 @@
 # 3D Image dataset generation using Maya
 
-#### Week 1 
+
 1- I was assigned task to Study Maya and get used to its various functionalities, scripting and other parameters
 
 2- I went through all the videos of Maya which covered the following points
@@ -26,9 +26,21 @@ http://help.autodesk.com/cloudhelp/2017/ENU/Maya-Tech-Docs/Commands/getAttr.html
 <br>
 
 
-3- I started working on building a script for rotating the object and capture images in different angles by rotating a camera around it. I took Akash's help for this task and below is the script which includes a function
+3- I started working on building a script for rotating the object and capture images in different angles by rotating a camera around it.  Below is the script which includes a function
 <br>
 ![alt text](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/Capture_image_script_1.JPG)
 <br>
+The above script has two user defined functions, one is for storing images and the second one is for capsturing images in different angles
+<br>
+I have also used cmds.scale function, in which we can change the distance of the camera from the object in X, Y and Z axis respectively.
+<br>
+The saveImage function is used to take the snapshot of the images, but later on Akash found a better way of using a renderer which provides images in higher resolution
+<br>
+
+Finally after contributions from everyone, the script finalized for capturing the images is given below
+
+<br>
+![alt text]()
+
 
 
