@@ -39,13 +39,9 @@ The saveImage function is used to take the snapshot of the images, but later on 
 <br>
 These are images of Dog object captured around YX axis
 <br>
-![alt text](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/image10_10_YXSnapshot.jpg)
+![alt text](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/dog_gif.gif)
 <br>
-<br>
-![alt text](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/image10_20_YXSnapshot.jpg)
-<br>
-![alt text](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/image10_30_YXSnapshot.jpg)
-<br>
+
 <br>
 The below images shows, how the camera is rotating around dog for capturing the images in different angles
 <br>
