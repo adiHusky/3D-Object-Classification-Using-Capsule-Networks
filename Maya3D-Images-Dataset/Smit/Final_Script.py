@@ -30,7 +30,7 @@ while (cx <=360):
 
               mel.eval('renderWindowRender redoPreviousRender renderView')
               editor =  'renderView'
-              cmds.renderWindowEditor( editor, e=True,refresh = True, writeImage=(r'D:\CNN\Smit\Eagle\Bike_X'+str(cx)+'_Y'+str(cy)+'_Z'+str(cz)))
+              cmds.renderWindowEditor( editor, e=True,refresh = True, writeImage=(r'D:\CNN\Smit\Bike\Bike_X'+str(cx)+'_Y'+str(cy)+'_Z'+str(cz)))
           im=im+1
           cz=cz+v
       cy=cy+v
