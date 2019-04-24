@@ -1,0 +1,16 @@
+---SQL QUERIES---
+
+1)search by category and display subcategories
+SELECT s.subcategory_name,s.subcategory_id from sub_category s, category c where s.category_id = c.category_id and c.category_name like 'car'
+
+2)search by subcategories and display objects
+SELECT o.object_id, o.object_name from object o, sub_category s where s.subcategory_id = o.subcategory_id and s.subcategory_name like 'audi'
+
+3)search by object and display all it's images
+SELECT i.* from image i, object o, object_image_junction j where i.image_id = j.image_id and o.object_id = j.object_id and o.object_name like 'AudiA4'
+
+4)search by angle and display images
+SELECT * FROM image where x = 0 Or y = 0 or z = 100
+
+5)search images of a particular object by it's texture
+SELECT i.* from image i, object o, object_image_junction j, texture t where i.image_id = j.image_id and o.object_id = j.object_id and t.texture_id = o.texture_id and t.texture_name like 'white' and o.object_name like 'AudiA4'
