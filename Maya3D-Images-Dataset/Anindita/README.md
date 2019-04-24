@@ -1,15 +1,15 @@
 # 3D-Object-Classification-Using-Capsule-Networks
 
 When we got started with the Capsule Neural Networks (CNN) project.
-We got introduced to Maya software to model a 3D image using with python scripting.
+We got introduced to Maya software to model a 3D image using python scripting.
 We were not sure if we had to import a 3D model or create one using python in Maya.
-So to get started first we went through the videos Professor Nik Brown shared with us which was very helpful to begin with.
+So to get started first we went through the videos that was shared by Professor Nik Brown which was very helpful to begin with.
 I started with creating objects like cubes, circles, etc.
-And then I got inquisitive to learn about MEL scripting which is used in Maya.
+And then I learnt about MEL scripting which is used in Maya.
 I just did some basic touchbase and wanted to understand if scripting in MEL or Python was convenient for modelling an object.
-As MEL was something new I got excited and did some basic learning on it.
+As MEL was something new I did some basic learning on it to get a fair understanding.
 
-Few of the examples just to know how a variable and a method is called in MEL just to understand the difference:
+Few of the examples just to know how a variable and a method is called in MEL inorder to understand the difference:
 
 ```mel
  proc hellotellme(string $name, int $abb)
@@ -86,7 +86,7 @@ for i in range(1,5):
 But the above script did not work as the set_attribute function was not set nor the rotate function was used.
 This script just helped the 3D model to rotate once.
 
-Later we finalized on a python script along with some environt changes in Maya that we used to capture shots of 3D image models in every angles.
+Later we finalized on a python script along with some environt changes in Maya that we eventually used to capture shots of 3D image models in every angles.
 I worked on 12 3D image models after understanding the final script.
 <br> Below is the list of the 3D items I tried capturing in every angles using Maya:
 <br>
@@ -112,7 +112,7 @@ I worked on 12 3D image models after understanding the final script.
 [https://drive.google.com/drive/u/1/folders/1FpUACGEFzOjraD5kWR0_3Elz0reb157E]()
 
 Next, to get started with the database work we had to plan on the conceptual schema.
-I along with the database team tried to understand what are the attributes that can be added for the captured images with respect to the category and came up with a schema.
+I along with the database team tried to understand what are the attributes that can be added for the captured images with respect to the category and we came up with a schema.
 
 Now to store the data of an image we had to import the properties.
 Manually checking for every image was not possible so we decided on creating a script that will read an image and give us the properties.
@@ -129,8 +129,8 @@ print('Image shape is \n', img.size)
 print('Image datatype is \n', img.dtype)
 
 ```
-But our main motive was to import the properties of thousands of images to store its properties into a csv that we can use it for our database.
-Later one final script got created that gets the properties of images while it iterates through various folders and its images and gets the property data exported to a CSV file.
+But our main motive was to import the properties of thousands of images and store it into a csv that we can use it in our database.
+Later one final script got created that gets the properties while it iterates through various folders and its images and gets the property data exported to a CSV file.
 
 Then I along with my team mates came up with the initial database schema (shown in the below ER diagram) and created a database in MySQL Workbench where we created the Images.dbo file that is stored in the link [Database File](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Dump20190415.sql) and which got modified later for the website integration.
 
@@ -152,7 +152,7 @@ CREATE TABLE entries (ImageName VARCHAR(255), Properties VARCHAR(255),
     INSERT INTO entries (ImageName, Properties) values ("Dog", "12.3MB");
     INSERT INTO entries (ImageName, Properties) values ("Cat", "16.8MB");  
 ```
-So we can see from the above two examples that it is completely the same as we do in MySQL for creating a databse in GCP.
+So we can see from the above two examples that it is quite the same as we do in MySQL for creating a databse in GCP.
 
 Then later it was decided that we will be importing the same database used by the website and hence we moved on with the cloud integration part and worked on creating cloud instances for integrating a sql database and storage bucket.
 I moved on with learning on Setting up / (Linking) own domain to google cloud Storage and hosting it for free on GCP.
@@ -288,16 +288,14 @@ def insertBLOB(photo):
 insertBLOB("...\Images\capture.png")
 insertBLOB("...\capture1.png")
 ```
-The above written snippet is a brief excerpt of the work I have done so far towards the project Capsule Neural Networks project.
+The above written brief piece of work is an excerpt of the tasks I have done so far towards the project Capsule Neural Networks project.
 
 **Things I learnt:**
 <br> 1.) Basics of Maya on exporting/importing and running python scripts on objects
-<br> 2.) Learnt how to read an image property using python script
-<br> 3.) Learnt about MEL (basics)
-<br> 4.) How an object can be viewed from every angle using python script and MEL library
-<br> 5.) How a SQL connection can be established using python
-<br> 6.) Learnt about Google Cloud Platform on setting up instances for storage bucket and SQL database
-<br> 7.) Learnt to create a Database in GCP
+<br> 2.) Learnt about MEL (basics)
+<br> 3.) Learnt how an object can be viewed from every angle using python script and MEL library
+<br> 4.) Learnt about Google Cloud Platform on setting up instances for storage bucket and SQL database
+<br> 5.) Learnt to create a Database in GCP
 
 **CONCLUSION** 
 
