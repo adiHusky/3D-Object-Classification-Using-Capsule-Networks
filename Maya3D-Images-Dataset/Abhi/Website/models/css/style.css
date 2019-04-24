@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+    font-family: Open+Sans;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+}
+
+section.hero {
+    color: #fff;
+    background-size: cover !important;
+    background: url('https://d32d8xzgnjxuvk.cloudfront.net/places/1-0/img/hero-bg.jpg') no-repeat;
+    height: 100vh;
+}
+
+p.text-hero {
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+section {
+    padding: 150px 0;
+}
+
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+p.small-text-hero {
+    font-size: 1em;
+}
+
+.text-primary {
+    color: #4dcb44 !important;
+}
+.search-bar {
+    border-radius: 100px;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0,0,0,0.15);
+    padding: 5px;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 0px!important;
+}
+
+
+
+.search-bar .rightLine::after {
+    content: '';
+    display: block;
+    height: 60%;
+    width: 1px;
+    background: #ddd;
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+
+.new-control:focus{outline: none;color: green;font-size: 30px;font-weight: bolder;}
+.new-control{outline: none;color: green;font-size: 30px;font-weight: bolder;}
+
+.search-bar .submit {
+    background: #4dcb44;
+    color: #fff;
+    font-family: "Vidaloka",serif;
+    border-radius: 100px;
+    font-size: 1.3em;
+    cursor: pointer;
+}
+.search-bar input, .search-bar .bootstrap-select {
+    background: none;
+    border: none;
+    padding: 20px 0 15px;
+    width: 100%;
+}
+.search-bar .bootstrap-select {
+    width: 100% !important;
+    padding: 0;
+}
+
+.search-bar{width: auto!important;}
+
+.p-absolute{
+	position: absolute;
+	background-color: #fff;
+	left: 19%;
+	min-height: 20px;
+	max-height: 300px;
+	overflow: auto;
+}
+
+
+.banner-result{
+	color: #fff;
+    background-size: cover !important;
+    background: url('https://d32d8xzgnjxuvk.cloudfront.net/places/1-0/img/hero-bg.jpg') no-repeat;
+    height: 50vh;
+}
+
+a:hover{text-decoration: none;}
+a:focus{text-decoration: none;}
+
+.ui-autocomplete {z-index: 100;}
+.navbar{margin-bottom: 0px;border-radius: 0px;}
+.navbar-brand{font-size: 20px;font-weight: bolder;letter-spacing: 2px;}
+.navbar-inverse .navbar-brand {color: #fff;}
+.p-relevtive{position: relative;}
+.bg-transparent{background-color: transparent;border:none;}
+.m-all{margin-top: 10%;}
+
+
+.thumbnail {
+   display: block;
+   padding: 4px;
+   margin-bottom: 20px;
+   line-height: 1.42857143;
+    background-color:transparent; 
+    border:none; 
+}
