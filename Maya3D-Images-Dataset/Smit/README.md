@@ -80,7 +80,7 @@ We are planning to continue our work in future as well.
 
 [5] Help.autodesk.com. (2019). Python in Maya. [online] Available at: http://help.autodesk.com/view/MAYAUL/2017/ENU/?guid=GUID-C0F27A50-3DD6-454C-A4D1-9E3C44B3C990 [Accessed 25 Apr. 2019].
 
-Copyright <2019> <Smit Doshi>
+Copyright <2019 Smit Doshi>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
