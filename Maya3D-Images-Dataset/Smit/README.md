@@ -71,9 +71,13 @@ We are planning to continue our work in future as well.
 
 ## References
 [1] YouTube. (2019). Autodesk Scripting and SDK Learning Channel. [online] Available at: https://www.youtube.com/channel/UCn_SncP23QP819Y__Ew7VIA [Accessed 25 Apr. 2019].
+
 [2] Drink, F., Design, I., Models, F., Models, 3., Models, M., Models, C., Models, B., Models, L., Models, A., Models, R., Models, O. and Models, F. (2019). 3D Models for Professionals :: TurboSquid. [online] Turbosquid.com. Available at: https://www.turbosquid.com/ [Accessed 25 Apr. 2019].
+
 [3] Knowledge.autodesk.com. (2019). Animation Basics | Maya 2018 | Autodesk Knowledge Network. [online] Available at: https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2018/ENU/Maya-Animation/files/GUID-91055F04-C5E0-45DA-BE0C-218D92AF6A16-htm.html [Accessed 25 Apr. 2019].
+
 [4] Brown, N. (2019). nikbearbrown/INFO_6210. [online] GitHub. Available at: https://github.com/nikbearbrown/INFO_6210 [Accessed 25 Apr. 2019].
+
 [5] Help.autodesk.com. (2019). Python in Maya. [online] Available at: http://help.autodesk.com/view/MAYAUL/2017/ENU/?guid=GUID-C0F27A50-3DD6-454C-A4D1-9E3C44B3C990 [Accessed 25 Apr. 2019].
 
 Copyright <2019> <Smit Doshi>
