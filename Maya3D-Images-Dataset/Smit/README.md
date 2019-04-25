@@ -3,7 +3,7 @@
 
 ### Week 1
 - Installed Maya on Day 1
-- Explored Maya and learnt its functionality using tutorials given by Prof Nik Brown and Youtube.
+- Explored Maya and learnt its functionality using tutorials given by Prof Nik Brown and Youtube [tutorials](https://www.youtube.com/channel/UCn_SncP23QP819Y__Ew7VIA).
 - Built basic objects like cubes, cones , etc
 - Rotated them using python scripting
 - Created camera and lights to get understanding of how shadows work
@@ -63,5 +63,23 @@
 
 ![Final Schema](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/smit/Maya3D-Images-Dataset/Smit/FInal%20Schema.PNG)
 
+## Conclusion
+We have developed this database for Data science who are working on Object Recogition using Neural Nets.
+Anyone who wants to use it can use it to develop their own database.
 We would really appreaciate your feedback and support .
 We are planning to continue our work in future as well.
+
+## References
+[1] YouTube. (2019). Autodesk Scripting and SDK Learning Channel. [online] Available at: https://www.youtube.com/channel/UCn_SncP23QP819Y__Ew7VIA [Accessed 25 Apr. 2019].
+[2] Drink, F., Design, I., Models, F., Models, 3., Models, M., Models, C., Models, B., Models, L., Models, A., Models, R., Models, O. and Models, F. (2019). 3D Models for Professionals :: TurboSquid. [online] Turbosquid.com. Available at: https://www.turbosquid.com/ [Accessed 25 Apr. 2019].
+[3] Knowledge.autodesk.com. (2019). Animation Basics | Maya 2018 | Autodesk Knowledge Network. [online] Available at: https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2018/ENU/Maya-Animation/files/GUID-91055F04-C5E0-45DA-BE0C-218D92AF6A16-htm.html [Accessed 25 Apr. 2019].
+[4] Brown, N. (2019). nikbearbrown/INFO_6210. [online] GitHub. Available at: https://github.com/nikbearbrown/INFO_6210 [Accessed 25 Apr. 2019].
+[5] Help.autodesk.com. (2019). Python in Maya. [online] Available at: http://help.autodesk.com/view/MAYAUL/2017/ENU/?guid=GUID-C0F27A50-3DD6-454C-A4D1-9E3C44B3C990 [Accessed 25 Apr. 2019].
+
+Copyright <2019> <Smit Doshi>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
