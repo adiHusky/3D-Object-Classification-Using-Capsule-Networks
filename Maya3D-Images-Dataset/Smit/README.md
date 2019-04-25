@@ -29,7 +29,7 @@
 
 ### Week 4
 - The object which were collected came in all shapes,colors and sizes - which were exactly not suitable to our environment
-- I developed a practice of importing the objects, merging all the meshes , rescaling , applying shaders and making them point towards the person on laptop before actually importing it to our environment.
+- We developed a practice of importing the objects, merging all the meshes , rescaling , applying shaders and making them point towards the person on laptop before actually importing it to our environment.
 ![Importing Raw Object](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/smit/Maya3D-Images-Dataset/Smit/Capture_1.png)
 ![](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/smit/Maya3D-Images-Dataset/Smit/Capture_2.png)
 - Optimizing it before actually getting to run script on it consumed much time
