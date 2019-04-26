@@ -61,7 +61,7 @@
 #### This is the [link](https://drive.google.com/drive/u/1/folders/1c7wjh__WL8cVYCPE3ebdM8oSq1riKts6) to our final dataset
 #### This is the [link](https://drive.google.com/drive/u/1/folders/1pY7DqCnL1EDFS9PC10NZXp6IfNobYaeZ) to the objects that i collected.
 
-![Final Schema](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/smit/Maya3D-Images-Dataset/Smit/FInal%20Schema.PNG)
+![Final Schema](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/smit/Maya3D-Images-Dataset/Smit/Final_schema.png)
 
 ## Conclusion
 We have developed this database for Data science who are working on Object Recogition using Neural Nets.
