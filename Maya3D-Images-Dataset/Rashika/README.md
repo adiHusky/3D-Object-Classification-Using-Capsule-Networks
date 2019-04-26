@@ -79,7 +79,7 @@ CITATIONS
 
 <h2>
 MIT License
- <h2>
+ </h2>
 
 Copyright (c) 2019, Rashika Moza
 
