@@ -9,6 +9,10 @@ First of all we were assigned the task of learning Maya and rotating the objects
 
 ![Capture1](https://user-images.githubusercontent.com/46699516/56782994-8f28c280-67b7-11e9-932a-ba486e551700.PNG)
 
+Later, I was assigned a task of creating 10 object image modelsfrom any category and below is the drive link were we uploaded our images
+
+[Images Link](https://drive.google.com/drive/u/1/folders/14ZRx8ZiaEuuI4XEryy5VFYAyfTHbD8zk)
+
 <h2>Week2</h2>
 
 Then I was assigned the task pf writing a script to get the image properties like it's shape, resolution and datatype.
