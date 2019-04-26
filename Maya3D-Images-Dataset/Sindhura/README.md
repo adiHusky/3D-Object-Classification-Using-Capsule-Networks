@@ -1,4 +1,4 @@
-# 3D Image dataset generation using Maya
+# 3D Image dataset generation
 
 ## MAYA
 
@@ -31,7 +31,7 @@ https://drive.google.com/drive/u/0/folders/1FbC_pVgVmi8HFHlb8RtDvbqfBIH7PS2y
 
 ## Database
 
-In database part, we came up with the conceptual database schema.
+In database part, we came up with the initial conceptual database schema as below.
 
 ![Branching](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/sindhura/Maya3D-Images-Dataset/Sindhura/Images_ERDiagram.png)
 
@@ -105,10 +105,63 @@ image
 
 
 
-Later there are few more attributes are added to the schema based on the website requirement. Created new physical database based on the changes and inserted the sample data to configure it with cloud.
+Later there are few more attributes are added to the schema based on the website requirement. Created new physical database based on the changes.
 
 ![Branching](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/sindhura/Maya3D-Images-Dataset/Sindhura/Final_schema.png)
 
+The above schema can be explained with an example below:
+
+
+<br> category - table 
+<br> category_id: C01 (PK) 
+<br> category_name: Animals 
+
+
+<br> sub_category - table
+<br> sub_category_id: C01_01 (PK)
+<br> category_id: C01(FK)
+<br> sub_category_name: Dog
+
+
+<br> object - table
+<br> object_id: O1_01 (PK)
+<br> object_name: labrador
+<br> sub_category_id: C01_01 (FK)
+<br> texture_id : tx_01
+<br> background_id : bk_01
+<br> shadow_id : sh_01
+
+
+<br> texture - table
+<br> texture_id : tx_01 (PK)
+<br> texture_name : black
+
+
+<br> background - table
+<br> background_id : bk_01 (PK)
+<br> background_name : white
+
+
+<br> shadow - table
+<br> shadow_id : sh_01 (PK)
+<br> shadow_presence : yes
+
+
+<br> object_image_junction - table
+<br> image_id : I01
+<br> object_id : O1_01
+
+
+<br> image_data - TABLE
+<br> image_id: I01 (PK)
+<br> image_name : (FK)
+<br> image_size: in KB
+<br> image_resolution: 960X540
+<br> image_type: .png
+<br> image: BLOB image
+<br> X: angle in degree
+<br> Y: angle in degree
+<br> Z: angle in degree
 
 
 ## Portfolio
@@ -122,7 +175,11 @@ Added all the files related to work in git hub :
 https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/sindhura/Maya3D-Images-Dataset/Sindhura 
 
 
-##Citations and References
+## Contributions
+
+In the entire project, i have contributed my work towards generations of images for 10 object models in MAYA, creating database conceptual schema and physical database, connection of database using python to MYSQL workbench and inserting data to tables. Created portfolio for the project.
+
+## Citations and References
 
 https://dev.mysql.com/doc/connector-python/en/connector-python-installation.html 
 
