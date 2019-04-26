@@ -37,7 +37,7 @@ Created an updated Database from where the images are fetched in the database ac
 
 Below is the updated ER Diagram which is created after finalizing the Database.
 
-![Capture7](https://user-images.githubusercontent.com/46699516/56783269-f5621500-67b8-11e9-937f-628df6609ad2.PNG)
+![Capture](https://user-images.githubusercontent.com/46699516/56840249-889c5880-6854-11e9-8e2d-ae1a3c48cfba.PNG)
 
 
 
