@@ -90,20 +90,20 @@ Later we finalized on a python script along with some environt changes in Maya t
 I worked on 12 3D image models after understanding the final script.
 <br> Below is the list of the 3D items I tried capturing in every angles using Maya:
 <br>
-<br> 1.) [Car Tyre](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Automobile%20Items/CarTyre) (Automobile Items)
+<br> 1.) Car Tyre (Automobile Items)
 <br>For eg:
 ![Branching](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Car_Tyre.PNG)
-<br> 2.) [WineBottle](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Drinks/Wine) (Drinks)
-<br> 3.) [Antenna TV](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Electronics/Antenna%20TV) (Electronics)
-<br> 4.) [Light Bulb](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Electronics/LightBulb) (Electronics)
-<br> 5.) [Capsicum](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Food/Capsicum) (Food)
-<br> 6.) [Chicken](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Food/Chicken) (Food)
-<br> 7.) [Cupcake](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Food/Cupcake) (Food)
-<br> 8.) [Coffee Mug](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Household%20Items/CoffeeMug) (Household Items)
-<br> 9.) [Lantern](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Household%20Items/Lantern) (Household Items)
-<br> 10.) [Scissors](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Household%20Items/Scissors) (Household Items)
-<br> 11.) [Wineglass](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Household%20Items/Wineglass) (Household Items)
-<br> 12.) [Taj Mahal](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Monuments/Taj%20Mahal) (Monuments)
+<br> 2.) WineBottle (Drinks)
+<br> 3.) Antenna TV (Electronics)
+<br> 4.) Light Bulb (Electronics)
+<br> 5.) Capsicum (Food)
+<br> 6.) Chicken (Food)
+<br> 7.) Cupcake (Food)
+<br> 8.) Coffee Mug (Household Items)
+<br> 9.) Lantern (Household Items)
+<br> 10.) Scissors (Household Items)
+<br> 11.) Wineglass (Household Items)
+<br> 12.) Taj Mahal (Monuments)
 <br>For eg:
 ![Branching](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Taj_Mahal.PNG)
 
@@ -305,3 +305,20 @@ The above written brief piece of work is an excerpt of the tasks I have done so 
 **CONCLUSION** 
 
 The exposure I gained from this project has helped me understand that viewing a 3D model can be implemented in the real time from every angle and also information on the viewed image's properties can be demonstrated for a user to know.
+
+**CITATIONS**
+
+https://stackoverflow.com (referred Python scripts)
+https://cloud.google.com/gcp (cloud related information)
+https://turbosquid.com & http://free3dmodels.com (used 3D models)
+https://w3schools.com/sql (for database related)
+https://www.geeksforgeeks.org/ (for python scripts)
+
+# MIT License
+Copyright (c) 2019, Anindita Baishya
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy,modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
