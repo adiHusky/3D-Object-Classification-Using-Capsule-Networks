@@ -1,4 +1,4 @@
-# 3D Image dataset generation
+# 3D Image dataset generation and Database
 
 ## MAYA
 
