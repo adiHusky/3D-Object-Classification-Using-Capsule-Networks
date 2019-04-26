@@ -1,6 +1,6 @@
 # 3D Image dataset generation using Maya
 
-##MAYA
+## MAYA
 
 Firstly, i went through the videos and references provided by professor to get basic knowledge on how to get started with Maya. I have tried creating some basic scripts to take screen shots of images in MAYA to get familiar with the environment.
 
@@ -25,11 +25,11 @@ for i in range(0,50):
 
 After that, i have modeled 10 objects of "Character" category end to end using the script that was created  with shadows. Below is the link with the images generated with shadow. 
 
-###Images modeled using the MAYA script
+### Images modeled using the MAYA script
 
 https://drive.google.com/drive/u/0/folders/1FbC_pVgVmi8HFHlb8RtDvbqfBIH7PS2y
 
-##Database
+## Database
 
 In database part, we came up with the conceptual database schema.
 
@@ -107,7 +107,7 @@ image
 
 Later there are few more attributes are added to the schema based on the website requirement. Created new physical database based on the changes and inserted the sample data to configure it with cloud.
 
-![Branching](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/sindhura/Maya3D-Images-Dataset/Sindhura/latestdbschema.PNG)
+![Branching](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/sindhura/Maya3D-Images-Dataset/Sindhura/Final_schema.png)
 
 
 
@@ -133,7 +133,7 @@ https://www.w3schools.com/sql/
 https://www.geeksforgeeks.org/working-images-python/
 
 
-##Licence
+## Licence
 
 MIT License
 
