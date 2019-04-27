@@ -48,8 +48,6 @@ Thus resulting a need to create a new environment with lights.
 [Finalized_Script](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/master/Maya3D-Images-Dataset/Preetham_Alladu/Final_Script.py)
 
 
-
-
 ### My contribution towards the final script
 
 > This part of the script is very important as it prevents the renderer to take images when the camera is below the ground level.
@@ -89,6 +87,9 @@ def rotateImage(objName, deg):
                 cmds.xform(objName, relative=True, rotation=(0, 0, deg) )
                 screenShot(objName, l)
 ```
+### Script to get image proerties and convert images to blob and export it into csv
+
+
 
 ## License
 
