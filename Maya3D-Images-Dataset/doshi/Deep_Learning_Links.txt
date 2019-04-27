@@ -1,0 +1,33 @@
+::Deep Learning Links::
+
+Setting up a Google Cloud instance for Deep Learning *
+
+https://medium.com/giscle/setting-up-a-google-cloud-instance-for-deep-learning-d182256cb894
+
+Complete Step by Step Guide of Keras Transfer Learning with GPU on Google Cloud Platform
+
+https://medium.com/datadriveninvestor/complete-step-by-step-guide-of-keras-transfer-learning-with-gpu-on-google-cloud-platform-ed21e33e0b1d
+
+Training an object detector using Cloud Machine Learning Engine
+
+https://cloud.google.com/blog/products/gcp/training-an-object-detector-using-cloud-machine-learning-engine
+
+How to classify images with TensorFlow using Google Cloud Machine Learning and Cloud Dataflow
+
+https://cloud.google.com/blog/products/gcp/how-to-classify-images-with-tensorflow-using-google-cloud-machine-learning-and-cloud-dataflow
+
+
+:: Installation and Running of Jupyter ::
+
+Running Jupyter Notebook on Google Cloud Platform in 15 min *
+
+https://towardsdatascience.com/running-jupyter-notebook-in-google-cloud-platform-in-15-min-61e16da34d52
+
+Install and run a Jupyter notebook on a Cloud Dataproc cluster
+
+https://cloud.google.com/dataproc/docs/tutorials/jupyter-notebook
+
+Installing Jupyter Notebook on Google Cloud *
+
+https://medium.com/@kn.maragatham09/installing-jupyter-notebook-on-google-cloud-11979e40cd10
+

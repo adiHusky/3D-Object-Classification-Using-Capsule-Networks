@@ -1,0 +1,239 @@
+Using username "ec2-user".
+Authenticating with public key "imported-openssh-key"
+
+       __|  __|_  )
+       _|  (     /   Amazon Linux AMI
+      ___|\___|___|
+
+https://aws.amazon.com/amazon-linux-ami/2018.03-release-notes/
+14 package(s) needed for security, out of 21 available
+Run "sudo yum update" to apply all updates.
+[ec2-user@ip-172-31-20-53 ~]$ sudo su root
+[root@ip-172-31-20-53 ec2-user]# ls
+[root@ip-172-31-20-53 ec2-user]# pwd
+/home/ec2-user
+[root@ip-172-31-20-53 ec2-user]# yum install httpd
+Loaded plugins: priorities, update-motd, upgrade-helper
+amzn-main                                                                                                                                                             | 2.1 kB  00:00:00
+amzn-updates                                                                                                                                                          | 2.5 kB  00:00:00
+Resolving Dependencies
+--> Running transaction check
+---> Package httpd.x86_64 0:2.2.34-1.16.amzn1 will be installed
+--> Processing Dependency: httpd-tools = 2.2.34-1.16.amzn1 for package: httpd-2.2.34-1.16.amzn1.x86_64
+--> Processing Dependency: apr-util-ldap for package: httpd-2.2.34-1.16.amzn1.x86_64
+--> Processing Dependency: libaprutil-1.so.0()(64bit) for package: httpd-2.2.34-1.16.amzn1.x86_64
+--> Processing Dependency: libapr-1.so.0()(64bit) for package: httpd-2.2.34-1.16.amzn1.x86_64
+--> Running transaction check
+---> Package apr.x86_64 0:1.5.2-5.13.amzn1 will be installed
+---> Package apr-util.x86_64 0:1.5.4-6.18.amzn1 will be installed
+---> Package apr-util-ldap.x86_64 0:1.5.4-6.18.amzn1 will be installed
+---> Package httpd-tools.x86_64 0:2.2.34-1.16.amzn1 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+=============================================================================================================================================================================================
+ Package                                        Arch                                    Version                                             Repository                                  Size
+=============================================================================================================================================================================================
+Installing:
+ httpd                                          x86_64                                  2.2.34-1.16.amzn1                                   amzn-main                                  1.2 M
+Installing for dependencies:
+ apr                                            x86_64                                  1.5.2-5.13.amzn1                                    amzn-main                                  118 k
+ apr-util                                       x86_64                                  1.5.4-6.18.amzn1                                    amzn-main                                   99 k
+ apr-util-ldap                                  x86_64                                  1.5.4-6.18.amzn1                                    amzn-main                                   19 k
+ httpd-tools                                    x86_64                                  2.2.34-1.16.amzn1                                   amzn-main                                   80 k
+
+Transaction Summary
+=============================================================================================================================================================================================
+Install  1 Package (+4 Dependent packages)
+
+Total download size: 1.5 M
+Installed size: 3.6 M
+Is this ok [y/d/N]: y
+Downloading packages:
+(1/5): apr-1.5.2-5.13.amzn1.x86_64.rpm                                                                                                                                | 118 kB  00:00:00
+(2/5): apr-util-1.5.4-6.18.amzn1.x86_64.rpm                                                                                                                           |  99 kB  00:00:00
+(3/5): apr-util-ldap-1.5.4-6.18.amzn1.x86_64.rpm                                                                                                                      |  19 kB  00:00:00
+(4/5): httpd-tools-2.2.34-1.16.amzn1.x86_64.rpm                                                                                                                       |  80 kB  00:00:00
+(5/5): httpd-2.2.34-1.16.amzn1.x86_64.rpm                                                                                                                             | 1.2 MB  00:00:00
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Total                                                                                                                                                        6.2 MB/s | 1.5 MB  00:00:00
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : apr-1.5.2-5.13.amzn1.x86_64                                                                                                                                               1/5
+  Installing : apr-util-1.5.4-6.18.amzn1.x86_64                                                                                                                                          2/5
+  Installing : httpd-tools-2.2.34-1.16.amzn1.x86_64                                                                                                                                      3/5
+  Installing : apr-util-ldap-1.5.4-6.18.amzn1.x86_64                                                                                                                                     4/5
+  Installing : httpd-2.2.34-1.16.amzn1.x86_64                                                                                                                                            5/5
+  Verifying  : httpd-tools-2.2.34-1.16.amzn1.x86_64                                                                                                                                      1/5
+  Verifying  : apr-util-1.5.4-6.18.amzn1.x86_64                                                                                                                                          2/5
+  Verifying  : httpd-2.2.34-1.16.amzn1.x86_64                                                                                                                                            3/5
+  Verifying  : apr-1.5.2-5.13.amzn1.x86_64                                                                                                                                               4/5
+  Verifying  : apr-util-ldap-1.5.4-6.18.amzn1.x86_64                                                                                                                                     5/5
+
+Installed:
+  httpd.x86_64 0:2.2.34-1.16.amzn1
+
+Dependency Installed:
+  apr.x86_64 0:1.5.2-5.13.amzn1            apr-util.x86_64 0:1.5.4-6.18.amzn1            apr-util-ldap.x86_64 0:1.5.4-6.18.amzn1            httpd-tools.x86_64 0:2.2.34-1.16.amzn1
+
+Complete!
+[root@ip-172-31-20-53 ec2-user]# cd /
+[root@ip-172-31-20-53 /]# ls
+bin  boot  cgroup  dev  etc  home  lib  lib64  local  lost+found  media  mnt  opt  proc  root  run  sbin  selinux  srv  sys  tmp  usr  var
+[root@ip-172-31-20-53 /]# cd /var
+[root@ip-172-31-20-53 var]# ls
+account  cache  db  empty  games  kerberos  lib  local  lock  log  mail  nis  opt  preserve  run  spool  tmp  www  yp
+[root@ip-172-31-20-53 var]# cd /www
+bash: cd: /www: No such file or directory
+[root@ip-172-31-20-53 var]# cd /www
+bash: cd: /www: No such file or directory
+[root@ip-172-31-20-53 var]# cd www
+[root@ip-172-31-20-53 www]# ls
+cgi-bin  error  html  icons
+[root@ip-172-31-20-53 www]# cd html
+[root@ip-172-31-20-53 html]# ls
+[root@ip-172-31-20-53 html]# vi index.html
+[root@ip-172-31-20-53 html]#
+[root@ip-172-31-20-53 html]#
+[root@ip-172-31-20-53 html]# ls -l
+total 4
+-rw-r--r-- 1 root root 163 Apr 10 06:00 index.html
+[root@ip-172-31-20-53 html]# sudo restart httpd
+restart: Unknown job: httpd
+[root@ip-172-31-20-53 html]# yum restart httpd
+Loaded plugins: priorities, update-motd, upgrade-helper
+No such command: restart. Please use /usr/bin/yum --help
+[root@ip-172-31-20-53 html]# cd /
+[root@ip-172-31-20-53 /]# clear
+[root@ip-172-31-20-53 /]# yum install mysql-server
+Loaded plugins: priorities, update-motd, upgrade-helper
+amzn-main                                                                                                                                                             | 2.1 kB  00:00:00
+amzn-updates                                                                                                                                                          | 2.5 kB  00:00:00
+Resolving Dependencies
+--> Running transaction check
+---> Package mysql-server.noarch 0:5.5-1.6.amzn1 will be installed
+--> Processing Dependency: mysql55-server >= 5.5 for package: mysql-server-5.5-1.6.amzn1.noarch
+--> Running transaction check
+---> Package mysql55-server.x86_64 0:5.5.62-1.23.amzn1 will be installed
+--> Processing Dependency: real-mysql55-libs(x86-64) = 5.5.62-1.23.amzn1 for package: mysql55-server-5.5.62-1.23.amzn1.x86_64
+--> Processing Dependency: real-mysql55(x86-64) = 5.5.62-1.23.amzn1 for package: mysql55-server-5.5.62-1.23.amzn1.x86_64
+--> Processing Dependency: perl-DBD-MySQL(mysql55) for package: mysql55-server-5.5.62-1.23.amzn1.x86_64
+--> Processing Dependency: perl(Data::Dumper) for package: mysql55-server-5.5.62-1.23.amzn1.x86_64
+--> Processing Dependency: perl(DBI) for package: mysql55-server-5.5.62-1.23.amzn1.x86_64
+--> Processing Dependency: perl(DBI) for package: mysql55-server-5.5.62-1.23.amzn1.x86_64
+--> Processing Dependency: mysql55(alternatives) for package: mysql55-server-5.5.62-1.23.amzn1.x86_64
+--> Processing Dependency: mysql55(alternatives) for package: mysql55-server-5.5.62-1.23.amzn1.x86_64
+--> Processing Dependency: mysql-config for package: mysql55-server-5.5.62-1.23.amzn1.x86_64
+--> Running transaction check
+---> Package mysql-config.x86_64 0:5.5.62-1.23.amzn1 will be installed
+---> Package mysql55.x86_64 0:5.5.62-1.23.amzn1 will be installed
+---> Package mysql55-libs.x86_64 0:5.5.62-1.23.amzn1 will be installed
+---> Package perl-DBD-MySQL55.x86_64 0:4.023-5.23.amzn1 will be installed
+---> Package perl-DBI.x86_64 0:1.627-4.8.amzn1 will be installed
+--> Processing Dependency: perl(RPC::PlServer) >= 0.2001 for package: perl-DBI-1.627-4.8.amzn1.x86_64
+--> Processing Dependency: perl(RPC::PlClient) >= 0.2000 for package: perl-DBI-1.627-4.8.amzn1.x86_64
+---> Package perl-Data-Dumper.x86_64 0:2.145-3.5.amzn1 will be installed
+--> Running transaction check
+---> Package perl-PlRPC.noarch 0:0.2020-14.7.amzn1 will be installed
+--> Processing Dependency: perl(Net::Daemon) >= 0.13 for package: perl-PlRPC-0.2020-14.7.amzn1.noarch
+--> Processing Dependency: perl(Net::Daemon::Test) for package: perl-PlRPC-0.2020-14.7.amzn1.noarch
+--> Processing Dependency: perl(Net::Daemon::Log) for package: perl-PlRPC-0.2020-14.7.amzn1.noarch
+--> Processing Dependency: perl(Compress::Zlib) for package: perl-PlRPC-0.2020-14.7.amzn1.noarch
+--> Running transaction check
+---> Package perl-IO-Compress.noarch 0:2.061-2.12.amzn1 will be installed
+--> Processing Dependency: perl(Compress::Raw::Zlib) >= 2.061 for package: perl-IO-Compress-2.061-2.12.amzn1.noarch
+--> Processing Dependency: perl(Compress::Raw::Bzip2) >= 2.061 for package: perl-IO-Compress-2.061-2.12.amzn1.noarch
+---> Package perl-Net-Daemon.noarch 0:0.48-5.5.amzn1 will be installed
+--> Running transaction check
+---> Package perl-Compress-Raw-Bzip2.x86_64 0:2.061-3.11.amzn1 will be installed
+---> Package perl-Compress-Raw-Zlib.x86_64 1:2.061-4.1.amzn1 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+=============================================================================================================================================================================================
+ Package                                               Arch                                 Version                                         Repository                                  Size
+=============================================================================================================================================================================================
+Installing:
+ mysql-server                                          noarch                               5.5-1.6.amzn1                                   amzn-main                                  2.8 k
+Installing for dependencies:
+ mysql-config                                          x86_64                               5.5.62-1.23.amzn1                               amzn-updates                                49 k
+ mysql55                                               x86_64                               5.5.62-1.23.amzn1                               amzn-updates                               7.5 M
+ mysql55-libs                                          x86_64                               5.5.62-1.23.amzn1                               amzn-updates                               816 k
+ mysql55-server                                        x86_64                               5.5.62-1.23.amzn1                               amzn-updates                                13 M
+ perl-Compress-Raw-Bzip2                               x86_64                               2.061-3.11.amzn1                                amzn-main                                   33 k
+ perl-Compress-Raw-Zlib                                x86_64                               1:2.061-4.1.amzn1                               amzn-main                                   61 k
+ perl-DBD-MySQL55                                      x86_64                               4.023-5.23.amzn1                                amzn-main                                  149 k
+ perl-DBI                                              x86_64                               1.627-4.8.amzn1                                 amzn-main                                  855 k
+ perl-Data-Dumper                                      x86_64                               2.145-3.5.amzn1                                 amzn-main                                   49 k
+ perl-IO-Compress                                      noarch                               2.061-2.12.amzn1                                amzn-main                                  298 k
+ perl-Net-Daemon                                       noarch                               0.48-5.5.amzn1                                  amzn-main                                   58 k
+ perl-PlRPC                                            noarch                               0.2020-14.7.amzn1                               amzn-main                                   39 k
+
+Transaction Summary
+=============================================================================================================================================================================================
+Install  1 Package (+12 Dependent packages)
+
+Total download size: 23 M
+Installed size: 81 M
+Is this ok [y/d/N]: y
+Downloading packages:
+(1/13): mysql-server-5.5-1.6.amzn1.noarch.rpm                                                                                                                         | 2.8 kB  00:00:00
+(2/13): mysql-config-5.5.62-1.23.amzn1.x86_64.rpm                                                                                                                     |  49 kB  00:00:00
+(3/13): mysql55-libs-5.5.62-1.23.amzn1.x86_64.rpm                                                                                                                     | 816 kB  00:00:00
+(4/13): mysql55-5.5.62-1.23.amzn1.x86_64.rpm                                                                                                                          | 7.5 MB  00:00:00
+(5/13): perl-Compress-Raw-Bzip2-2.061-3.11.amzn1.x86_64.rpm                                                                                                           |  33 kB  00:00:00
+(6/13): perl-Compress-Raw-Zlib-2.061-4.1.amzn1.x86_64.rpm                                                                                                             |  61 kB  00:00:00
+(7/13): perl-DBD-MySQL55-4.023-5.23.amzn1.x86_64.rpm                                                                                                                  | 149 kB  00:00:00
+(8/13): perl-Data-Dumper-2.145-3.5.amzn1.x86_64.rpm                                                                                                                   |  49 kB  00:00:00
+(9/13): perl-DBI-1.627-4.8.amzn1.x86_64.rpm                                                                                                                           | 855 kB  00:00:00
+(10/13): perl-Net-Daemon-0.48-5.5.amzn1.noarch.rpm                                                                                                                    |  58 kB  00:00:00
+(11/13): perl-PlRPC-0.2020-14.7.amzn1.noarch.rpm                                                                                                                      |  39 kB  00:00:00
+(12/13): perl-IO-Compress-2.061-2.12.amzn1.noarch.rpm                                                                                                                 | 298 kB  00:00:00
+(13/13): mysql55-server-5.5.62-1.23.amzn1.x86_64.rpm                                                                                                                  |  13 MB  00:00:01
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Total                                                                                                                                                         17 MB/s |  23 MB  00:00:01
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : mysql55-libs-5.5.62-1.23.amzn1.x86_64                                                                                                                                    1/13
+  Installing : perl-Data-Dumper-2.145-3.5.amzn1.x86_64                                                                                                                                  2/13
+  Installing : mysql-config-5.5.62-1.23.amzn1.x86_64                                                                                                                                    3/13
+  Installing : mysql55-5.5.62-1.23.amzn1.x86_64                                                                                                                                         4/13
+  Installing : perl-Compress-Raw-Bzip2-2.061-3.11.amzn1.x86_64                                                                                                                          5/13
+  Installing : perl-Net-Daemon-0.48-5.5.amzn1.noarch                                                                                                                                    6/13
+  Installing : 1:perl-Compress-Raw-Zlib-2.061-4.1.amzn1.x86_64                                                                                                                          7/13
+  Installing : perl-IO-Compress-2.061-2.12.amzn1.noarch                                                                                                                                 8/13
+  Installing : perl-PlRPC-0.2020-14.7.amzn1.noarch                                                                                                                                      9/13
+  Installing : perl-DBI-1.627-4.8.amzn1.x86_64                                                                                                                                         10/13
+  Installing : perl-DBD-MySQL55-4.023-5.23.amzn1.x86_64                                                                                                                                11/13
+  Installing : mysql55-server-5.5.62-1.23.amzn1.x86_64                                                                                                                                 12/13
+  Installing : mysql-server-5.5-1.6.amzn1.noarch                                                                                                                                       13/13
+  Verifying  : perl-DBI-1.627-4.8.amzn1.x86_64                                                                                                                                          1/13
+  Verifying  : mysql55-server-5.5.62-1.23.amzn1.x86_64                                                                                                                                  2/13
+  Verifying  : perl-IO-Compress-2.061-2.12.amzn1.noarch                                                                                                                                 3/13
+  Verifying  : mysql55-5.5.62-1.23.amzn1.x86_64                                                                                                                                         4/13
+  Verifying  : 1:perl-Compress-Raw-Zlib-2.061-4.1.amzn1.x86_64                                                                                                                          5/13
+  Verifying  : mysql55-libs-5.5.62-1.23.amzn1.x86_64                                                                                                                                    6/13
+  Verifying  : mysql-config-5.5.62-1.23.amzn1.x86_64                                                                                                                                    7/13
+  Verifying  : perl-DBD-MySQL55-4.023-5.23.amzn1.x86_64                                                                                                                                 8/13
+  Verifying  : perl-Net-Daemon-0.48-5.5.amzn1.noarch                                                                                                                                    9/13
+  Verifying  : perl-Compress-Raw-Bzip2-2.061-3.11.amzn1.x86_64                                                                                                                         10/13
+  Verifying  : perl-PlRPC-0.2020-14.7.amzn1.noarch                                                                                                                                     11/13
+  Verifying  : perl-Data-Dumper-2.145-3.5.amzn1.x86_64                                                                                                                                 12/13
+  Verifying  : mysql-server-5.5-1.6.amzn1.noarch                                                                                                                                       13/13
+
+Installed:
+  mysql-server.noarch 0:5.5-1.6.amzn1
+
+Dependency Installed:
+  mysql-config.x86_64 0:5.5.62-1.23.amzn1            mysql55.x86_64 0:5.5.62-1.23.amzn1               mysql55-libs.x86_64 0:5.5.62-1.23.amzn1     mysql55-server.x86_64 0:5.5.62-1.23.amzn1
+  perl-Compress-Raw-Bzip2.x86_64 0:2.061-3.11.amzn1  perl-Compress-Raw-Zlib.x86_64 1:2.061-4.1.amzn1  perl-DBD-MySQL55.x86_64 0:4.023-5.23.amzn1  perl-DBI.x86_64 0:1.627-4.8.amzn1
+  perl-Data-Dumper.x86_64 0:2.145-3.5.amzn1          perl-IO-Compress.noarch 0:2.061-2.12.amzn1       perl-Net-Daemon.noarch 0:0.48-5.5.amzn1     perl-PlRPC.noarch 0:0.2020-14.7.amzn1
+
+Complete!
+[root@ip-172-31-20-53 /]#

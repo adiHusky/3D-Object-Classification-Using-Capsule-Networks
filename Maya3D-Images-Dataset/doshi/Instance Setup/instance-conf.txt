@@ -1,0 +1,18 @@
+
+
+jupyter notebook --generate-config
+The config file will be generated if it wasn’t existing already and it’s path will be displayed. Use that path to edit the config file and add the following lines to the file. Replace 5100 with the port address you used earlier.
+
+c = get_config()
+c.NotebookApp.ip = '*'
+c.NotebookApp.open_browser = False
+c.NotebookApp.port = 5100
+
+/
+
+Writing default config to: /root/.jupyter/jupyter_notebook_config.py
+
+
+/
+
+https://medium.com/giscle/setting-up-a-google-cloud-instance-for-deep-learning-d182256cb894

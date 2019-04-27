@@ -1,0 +1,102 @@
+#! /bin/bash
+
+
+#This command will create the vm instance 
+gcloud compute instances create example-instance-1 \
+      example-instance-2 example-instance-3 --zone us-central1-a
+
+#This command will ugrade the instance with all the latest application and system files
+sudo apt-get update
+
+#This command force ugrade the system dependencies
+sudo apt-get --assume-yes upgrade
+
+#This command will install the dameon software 
+sudo apt-get --assume-yes install software-properties-common
+
+#this command will install the python set up and environment like anaconda 
+sudo apt-get install python-setuptools python-dev build-essential
+
+#this command will install the python package
+sudo easy_install pip
+
+#this command will install the latest version of anaconda
+wget https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.shwget https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh
+
+#this command will use the bash script to install the anaconda 3
+bash Anaconda3-4.0.0-Linux-x86_64.sh
+
+#to use the anaconda straight away make use of anaconda3
+source ~/.bashrc
+
+#to install keras use this command
+pip install keras
+
+#to install tensorflow use this command
+pip install tensorflow
+
+#This command will output the version of python 3
+python3 --version
+
+
+#This command will install the python dependencies and 
+sudo apt-get install python-pip python-dev
+
+# For Python 2.7
+sudo apt-get install python-pip python-dev
+
+# For Python3.x
+sudo apt-get install python3-pip python3-dev
+
+# To upgrade the tnesorflow gpu following commands can be ran
+
+# For Python 2.7
+pip install --upgrade tensorflow-gpu
+
+# For Python3.x
+pip3 install --upgrade tensorflow-gpu
+
+
+#to install jupyter this command will be used
+
+#for python2
+sudo pip install jupyter
+
+#for python3
+pip3 install jupyter
+	
+#generate the config file of jupyter with the following command
+jupyter notebook --generate-config	 
+
+#this file will be created in user's home directory
+# /home/user/.jupyter/jupyter_notebook_config.py
+
+#vi /home/user/.jupyter/jupyter_notebook_config.py
+
+#To run the jupyter with the external IP of Instance 
+#use the file editor such as nano, vi, vim etc.
+#type the following lines of codes
+
+#c = get_config()
+#c.NotebookApp.ip = '*'
+#c.NotebookApp.open_browser = False
+#c.NotebookApp.port = <port number> 
+#c.NotebookApp.allow_remote_access = True
+
+vi /home/user/.jupyter/jupyter_notebook_config.py
+c = get_config()
+c.NotebookApp.ip = '*'
+c.NotebookApp.open_browser = False
+c.NotebookApp.port = <port number> 
+c.NotebookApp.allow_remote_access = True
+
+
+#to set up the jupyter notebook's password. It will ask for the password for using notebook
+jupyter notebook password
+
+#to access the jupyter notebookrun this command
+jupyter notebook
+
+# to access the jupyter notebook locally use the following command
+# http://<external-static-ip-address>:<port number>
+

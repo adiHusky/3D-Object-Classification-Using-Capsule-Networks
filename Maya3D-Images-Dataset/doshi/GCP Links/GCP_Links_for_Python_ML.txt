@@ -1,0 +1,32 @@
+GCP Links for using Python 
+
+Stackoverflow links
+
+https://stackoverflow.com/questions/48545026/how-can-i-run-a-python-script-from-pycharm-on-gcp-compute-engine?noredirect=1&lq=1
+
+https://stackoverflow.com/questions/47541472/run-python-script-on-google-cloud-compute-engine?noredirect=1&lq=1
+
+https://stackoverflow.com/questions/47455680/running-a-python-script-on-google-cloud-compute-engine
+
+
+GCP Links
+
+https://cloud.google.com/python/setup
+
+https://cloud.google.com/python/getting-started/hello-world
+
+GCP Links for ML Stuff
+
+https://cloud.google.com/blog/products/gcp/how-to-classify-images-with-tensorflow-using-google-cloud-machine-learning-and-cloud-dataflow
+
+https://medium.com/giscle/setting-up-a-google-cloud-instance-for-deep-learning-d182256cb894
+
+https://medium.com/datadriveninvestor/complete-step-by-step-guide-of-keras-transfer-learning-with-gpu-on-google-cloud-platform-ed21e33e0b1d
+
+
+git checkout branchname
+git pull 
+
+git add --all
+git commit -m"Add files"
+git push 
