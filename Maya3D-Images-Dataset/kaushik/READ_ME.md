@@ -24,7 +24,7 @@ I explored various options to write a script where I can generate images of obje
 One trial gave me the below result.
 ![First Try](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/kaushik/Maya3D-Images-Dataset/kaushik/trex.png)
 
-The above image is generated using this script [Initialscript](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/kaushik/Maya3D-Images-Dataset/kaushik/my%20script.py)
+The above image is generated using this script [My trial](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/kaushik/Maya3D-Images-Dataset/kaushik/my%20script.py)
 
 After Presenting this to the team certain drawbacks have been mentioned:
 
