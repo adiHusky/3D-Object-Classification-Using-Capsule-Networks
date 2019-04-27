@@ -88,8 +88,9 @@ def rotateImage(objName, deg):
                 screenShot(objName, l)
 ```
 ### Script to get image proerties and convert images to blob and export it into csv
+This below is a script which goes through all the images and sets image properties such as image name, image size, image type, x rotation, y rotation, z rotation. This script can be modified so that instead of exporting into csv we can export the data into sql it self
 
-
+[Script](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/preetham/Maya3D-Images-Dataset/Preetham_Alladu/Convert_images_to_blob.py)
 
 ## License
 
