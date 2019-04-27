@@ -70,7 +70,6 @@ After we were done with the white background, our task was to create image seque
 Finally, We came up with the finalized script and used that to create image sequences of the objects.
 
 ``` python
-#this script has been contributed by Preetham and Akash
 import maya.cmds as cmds 
 import maya.mel
 
@@ -154,7 +153,6 @@ Assembled the rendered to open and take images of the objects. This was an impro
 Rotation function. Below code has been used to capture images with black background and white objects.
 
 ```python
-#this script has been contributed by Preetham and Akash
 import maya.cmds as cmds 
 import maya.mel
 
