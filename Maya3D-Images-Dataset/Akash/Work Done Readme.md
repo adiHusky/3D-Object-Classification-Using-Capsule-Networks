@@ -20,6 +20,9 @@ In week 1, we learned to rotate objects in maya. I began with rotating the the o
 ``` python
 import maya.cmds as cmds 
 import maya.mel
+import os
+
+imagePath = os.getcwd()
 s = cmds.ls(selection = True)
 axes = ['X','Y','Z']
 
@@ -32,8 +35,7 @@ for axis in axes:
             
         mel.eval('renderWindowRender redoPreviousRender renderView')
         editor =  'renderView'
-            #c= c+5
-        cmds.renderWindowEditor( editor, e=True,refresh = True, writeImage=('/Users/tinyteddybear/Documents/Sword/Sword'+axis+str(c)))
+        cmds.renderWindowEditor( editor, e=True,refresh = True, writeImage=(imagePath+'Sword'+axis+str(c)))
         c=c+10
 ```
 
@@ -79,6 +81,7 @@ s = cmds.ls(selection = True)
 #for selecting the camera
 camName=cmds.listCameras()
 cName=camName[0]
+#storing path of current work directory
 imagePath = os.getcwd()
 
 #setting up initial angles of x, y and z axis to 0 ,0 ,0
@@ -149,8 +152,9 @@ Assembled the rendered to open and take images of the objects. This was an impro
 ```
   mel.eval('renderWindowRender redoPreviousRender renderView')
   editor =  'renderView'
-  cmds.renderWindowEditor( editor, e=True,refresh = True, writeImage=('/Users/tinyteddybear/Documents/Scar-H/Weapon_Scar-L_'+str(cx)+'_'+str(cy)+'_'+str(cz)))
+  cmds.renderWindowEditor( editor, e=True,refresh = True, writeImage=(imagePath+'\Weapon_Gun_ACR Bushmaster'+'_X'+str(cx)+'_Y'+str(cy)+'_Z'+str(cz)+'_No'))
 ```
+
 
 Rotation function. Below code has been used to capture images with black background and white objects.
 
@@ -164,6 +168,7 @@ s = cmds.ls(selection = True)
 #for selecting the camera
 camName=cmds.listCameras()
 cName=camName[0]
+#storing path of current work directory
 imagePath = os.getcwd()
 
 #setting up initial angles of x, y and z axis to 0 ,0 ,0
