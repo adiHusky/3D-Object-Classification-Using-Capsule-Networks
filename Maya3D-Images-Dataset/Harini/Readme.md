@@ -3,8 +3,12 @@
 
 I started of with watching the videos which were provided and got a basic understanding of the Maya software and started to work around on creating the primary images such as spheres and cubes and applying different textures using lamberts on the objects.
 
+![Octocat](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/Harini/Maya3D-Images-Dataset/Harini/lambert.PNG)
 
 Later worked with 3D image objects wchih were available online and worked around to resize the object, combine different elements in the objets and applied shaders to the images.
+
+![Octocat](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/Harini/Maya3D-Images-Dataset/Harini/lambert.PNG)
+![Octocat](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/Harini/Maya3D-Images-Dataset/Harini/lambert.PNG)
 
 Once the scene was created, generated initiall images to understand the schema properties and develpoed 10 image models.
 
