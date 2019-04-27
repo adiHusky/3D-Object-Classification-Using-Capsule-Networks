@@ -1,11 +1,14 @@
 import maya.cmds as cmds 
 import maya.mel
+import os
 
 #for getting the list of selected objects
 s = cmds.ls(selection = True)
 #for selecting the camera
 camName=cmds.listCameras()
 cName=camName[0]
+#storing path of current work directory
+imagePath = os.getcwd()
 
 #setting up initial angles of x, y and z axis to 0 ,0 ,0
 cx=0
@@ -40,7 +43,7 @@ while (cx <=360):
             mel.eval('renderWindowRender redoPreviousRender renderView')
             editor =  'renderView'
             #for writing  and storing in specific location
-            cmds.renderWindowEditor( editor, e=True,refresh = True, writeImage=('/Users/tinyteddybear/Documents/NoShadow/Black/Weapons/Gun/ACR Bushmaster/Weapon_Gun_ACR Bushmaster'+'_X'+str(cx)+'_Y'+str(cy)+'_Z'+str(cz)+'_No'))
+            cmds.renderWindowEditor( editor, e=True,refresh = True, writeImage=(imagePath+'\Weapon_Gun_ACR Bushmaster'+'_X'+str(cx)+'_Y'+str(cy)+'_Z'+str(cz)+'_No'))
             #incrementing the angles with specified step angle
             cz=cz+v
         cy=cy+v  
