@@ -117,7 +117,7 @@ while (cx <=360):
                 mel.eval('renderWindowRender redoPreviousRender renderView')
                 editor =  'renderView'
                 #for writing  and storing in specific location
-                cmds.renderWindowEditor( editor, e=True,refresh = True, writeImage=(imagePath+'Weapon_Gun_ACR Bushmaster'+'_X'+str(cx)+'_Y'+str(cy)+'_Z'+str(cz)+'_No'))
+                cmds.renderWindowEditor( editor, e=True,refresh = True, writeImage=(imagePath+'\Weapon_Gun_ACR Bushmaster'+'_X'+str(cx)+'_Y'+str(cy)+'_Z'+str(cz)+'_No'))
             #incrementing the angles with specified step angle
             cz=cz+v
         cy=cy+v  
@@ -199,7 +199,7 @@ while (cx <=360):
             mel.eval('renderWindowRender redoPreviousRender renderView')
             editor =  'renderView'
             #for writing  and storing in specific location
-            cmds.renderWindowEditor( editor, e=True,refresh = True, writeImage=(imagePath+'Weapon_Gun_ACR Bushmaster'+'_X'+str(cx)+'_Y'+str(cy)+'_Z'+str(cz)+'_No'))
+            cmds.renderWindowEditor( editor, e=True,refresh = True, writeImage=(imagePath+'\Weapon_Gun_ACR Bushmaster'+'_X'+str(cx)+'_Y'+str(cy)+'_Z'+str(cz)+'_No'))
             #incrementing the angles with specified step angle
             cz=cz+v
         cy=cy+v  
