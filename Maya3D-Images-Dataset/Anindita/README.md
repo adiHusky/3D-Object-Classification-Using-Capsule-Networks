@@ -308,11 +308,11 @@ The exposure I gained from this project has helped me understand that viewing a 
 
 **CITATIONS**
 
-https://stackoverflow.com (referred Python scripts)
-https://cloud.google.com/gcp (cloud related information)
-https://turbosquid.com & http://free3dmodels.com (used 3D models)
-https://w3schools.com/sql (for database related)
-https://www.geeksforgeeks.org/ (for python scripts)
+<br>https://stackoverflow.com (referred Python scripts)
+<br>https://cloud.google.com/gcp (cloud related information)
+<br>https://turbosquid.com & http://free3dmodels.com (used 3D models)
+<br>https://w3schools.com/sql (for database related)
+<br>https://www.geeksforgeeks.org/ (for python scripts)
 
 # MIT License
 Copyright (c) 2019, Anindita Baishya
