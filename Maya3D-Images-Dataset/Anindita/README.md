@@ -1,5 +1,6 @@
 # 3D-Object-Classification-Using-Capsule-Networks
 
+# Week 1
 When we got started with the Capsule Neural Networks (CNN) project.
 We got introduced to Maya software to model a 3D image using python scripting.
 We were not sure if we had to import a 3D model or create one using python in Maya.
@@ -86,6 +87,8 @@ for i in range(1,5):
 But the above script did not work as the set_attribute function was not set nor the rotate function was used.
 This script just helped the 3D model to rotate once.
 
+# Week 2
+
 Later we finalized on a python script along with some environt changes in Maya that we eventually used to capture shots of 3D image models in every angles.
 I worked on 12 3D image models after understanding the final script.
 <br> Below is the list of the 3D items I tried capturing in every angles using Maya:
@@ -110,6 +113,8 @@ I worked on 12 3D image models after understanding the final script.
 <br> The below google drive also has the shots of 12 3D models that I captured using Maya software.
  
 [https://drive.google.com/drive/u/1/folders/1FpUACGEFzOjraD5kWR0_3Elz0reb157E]()
+
+# Week 3
 
 Next, to get started with the database work we had to plan on the conceptual schema.
 I along with the database team tried to understand what are the attributes that can be added for the captured images with respect to the category and we came up with a schema.
@@ -157,6 +162,8 @@ CREATE TABLE entries (ImageName VARCHAR(255), Properties VARCHAR(255),
     INSERT INTO entries (ImageName, Properties) values ("Cat", "16.8MB");  
 ```
 So we can see from the above two examples that it is quite the same as we do in MySQL for creating a databse in GCP.
+
+# Week 4
 
 Then later it was decided that we will be importing the same database used by the website and hence we moved on with the cloud integration part and worked on creating cloud instances for integrating a sql database and storage bucket.
 I moved on with learning on Setting up / (Linking) own domain to google cloud Storage and hosting it for free on GCP.
