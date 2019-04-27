@@ -92,6 +92,10 @@ This below is a script which goes through all the images and sets image properti
 
 [Script](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/preetham/Maya3D-Images-Dataset/Preetham_Alladu/Convert_images_to_blob.py)
 
+#### The images that I have generated and uploaded
+This link containts the images that i have generated for the objects which were collected from various sources online
+[Google drive link](https://drive.google.com/drive/u/1/folders/1R9DispZLui_V_T2W6c1ghWIBKhwptS77)
+
 ## License
 
 Copyright 2019 Preetham
@@ -108,11 +112,17 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 * [https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2018/ENU/Maya-Scripting/files/GUID-C0F27A50-3DD6-454C-A4D1-9E3C44B3C990-htm.html](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2018/ENU/Maya-Scripting/files/GUID-C0F27A50-3DD6-454C-A4D1-9E3C44B3C990-htm.html)
 
-* [https://stackoverflow.com/](https://stackoverflow.com/)
-
 * [https://pypi.org/project/opencv-python/](https://pypi.org/project/opencv-python/)
 
 * [https://www.w3schools.com/python/](https://www.w3schools.com/python/)
+
+##### Sources for 3d Objects
+
+* [turbosquid.com/Search/3D-Models/free](turbosquid.com/Search/3D-Models/free)
+
+* [https://free3d.com/3d-models/](https://free3d.com/3d-models/)
+
+
 
 
 * * * 
