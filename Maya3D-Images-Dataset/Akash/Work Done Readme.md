@@ -70,38 +70,54 @@ After we were done with the white background, our task was to create image seque
 Finally, We came up with the finalized script and used that to create image sequences of the objects.
 
 ``` python
+#this script has been contributed by preetham, akash and aditya
 import maya.cmds as cmds 
 import maya.mel
+
+#for getting the list of selected objects
 s = cmds.ls(selection = True)
+#for selecting the camera
 camName=cmds.listCameras()
 cName=camName[0]
 
+#setting up initial angles of x, y and z axis to 0 ,0 ,0
 cx=0
 cy=0
 cz=0
 v=45
+
+#looping for getting various angles
 while (cx <=360):
     for a in s:
+        #setting the command to rotate the component in X axis
         x = a +"."+"rotate" +"X"
+        #setting the attribute of component in X axis
         cmds.setAttr(x,cx)
 
     cy=0
     while(cy<=360):
         for a in s:
+            #setting the command to rotate the component in Y axis
             x = a +"."+"rotate" +"Y"
+            #setting the attribute of component in Y axis
             cmds.setAttr(x,cy)
 
         cz=0
         while(cz<=360):
             for a in s:
+                #setting the command to rotate the component in Z axis
                 x = a +"."+"rotate" +"Z"
+                #setting the attribute of component in Z axis
                 cmds.setAttr(x,cz)
             cp=cmds.xform(cName,q=True,ws=True, rp=True)
+            #will capture images only in positive y coordinate
             if(cp[1]>0):
-                
+                #for opening images in renderer
                 mel.eval('renderWindowRender redoPreviousRender renderView')
                 editor =  'renderView'
-                cmds.renderWindowEditor( editor, e=True,refresh = True, writeImage=('/Users/tinyteddybear/Documents/Scar-H/Weapon_Scar-L_'+str(cx)+'_'+str(cy)+'_'+str(cz)))
+                #for writing  and storing in specific location
+                cmds.renderWindowEditor( editor, e=True,refresh = True, writeImage=('.../Weapon_Scar-L_'+str(cx)+'_'+str(cy)+'_'+str(cz)))
+            #incrementing the angles with specified step angle
             cz=cz+v
         cy=cy+v  
     cx=cx+v
