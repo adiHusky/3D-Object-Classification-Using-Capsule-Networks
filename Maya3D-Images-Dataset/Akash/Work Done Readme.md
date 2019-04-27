@@ -70,7 +70,15 @@ After we were done with the white background, our task was to create image seque
 
 
 Finally, We came up with the finalized script and used that to create image sequences of the objects.
-[Scene for creating images with shadow] (https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/akash/Maya3D-Images-Dataset/Akash/Updated_Shadow_Scene_new1.mb)
+
+
+<br>
+
+
+#### Scene for creating images with shadow 
+
+
+https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/akash/Maya3D-Images-Dataset/Akash/Updated_Shadow_Scene_new1.mb
 
 ``` python
 import maya.cmds as cmds 
@@ -159,7 +167,12 @@ Assembled the rendered to open and take images of the objects. This was an impro
 
 Rotation function. Below code has been used to capture images with black background and white objects.
 
-[Scene for creating images with No shadow] (https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/akash/Maya3D-Images-Dataset/Akash/NewSceneNoShadow.mb)
+<br>
+
+
+#### Scene for creating images with No shadow 
+
+https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/akash/Maya3D-Images-Dataset/Akash/NewSceneNoShadow.mb
 
 ```python
 import maya.cmds as cmds 
