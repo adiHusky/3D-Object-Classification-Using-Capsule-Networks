@@ -48,8 +48,6 @@ Thus resulting a need to create a new environment with lights.
 [Finalized_Script](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/master/Maya3D-Images-Dataset/Preetham_Alladu/Final_Script.py)
 
 
-
-
 ### My contribution towards the final script
 
 > This part of the script is very important as it prevents the renderer to take images when the camera is below the ground level.
@@ -89,7 +87,32 @@ def rotateImage(objName, deg):
                 cmds.xform(objName, relative=True, rotation=(0, 0, deg) )
                 screenShot(objName, l)
 ```
+### Script to get image proerties and convert images to blob and export it into csv
+This below is a script which goes through all the images and sets image properties such as image name, image size, image type, x rotation, y rotation, z rotation. This script can be modified so that instead of exporting into csv we can export the data into sql it self
 
+[Script](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/preetham/Maya3D-Images-Dataset/Preetham_Alladu/Convert_images_to_blob.py)
+
+## License
+
+Copyright 2019 Preetham
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+### Citations and References
+
+* [https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2018/ENU/Maya-Scripting/files/GUID-C0F27A50-3DD6-454C-A4D1-9E3C44B3C990-htm.html](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2018/ENU/Maya-Scripting/files/GUID-C0F27A50-3DD6-454C-A4D1-9E3C44B3C990-htm.html)
+
+* [https://stackoverflow.com/](https://stackoverflow.com/)
+
+* [https://pypi.org/project/opencv-python/](https://pypi.org/project/opencv-python/)
+
+* [https://www.w3schools.com/python/](https://www.w3schools.com/python/)
 
 
 * * * 

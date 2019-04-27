@@ -39,11 +39,14 @@ while (cx <=360):
                 x = a +"."+"rotate" +"Z"
                 #setting the attribute of component in Z axis
                 cmds.setAttr(x,cz)
-            #for opening images in renderer
-            mel.eval('renderWindowRender redoPreviousRender renderView')
-            editor =  'renderView'
-            #for writing  and storing in specific location
-            cmds.renderWindowEditor( editor, e=True,refresh = True, writeImage=(imagePath+'\Weapon_Gun_ACR Bushmaster'+'_X'+str(cx)+'_Y'+str(cy)+'_Z'+str(cz)+'_No'))
+            cp=cmds.xform(cName,q=True,ws=True, rp=True)
+            #will capture images only in positive y coordinate
+            if(cp[1]>0):
+                #for opening images in renderer
+                mel.eval('renderWindowRender redoPreviousRender renderView')
+                editor =  'renderView'
+                #for writing  and storing in specific location
+                cmds.renderWindowEditor( editor, e=True,refresh = True, writeImage=(imagePath+'\Weapon_Gun_ACR Bushmaster'+'_X'+str(cx)+'_Y'+str(cy)+'_Z'+str(cz)+'_No'))
             #incrementing the angles with specified step angle
             cz=cz+v
         cy=cy+v  

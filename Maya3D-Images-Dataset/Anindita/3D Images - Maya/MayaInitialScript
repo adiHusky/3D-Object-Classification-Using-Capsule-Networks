@@ -1,0 +1,15 @@
+import maya.cmds as cmds
+
+ax=0
+ay=0
+az=0
+
+for i in range(1,5):
+        cmds.rotate( 0, '90deg', 0, 'Retro_TV:Retro_TV')
+        for a in range(1,10):
+            cmds.rotate('90deg',0,0,'Retro_TV:Retro_TV')
+            for b in range(1,10):
+                cmds.rotate(0,0,'90deg', 'Retro_TV:Retro_TV')
+                 x=x+90
+                 y=y+90
+                 z=z+90
