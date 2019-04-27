@@ -1,0 +1,7 @@
+import numpy as np
+import cv2
+
+img = cv2.imread('.../Desktop/Capture.png')
+print('Image shape is \n', img.shape)
+print('Image shape is \n', img.size)
+print('Image datatype is \n', img.dtype)

@@ -1,5 +1,6 @@
 # 3D-Object-Classification-Using-Capsule-Networks
 
+# Week 1
 When we got started with the Capsule Neural Networks (CNN) project.
 We got introduced to Maya software to model a 3D image using python scripting.
 We were not sure if we had to import a 3D model or create one using python in Maya.
@@ -86,30 +87,34 @@ for i in range(1,5):
 But the above script did not work as the set_attribute function was not set nor the rotate function was used.
 This script just helped the 3D model to rotate once.
 
+# Week 2
+
 Later we finalized on a python script along with some environt changes in Maya that we eventually used to capture shots of 3D image models in every angles.
 I worked on 12 3D image models after understanding the final script.
 <br> Below is the list of the 3D items I tried capturing in every angles using Maya:
 <br>
-<br> 1.) [Car Tyre](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Automobile%20Items/CarTyre) (Automobile Items)
+<br> 1.) Car Tyre (Automobile Items)
 <br>For eg:
 ![Branching](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Car_Tyre.PNG)
-<br> 2.) [WineBottle](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Drinks/Wine) (Drinks)
-<br> 3.) [Antenna TV](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Electronics/Antenna%20TV) (Electronics)
-<br> 4.) [Light Bulb](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Electronics/LightBulb) (Electronics)
-<br> 5.) [Capsicum](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Food/Capsicum) (Food)
-<br> 6.) [Chicken](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Food/Chicken) (Food)
-<br> 7.) [Cupcake](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Food/Cupcake) (Food)
-<br> 8.) [Coffee Mug](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Household%20Items/CoffeeMug) (Household Items)
-<br> 9.) [Lantern](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Household%20Items/Lantern) (Household Items)
-<br> 10.) [Scissors](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Household%20Items/Scissors) (Household Items)
-<br> 11.) [Wineglass](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Household%20Items/Wineglass) (Household Items)
-<br> 12.) [Taj Mahal](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/tree/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Monuments/Taj%20Mahal) (Monuments)
+<br> 2.) WineBottle (Drinks)
+<br> 3.) Antenna TV (Electronics)
+<br> 4.) Light Bulb (Electronics)
+<br> 5.) Capsicum (Food)
+<br> 6.) Chicken (Food)
+<br> 7.) Cupcake (Food)
+<br> 8.) Coffee Mug (Household Items)
+<br> 9.) Lantern (Household Items)
+<br> 10.) Scissors (Household Items)
+<br> 11.) Wineglass (Household Items)
+<br> 12.) Taj Mahal (Monuments)
 <br>For eg:
 ![Branching](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Taj_Mahal.PNG)
 
 <br> The below google drive also has the shots of 12 3D models that I captured using Maya software.
  
 [https://drive.google.com/drive/u/1/folders/1FpUACGEFzOjraD5kWR0_3Elz0reb157E]()
+
+# Week 3
 
 Next, to get started with the database work we had to plan on the conceptual schema.
 I along with the database team tried to understand what are the attributes that can be added for the captured images with respect to the category and we came up with a schema.
@@ -136,6 +141,10 @@ Then I along with my team mates came up with the initial database schema (shown 
 
 ![Branching](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/anindita/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Initial%20DB_ERDiagram.png)
 
+The final database that we came up with is:
+
+![Octocat](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/master/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Final_DB_Schema.png)
+
 Next I got involved with the Cloud team to understand its scalability and implementation.
 And got started with how to connect a database in GCP.
 Initially we did a dry run to create a database in Google Cloud Platform by running queries to check if building a database was possible in GCP and how.
@@ -153,6 +162,8 @@ CREATE TABLE entries (ImageName VARCHAR(255), Properties VARCHAR(255),
     INSERT INTO entries (ImageName, Properties) values ("Cat", "16.8MB");  
 ```
 So we can see from the above two examples that it is quite the same as we do in MySQL for creating a databse in GCP.
+
+# Week 4
 
 Then later it was decided that we will be importing the same database used by the website and hence we moved on with the cloud integration part and worked on creating cloud instances for integrating a sql database and storage bucket.
 I moved on with learning on Setting up / (Linking) own domain to google cloud Storage and hosting it for free on GCP.
@@ -249,7 +260,8 @@ And lastly for hosting a website I came across few videos that helped me to come
 Later, I tried to get the properties of images converted to a Blob and store it into MySQL TABLE in an attempt to do the same for images stored in the GCP cloud storage for displaying its properties in the website. 
 Although it was discarded later as our plans got changed.
 Below is an attempted python code script that I created by establishing connection with MYSQL server that reads images from the local and convert it to Blob type for storing it. 
-But the below script had some issues and in the meanwhile we came up with a more optimized script to get the expected output. 
+But the below script had some issues and in the meanwhile we came up with a more optimized script to get the expected output and converted to Blob.
+Now we are still working to get the blob images converted to the database.
 
 ```python
 import mysql.connector
@@ -300,3 +312,20 @@ The above written brief piece of work is an excerpt of the tasks I have done so 
 **CONCLUSION** 
 
 The exposure I gained from this project has helped me understand that viewing a 3D model can be implemented in the real time from every angle and also information on the viewed image's properties can be demonstrated for a user to know.
+
+**CITATIONS**
+
+https://stackoverflow.com (referred Python scripts)
+<br>https://cloud.google.com/gcp (cloud related information)
+<br>https://turbosquid.com & http://free3dmodels.com (used 3D models)
+<br>https://w3schools.com/sql (for database related)
+<br>https://www.geeksforgeeks.org/ (for python scripts)
+
+# MIT License
+Copyright (c) 2019, Anindita Baishya
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy,modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
