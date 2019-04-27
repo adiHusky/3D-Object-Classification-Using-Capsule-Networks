@@ -116,7 +116,7 @@ image
 
 Later there are few more attributes are added to the schema based on the website requirement. Created new physical database based on the changes.
 
-![Branching](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/sindhura/Maya3D-Images-Dataset/Sindhura/Final_schema.png)
+![Branching](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/sindhura/Maya3D-Images-Dataset/Sindhura/Final_DB_Schema.png)
 
 The above schema can be explained with an example below:
 
