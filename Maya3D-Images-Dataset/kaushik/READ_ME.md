@@ -12,7 +12,9 @@ We are assigned the task to generate images using Maya. The workflow of the proj
 
 ### Week 1: 
 In week 1 we are assigned with a task to explore Maya and get familiar with python and Mel scripting.
+
 Results from Week 1:
+
 1. watched videos to get familiar with Maya.
 2. explored Maya and learned how to input commands using python scripting.
 3. created basic objects like sphere’s and cubes using Python script.
