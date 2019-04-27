@@ -308,7 +308,7 @@ The exposure I gained from this project has helped me understand that viewing a 
 
 **CITATIONS**
 
-<br>https://stackoverflow.com (referred Python scripts)
+https://stackoverflow.com (referred Python scripts)
 <br>https://cloud.google.com/gcp (cloud related information)
 <br>https://turbosquid.com & http://free3dmodels.com (used 3D models)
 <br>https://w3schools.com/sql (for database related)
