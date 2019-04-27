@@ -31,6 +31,7 @@ http://help.autodesk.com/cloudhelp/2017/ENU/Maya-Tech-Docs/Commands/getAttr.html
 <br>
 ![alt text](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/Capture_image_script_1.JPG)
 <br>
+<br> Please refer capture image function
 The above script has two user defined functions, one is for storing images and the second one is for capsturing images in different angles
 <br>
 I have also used cmds.scale function, in which we can change the distance of the camera from the object in X, Y and Z axis respectively.
@@ -67,6 +68,8 @@ Finally after contributions from everyone, the script finalized for capturing th
 ![alt text](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/final_script_image.JPG)
 
 <br>
+
+Please refer the .py script for actual script in my folder
 
 ## Setting Up the Right Environment
 
@@ -154,7 +157,7 @@ In  order to pipeline the process of creating environment and selection of objec
 <br>
 
 In this script I have tried some functions, which selects the object through script, then selects its pivot point and recenter it at the center of the axis. It also makes the coordinate of pivot to 0,0,0. exactWorldBoundingBox() method gives the dimensions of the bounding box of object. By using this dimension, the radius of the circle in which Camera is present can be scaled accordingly. The script is not ready and needs to be revised for its implementation.
-
+Please refer the .py scripts in my folder
 <br>
 
 ## Database Schema 
@@ -165,7 +168,7 @@ In addition to normal decided dataset, I have also added some additional paramet
 The below image is the finalised Database
 <br>
 
-![alt image](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/DB_Schema.png)
+![alt image](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/aditya/Maya3D-Images-Dataset/Aditya/Final_DB_Schema.png)
 
 <br>
 
@@ -200,6 +203,54 @@ These are some of the images without Shadows and White Background
 
 
 <br>
+
+
+## Image Dataset Finalization
+
+<br> Images, naming convention was decided along with, categories, sub categories
+<br> Went through everyone objects, corrected the image sequence generation for improper objects
+<br> Generated 540 images per objects and worked on 40 objects of Electronics and Food Category
+<br> Generated images for objects without shadow and different backgrounds
+
+
+
+
+
+
+
+<br>
+
+
+## Contributions
+
+
+<br> Maya Scripting : - Akash, Preetham and Aditya
+<br> Maya Environment : Akash, Preetham Aditya
+<br> Object Dataset Finalization : Akash, Aditya, Kaushik and Smit
+<br> Database : Sindhura, Harini
+<br> Cloud : Anindita, Nikunj
+<br> Website : Abhi
+
+
+
+
+
+## References
+
+
+
+
+<br> 1 - https://knowledge.autodesk.com/support/maya/getting-started/caas/simplecontent/content/maya-document
+
+<br> 2- https://knowledge.autodesk.com/support/maya/getting-started/caas/simplecontent/content/maya-documentation.html
+
+<br> 3- http://help.autodesk.com/cloudhelp/2017/ENU/Maya-Tech-Docs/Commands/getAttr.html
+
+<br> 4- http://help.autodesk.com/cloudhelp/2017/ENU/Maya-Tech-Docs/Commands/setAttr.html
+
+<br> 5- http://help.autodesk.com/cloudhelp/2017/ENU/Maya-Tech-Docs/Commands/cat_General.html
+
+<br> 6- https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Maya-GettingStarted/files/GUID-305BF77B-150D-44CE-8190-695DB821BAFD-htm.html
 
 
 
