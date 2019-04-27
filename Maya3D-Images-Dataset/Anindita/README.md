@@ -138,7 +138,7 @@ Then I along with my team mates came up with the initial database schema (shown 
 
 The final database that we came up with is:
 
-![Octocat](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/develop-db/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/final%20db.PNG)
+![Octocat](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/master/Maya3D-Images-Dataset/Anindita/3D%20Images%20-%20Maya/Final_schema.png)
 
 Next I got involved with the Cloud team to understand its scalability and implementation.
 And got started with how to connect a database in GCP.
