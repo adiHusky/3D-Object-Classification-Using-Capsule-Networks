@@ -76,38 +76,47 @@ I also worked on script to extract the image properties from the local folder.
 
 
 ```python
+#import libraries
+
 import numpy as np
 import pandas as pd
 import cv2
 import os
 import os.path
+pathname = os.path.dirname(sys.argv[0])  #get path to current working directory
 pics = []
-for files in os.listdir('/Users/../Desktop/test'):
+for files in os.listdir('pathname'):
     pics.append(files)
 print(pics)
-    file_name = []
+file_name = []
 size = []
 shape = []
 image_type = []
 
+# Loop in the folder to get the filenames of all pics
 for i in range(0,len(pics)):
-    filename = '/Users/../Desktop/test/{}'.format(pics[i])
+    filename = pathname+'{}'.format(pics[i])
     file_name.append(filename)
+#For all files read the image properties and add them to the lists
+
 for j in file_name:
     image = cv2.imread(j)
     size.append(image.size)
     shape.append(image.shape)
     image_type.append(image.dtype)
+print(size)
+#Create a dataframe
 image = pd.DataFrame(np.column_stack([pics,shape,size,image_type]),
                              columns=['File Name','Shape 1','Shape 2','Shape 3','Size','Type'])
 image
+
 ```
 
 
 
 Later there are few more attributes are added to the schema based on the website requirement. Created new physical database based on the changes.
 
-![Branching](https://raw.githubusercontent.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/sindhura/Maya3D-Images-Dataset/Sindhura/Final_schema.png)
+![Branching](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/sindhura/Maya3D-Images-Dataset/Sindhura/Final_DB_Schema.png)
 
 The above schema can be explained with an example below:
 
