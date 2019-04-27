@@ -19,7 +19,13 @@ I have created the following objects using the Maya
 
 ## Database creation
 
-An initial schema was created to understand the scalibility of the dataschema and to what extent the database could be extened.
+An initial conceptual schema was created to understand the scalibility of the dataschema and to what extent the database could be extened and what more attributes could be added to the schema which would help the user get all the required properties of each image.
+
+![Octocat](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/Harini/Maya3D-Images-Dataset/Harini/conceptual_schema.jpeg)
+
+The database would be incomplete without the properties of the images for which a I created a script to fetch all the image properties. The image is read using CV2 library which will fetch all the properties of the image.
+
+
 
 Created a script to generate the image properties to get the image properties, which were later added to the database schema.
 
