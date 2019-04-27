@@ -1,9 +1,9 @@
 <?php include 'header.php'; ?>
 <?php 
-if (isset($_GET['modelid']))
+if (isset($_GET['category_id']))
 {   
-    $id         = $_GET['modelid'];
-    $getModel   = mysqli_query($connection,"SELECT * FROM image_data WHERE object_model_id = '$id' ");
+    $id         = $_GET['category_id'];
+    $getModel   = mysqli_query($connection,"SELECT * FROM subcategory_id WHERE category_id = '$id' ");
 }
  ?>
 <style type="text/css">
