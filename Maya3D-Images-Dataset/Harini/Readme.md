@@ -5,12 +5,16 @@ I started of with watching the videos which were provided and got a basic unders
 
 ![Octocat](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/Harini/Maya3D-Images-Dataset/Harini/lambert.PNG)
 
-Later worked with 3D image objects wchih were available online and worked around to resize the object, combine different elements in the objets and applied shaders to the images.
+Later I worked with 3D image objects wchih were available online and worked around on resizing the object.Few images had different layers which had to be combined to get a final object and pivots were to be centered as it affected the was shadows were generated in the final images.
 
-![Octocat](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/Harini/Maya3D-Images-Dataset/Harini/lambert.PNG)
-![Octocat](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/Harini/Maya3D-Images-Dataset/Harini/lambert.PNG)
+![Octocat](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/Harini/Maya3D-Images-Dataset/Harini/resizing.PNG)
+![Octocat](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/Harini/Maya3D-Images-Dataset/Harini/meshcombine.PNG)
 
-Once the scene was created, generated initiall images to understand the schema properties and develpoed 10 image models.
+Once the scene was created, generated initiall images to understand the schema properties and develpoed image models. As the object size was large I had to work on resizing the objecrts optimally so that the clarity of the image was not comporomised and also considering the size of the image not to go out of the image.
+
+I have created the following objects using the Maya 
+
+[Drive Link](https://drive.google.com/drive/u/1/folders/16t5UjjPavOiRu6UeHQIKFy53stng-Hw3)
 
 
 ## Database creation
