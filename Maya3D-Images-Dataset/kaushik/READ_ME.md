@@ -24,7 +24,7 @@ I explored various options to write a script where I can generate images of obje
 One trial gave me the below result.
 ![First Try](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/kaushik/Maya3D-Images-Dataset/kaushik/trex.png)
 
-The above image is generayed using this script :
+The above image is generated using this script [Initialscript](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/kaushik/Maya3D-Images-Dataset/kaushik/my%20script.py)
 
 After Presenting this to the team certain drawbacks have been mentioned:
 
@@ -92,6 +92,17 @@ The image rendered using above environment will look like this:
 
 *the database created using the dataset is :
 ![db_schema](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/kaushik/Maya3D-Images-Dataset/kaushik/last.png)
+
+### Citations:
+https://knowledge.autodesk.com/support/maya/getting-started/caas/simplecontent/content/maya-documenthttps://knowledge.autodesk.com/support/maya/getting-started/caas/simplecontent/content/maya-documentation.html
+
+http://help.autodesk.com/cloudhelp/2017/ENU/Maya-Tech-Docs/Commands/getAttr.html
+
+http://help.autodesk.com/cloudhelp/2017/ENU/Maya-Tech-Docs/Commands/setAttr.html
+
+http://help.autodesk.com/cloudhelp/2017/ENU/Maya-Tech-Docs/Commands/cat_General.html
+
+https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Maya-GettingStarted/files/GUID-305BF77B-150D-44CE-8190-695DB821BAFD-htm.html
 
 
 
