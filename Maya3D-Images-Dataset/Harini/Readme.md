@@ -74,6 +74,10 @@ Later worked around on how efficiently the data could be stored and came up with
 
 Also woked on updating the blob directly into the database. As the id's used in the varchar and not integer type Autoincrement would not work on for which increment was done in the loop. Also as the object table was separately created, I created a different data frame by which we can eliminate all the duplicate records which will be similar of all the 540 object images. This dataframe can directly be pushed into the table without any duplicates.
 
+Also worked on creating the portfolio:
+
+[PORTFOLIO](https://sindhurakolli.github.io/DMDD_portfolio/)
+
 References:
 Maya
 [1](https://knowledge.autodesk.com/support/maya-lt/learn-explore/caas/CloudHelp/cloudhelp/2017/ENU/MayaLT/files/GUID-F9B3EE68-94F8-4C25-88C6-712F9C9D2B50-htm.html)
