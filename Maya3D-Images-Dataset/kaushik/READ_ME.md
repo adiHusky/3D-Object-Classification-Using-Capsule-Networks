@@ -80,7 +80,7 @@ The image rendered using above environment will look like this:
 [script](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/kaushik/Maya3D-Images-Dataset/kaushik/script.py)
 
 *the database created using the dataset is :
-![db_schema](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/kaushik/Maya3D-Images-Dataset/kaushik/DB_Schema.png)
+![db_schema](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/kaushik/Maya3D-Images-Dataset/kaushik/last.png)
 
 
 
