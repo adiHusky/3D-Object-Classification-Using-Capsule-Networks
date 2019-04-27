@@ -1,4 +1,3 @@
-#this script has been contributed by preetham and akash
 import maya.cmds as cmds 
 import maya.mel
 
