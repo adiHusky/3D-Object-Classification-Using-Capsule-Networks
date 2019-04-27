@@ -20,6 +20,9 @@ In week 1, we learned to rotate objects in maya. I began with rotating the the o
 ``` python
 import maya.cmds as cmds 
 import maya.mel
+import os
+
+imagePath = os.getcwd()
 s = cmds.ls(selection = True)
 axes = ['X','Y','Z']
 
@@ -32,8 +35,7 @@ for axis in axes:
             
         mel.eval('renderWindowRender redoPreviousRender renderView')
         editor =  'renderView'
-            #c= c+5
-        cmds.renderWindowEditor( editor, e=True,refresh = True, writeImage=('/Users/tinyteddybear/Documents/Sword/Sword'+axis+str(c)))
+        cmds.renderWindowEditor( editor, e=True,refresh = True, writeImage=(imagePath+'Sword'+axis+str(c)))
         c=c+10
 ```
 
@@ -68,40 +70,59 @@ After we were done with the white background, our task was to create image seque
 
 
 Finally, We came up with the finalized script and used that to create image sequences of the objects.
+[Scene for creating images with shadow] (https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/akash/Maya3D-Images-Dataset/Akash/Updated_Shadow_Scene_new1.mb)
 
 ``` python
 import maya.cmds as cmds 
 import maya.mel
+import os
+
+#for getting the list of selected objects
 s = cmds.ls(selection = True)
+#for selecting the camera
 camName=cmds.listCameras()
 cName=camName[0]
+#storing path of current work directory
+imagePath = os.getcwd()
 
+#setting up initial angles of x, y and z axis to 0 ,0 ,0
 cx=0
 cy=0
 cz=0
 v=45
+
+#looping for getting various angles
 while (cx <=360):
     for a in s:
+        #setting the command to rotate the component in X axis
         x = a +"."+"rotate" +"X"
+        #setting the attribute of component in X axis
         cmds.setAttr(x,cx)
 
     cy=0
     while(cy<=360):
         for a in s:
+            #setting the command to rotate the component in Y axis
             x = a +"."+"rotate" +"Y"
+            #setting the attribute of component in Y axis
             cmds.setAttr(x,cy)
 
         cz=0
         while(cz<=360):
             for a in s:
+                #setting the command to rotate the component in Z axis
                 x = a +"."+"rotate" +"Z"
+                #setting the attribute of component in Z axis
                 cmds.setAttr(x,cz)
             cp=cmds.xform(cName,q=True,ws=True, rp=True)
+            #will capture images only in positive y coordinate
             if(cp[1]>0):
-                
+                #for opening images in renderer
                 mel.eval('renderWindowRender redoPreviousRender renderView')
                 editor =  'renderView'
-                cmds.renderWindowEditor( editor, e=True,refresh = True, writeImage=('/Users/tinyteddybear/Documents/Scar-H/Weapon_Scar-L_'+str(cx)+'_'+str(cy)+'_'+str(cz)))
+                #for writing  and storing in specific location
+                cmds.renderWindowEditor( editor, e=True,refresh = True, writeImage=(imagePath+'\Weapon_Gun_ACR Bushmaster'+'_X'+str(cx)+'_Y'+str(cy)+'_Z'+str(cz)+'_No'))
+            #incrementing the angles with specified step angle
             cz=cz+v
         cy=cy+v  
     cx=cx+v
@@ -120,7 +141,7 @@ We have created different scenes in maya to collect image sequences for the obje
 
 Meanwhile, we were coming up with changes in the database as the dataset expanded.
 
-<img src="https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/akash/Maya3D-Images-Dataset/Akash/DB_Schema.png" width="700" height="700" /> 
+<img src="https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/akash/Maya3D-Images-Dataset/Akash/Final_DB_Schema.png" width="1000" height="700" /> 
 
 
 [Link for finalized dataset](https://drive.google.com/drive/u/2/folders/1c7wjh__WL8cVYCPE3ebdM8oSq1riKts6)
@@ -132,44 +153,62 @@ Assembled the rendered to open and take images of the objects. This was an impro
 ```
   mel.eval('renderWindowRender redoPreviousRender renderView')
   editor =  'renderView'
-  cmds.renderWindowEditor( editor, e=True,refresh = True, writeImage=('/Users/tinyteddybear/Documents/Scar-H/Weapon_Scar-L_'+str(cx)+'_'+str(cy)+'_'+str(cz)))
+  cmds.renderWindowEditor( editor, e=True,refresh = True, writeImage=(imagePath+'\Weapon_Gun_ACR Bushmaster'+'_X'+str(cx)+'_Y'+str(cy)+'_Z'+str(cz)+'_No'))
 ```
 
+
 Rotation function. Below code has been used to capture images with black background and white objects.
+
+[Scene for creating images with No shadow] (https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/akash/Maya3D-Images-Dataset/Akash/NewSceneNoShadow.mb)
 
 ```python
 import maya.cmds as cmds 
 import maya.mel
+import os
+
+#for getting the list of selected objects
 s = cmds.ls(selection = True)
+#for selecting the camera
 camName=cmds.listCameras()
 cName=camName[0]
+#storing path of current work directory
+imagePath = os.getcwd()
 
+#setting up initial angles of x, y and z axis to 0 ,0 ,0
 cx=0
 cy=0
 cz=0
 v=45
-im=0
+
+#looping for getting various angles
 while (cx <=360):
     for a in s:
+        #setting the command to rotate the component in X axis
         x = a +"."+"rotate" +"X"
+        #setting the attribute of component in X axis
         cmds.setAttr(x,cx)
 
     cy=0
     while(cy<=360):
         for a in s:
+            #setting the command to rotate the component in Y axis
             x = a +"."+"rotate" +"Y"
+            #setting the attribute of component in Y axis
             cmds.setAttr(x,cy)
 
         cz=0
         while(cz<=360):
             for a in s:
+                #setting the command to rotate the component in Z axis
                 x = a +"."+"rotate" +"Z"
+                #setting the attribute of component in Z axis
                 cmds.setAttr(x,cz)
-                
+            #for opening images in renderer
             mel.eval('renderWindowRender redoPreviousRender renderView')
             editor =  'renderView'
-            cmds.renderWindowEditor( editor, e=True,refresh = True, writeImage=('/Users/tinyteddybear/Documents/NoShadow/Black/Weapons/Gun/ACR Bushmaster/Weapon_Gun_ACR Bushmaster'+'_X'+str(cx)+'_Y'+str(cy)+'_Z'+str(cz)+'_No'))
-            im=im+1
+            #for writing  and storing in specific location
+            cmds.renderWindowEditor( editor, e=True,refresh = True, writeImage=(imagePath+'\Weapon_Gun_ACR Bushmaster'+'_X'+str(cx)+'_Y'+str(cy)+'_Z'+str(cz)+'_No'))
+            #incrementing the angles with specified step angle
             cz=cz+v
         cy=cy+v  
     cx=cx+v
@@ -192,3 +231,59 @@ import maya.cmds as cmds
 cmds.xform( cp=True )
 cmds.matchTransform('d_model:Group_329','nurbsCircle1', pos = True)
 ```
+
+
+
+## References
+
+
+<br> 1 - https://knowledge.autodesk.com/support/maya/getting-started/caas/simplecontent/content/maya-document
+
+<br> 2- https://knowledge.autodesk.com/support/maya/getting-started/caas/simplecontent/content/maya-documentation.html
+
+<br> 3- http://help.autodesk.com/cloudhelp/2017/ENU/Maya-Tech-Docs/Commands/getAttr.html
+
+<br> 4- http://help.autodesk.com/cloudhelp/2017/ENU/Maya-Tech-Docs/Commands/setAttr.html
+
+<br> 5- http://help.autodesk.com/cloudhelp/2017/ENU/Maya-Tech-Docs/Commands/cat_General.html
+
+<br> 6- https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/Maya-GettingStarted/files/GUID-305BF77B-150D-44CE-8190-695DB821BAFD-htm.html
+
+
+## Resources
+
+<br> 1- https://www.turbosquid.com/Search/Index.cfm?FuseAction=SEOTokenizeSearchURL&blFGSearch=1&stgURlFragment=3d-model
+
+<br> 2- https://free3d.com/
+
+
+
+## License
+
+Copyright (c) 2019, Akash Srivastava
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+* Neither the name of the copyright holder nor the names of its
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
