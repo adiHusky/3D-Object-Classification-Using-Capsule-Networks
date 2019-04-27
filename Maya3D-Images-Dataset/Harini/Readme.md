@@ -1,7 +1,8 @@
 
-## Maya image creation
+# Maya image creation
 
-For the image creating, went througn the maya videos and created small objects to understand the environment and the way imges are modelled.
+I started of with watching the videos which were provided and got a basic understanding of the Maya software and started to work around on creating the primary images such as spheres and cubes and applying different textures using lamberts on the objects.
+
 
 Later worked with 3D image objects wchih were available online and worked around to resize the object, combine different elements in the objets and applied shaders to the images.
 
