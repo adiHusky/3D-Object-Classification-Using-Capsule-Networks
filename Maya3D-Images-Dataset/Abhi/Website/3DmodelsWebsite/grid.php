@@ -4,7 +4,7 @@ if (isset($_GET['term']))
 {
 $key = $_GET['term'];
 
-	$get =  mysqli_query($connection , "SELECT * FROM category_object WHERE category_id LIKE '%$key%'");
+	$get =  mysqli_query($connection , "SELECT * FROM sub_category WHERE category_id LIKE '%$key%'");
 }
 
 ?>
@@ -47,13 +47,13 @@ $key = $_GET['term'];
 						</label>
 					</div>
 					<?php
-					$getQuery = mysqli_query($connection ,"SELECT category_name, category_id FROM category");
+					$getQuery = mysqli_query($connection ,"SELECT subcategory_name, subcategory_id FROM sub_category WHERE category_id LIKE '%$key%'");
 					while ($result =mysqli_fetch_array($getQuery))
 					{?>
 						<div class="checkbox checkbox-primary">
-							<input id="honda" type="checkbox" value="<?php echo$result['category_id']; ?>" name="brand[]" class="brand">
+							<input id="honda" type="checkbox" value="<?php echo$result['subcategory_id']; ?>" name="brand[]" class="brand">
 							<label for="checkbox2">
-								<?php echo $result['category_name'] ?>
+								<?php echo $result['subcategory_name'] ?>
 							</label>
 						</div>		
 					<?php }
@@ -68,14 +68,14 @@ $key = $_GET['term'];
 					<?php 
 					while ($result = mysqli_fetch_array($get))
 					{
-						$url = "/models/image-view.php?modelid=".$result['object_model_id'];
+						$url = "/models/image-view.php?modelid=".$result['subcategory_id'];
 						?>
 
 						<div class="col-md-4 col-lg-4 col-sm-4">
 							<div class="col-md-12">
 								<p class="text-center">
-									<?php $image= explode('/',$result['object_image']);?>
-									<a href="<?php echo $url; ?>"><img src="uploads/<?php echo $image['2'] ?>" class="img-responsive img-thumbnail">
+									<?php $image= explode('/',$result['subcategory_image']);?>
+									<a href="<?php echo $url; ?>"><img src="uploadsnew/<?php echo $image['2'] ?>" class="img-responsive img-thumbnail">
 										</a>
 								</p>
 							</div>
