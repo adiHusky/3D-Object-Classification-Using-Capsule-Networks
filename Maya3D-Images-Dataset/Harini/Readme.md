@@ -70,7 +70,16 @@ Which reads the image file as a binary file and store the binary string in a dat
 
 Later worked around on how efficiently the data could be stored and came up with a new datascheme which will reduce the redundancy of the data and came up with the following schema.
 
+![Octocat](https://github.com/nikunjlad/3D-Object-Classification-Using-Capsule-Networks/blob/Harini/Maya3D-Images-Dataset/Harini/Final_DB_Schema.png)
 
-## Further Extension
+Also woked on updating the blob directly into the database. As the id's used in the varchar and not integer type Autoincrement would not work on for which increment was done in the loop. Also as the object table was separately created, I created a different data frame by which we can eliminate all the duplicate records which will be similar of all the 540 object images. This dataframe can directly be pushed into the table without any duplicates.
 
-Working on creating a procedure, which accepts the image category, sub category, object name and the cvs as parameters and directly load all the data into the tables without any manual intervension.
+References:
+Maya
+[1](https://knowledge.autodesk.com/support/maya-lt/learn-explore/caas/CloudHelp/cloudhelp/2017/ENU/MayaLT/files/GUID-F9B3EE68-94F8-4C25-88C6-712F9C9D2B50-htm.html)
+[2](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2016/ENU/Maya/files/GUID-9656522D-ED3B-4FAA-AA95-5167A7AC3482-htm.html)
+[3](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2018/ENU/Maya-Basics/files/GUID-150B390E-840B-4FE3-B8E9-8DEBCE7CEC97-htm.html)
+Data Base
+[1](https://teamtreehouse.com/community/what-is-considered-the-best-practice-for-storing-images-in-a-database-how-do-twitter-and-instagram-store-images)
+[2](https://dev.mysql.com/doc/workbench/en/)
+[3](https://stackoverflow.com/questions/51751242/transfer-binary-data-image-etc-in-a-csv-file)
