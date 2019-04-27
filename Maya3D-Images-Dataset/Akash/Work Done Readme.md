@@ -51,7 +51,7 @@ Here we decided that rendering the object is necessary as by using the saveimage
 
 Collected over 30 objects in the assigned category to work with in maya.
 
-[Link for dataset used for testing](https://drive.google.com/drive/u/2/folders/1sTMKZnjJm9GApuGnRVebdJTLefnl4hMh)
+[Link for dataset I had created initially](https://drive.google.com/drive/u/2/folders/1sTMKZnjJm9GApuGnRVebdJTLefnl4hMh)
 
 
 
